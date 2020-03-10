@@ -1,0 +1,22 @@
+- name: Home
+  link: /
+- name: What's On
+  link: /whatson
+- name: About Us
+  subnav:
+    - name: Join Us
+      link: /joinus
+    - name: Find Us
+      link: /findus
+    - name: Newsletter
+      link: /newsletter
+    - name: Committee
+      link: /committee
+    - name: Awards
+      link: /awards
+    - name: History
+      link: /history
+- name: Support Us
+  link: /supportus
+- name: Past Plays
+  link: /pastplays

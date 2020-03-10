@@ -1,0 +1,14 @@
+---
+---
+
+[
+
+{%  for play in site.play %}
+{
+"name": "{{ play.title }}",
+"date": "{{ play.date | date: "%B %Y" }}",
+"url": "{{ play.url }}"
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+
+]

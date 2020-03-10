@@ -1,0 +1,19 @@
+--- 
+layout : default_with_title
+title : Past Plays Complete List
+---
+
+{% assign yeargroups = site.play | group_by_exp: "item", "item.date | date: '%Y' | truncate: 3, ''" %}
+{% for group in yeargroups reversed %}
+<h2 id="{{ group.name }}0s">{{ group.name }}0s</h2>
+{% assign sortedplays = group.items | sort: 'date' %}
+{% for item in group.items reversed %}
+{% assign play_year = item.date | date: "%Y" | times: 1 %}
+{% if play_year < 1984 %}
+<p><a href="{{ item.url }}">{{ item.title }}</a> - {{ play_year }}</p>
+{% else %}
+<p><a href="{{ item.url }}">{{ item.title }}</a> - {{ item.date | date: "%B %Y" }}</p>
+{% endif %}
+{% endfor %}
+<hr />
+{% endfor %}

@@ -1,0 +1,39 @@
+---
+layout : play
+---
+
+{% for elem in page.edc_play.elements %}
+{% if elem.type == "header" %}
+{% for headerline in elem.content %}
+<h2>{{ headerline }}</h2>
+{% endfor %}
+{% elsif elem.type == "text" %}
+<p>
+{{elem.content }}
+</p>
+{% elsif elem.type == "image" %}
+<p>
+<img class="img-fluid mx-auto d-block" src="{{ elem.src }}" alt="{{ elem.content }}" title="{{ elem.content }}" />
+</p>
+{% elsif elem.type == "link" %}
+<p>{{ elem.content[0] }}<a href="{{ elem.src }}"> {{ elem.content[1] }}</a>{{ elem.content[2] }}</p>
+{% elsif elem.type == "table" %}
+<table class="table table-striped">
+{% for tablerow in elem.content %}
+<tr>
+{% for tabledata in tablerow %}
+<td>{{ tabledata }}</td>
+{% endfor %}
+</tr>
+{% endfor %}
+</table>
+{% elsif elem.type == "table_img" %}
+<div class="d-flex flex-row">
+{% for fakerow in elem.content %}
+{% for imageee in fakerow %}
+<div class="p-2"><img class="img-fluid" src="{{ imageee[1] }}" alt="{{ imageee[0] }}" title="{{ imageee[0] }}" /></div>
+{% endfor %}
+{% endfor %}
+</div>
+{% endif %}
+{% endfor %}

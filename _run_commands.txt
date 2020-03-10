@@ -1,0 +1,6 @@
+jekyll s -H 0.0.0.0 -P 8080 --livereload
+
+Access:
+$(hostname -I):<port>
+
+`docker run --rm --volume="$PWD:/srv/jekyll" -p=4000:4000 -it jekyll/jekyll:3  jekyll serve`

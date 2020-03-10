@@ -1,0 +1,47 @@
+markdown: kramdown
+permalink: pretty
+
+future: true
+
+image_root: /assets/img/o/
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+collections:
+  play:
+    output: true
+    permalink: /:collection/:name/
+  playFuture:
+    output: true
+    permalink: /play/:name/
+
+
+defaults:
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      permalink: "/:basename/"
+  -
+    scope:
+      path: "" # empty string for all files in the project
+      type: "playFuture"
+    values:
+      location: "Location TBA"
+      poster_thumb: "https://cdn.ticketsource.co.uk/images/search/default1.png"
+
+exclude:
+  - readme.md
+  - cibuild.sh
+  - vendor
+
+plugins:
+  - jekyll-seo-tag
+
+description: Exeter Drama Company is a small amateur theatre group who put on plays four times a year. If you are interested in seeing a play or becoming a member....
+url: "www.exeterdramacompany.co.uk"
+title: Exeter Drama Company
+lang: en_GB

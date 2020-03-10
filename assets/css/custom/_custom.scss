@@ -1,0 +1,116 @@
+.btn-facebook {
+  background: #3b5998;
+  color: white;
+}
+.btn-facebook:hover
+{
+  // Hover 30% lighter
+    background-color: #6885c4;
+}
+.btn-twitter {
+  background: #55acee;
+  color: white;
+}
+.btn-twitter:hover
+{
+    background-color: #87c4f3;
+}
+.btn-ticketsource {
+  background: Gold;
+  color: white;
+}
+.btn-ticketsource:hover
+{
+    background-color: #fee34c;
+}
+.btn-easyfundraising {
+  background: palevioletred;
+  color: white;
+}
+.btn-easyfundraising:hover
+{
+    background-color: #e59ab3;
+}
+a.btn-social,
+.btn-social
+{
+    border-radius: 50%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    width: 38px;
+}
+.btn-social .fa,.btn-social i
+{
+    backface-visibility: hidden;
+    transform: scale(1);
+    transition: all .25s;
+}
+.btn-social:hover,.btn-social:focus
+{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+.btn-social:hover .fa,.btn-social:focus .fa,.btn-social:hover i,.btn-social:focus i
+{
+    transform: scale(1.3);
+}
+
+
+body {
+  #calendar {
+    .fc-day-grid-event .fc-content {
+      // This is to override the default setting of restricting events to be one line tall
+      // Not sure if we actually want it but leave it here for now.
+      white-space: normal;
+      //overflow: hidden;
+    }
+  }
+}
+
+article.play {
+  img:not(.ignore-max-height) {
+    max-height: 32em;
+  }
+  .embed-responsive-item {
+    object-fit: cover;
+  }
+  .play-img-section {
+    img {
+      cursor: pointer;
+    }
+  }
+}
+
+#recentPlaysCarousel {
+  img {
+    object-fit: cover;
+  }
+}
+
+#whats-on-list {
+  img {
+    max-width: 8em;
+  }
+}
+
+header {
+    div.row {
+      background-image: url(/assets/img/header-bg-full.jpg);
+      background-position: 30% 30%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h1 {
+      text-shadow: 2px 0 0 $edc-dark, -2px 0 0 $edc-dark, 0 2px 0 $edc-dark, 0 -2px 0 $edc-dark, 1px 1px $edc-dark, -1px -1px 0 $edc-dark, 1px -1px 0 $edc-dark, -1px 1px 0 $edc-dark;
+      font-weight: 900;
+      font-size: 4rem;
+    }
+  }

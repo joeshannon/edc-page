@@ -1,0 +1,11 @@
+
+
+*.code-workspace
+.vscode
+.idea/
+
+
+_site/
+.jekyll-cache
+.jekyll-metadata
+.sass-cache

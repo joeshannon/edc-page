@@ -1,0 +1,45 @@
+---
+layout : default_with_title
+title : Past Plays
+---
+
+{% assign revplays = site.play | reverse %}
+{% for play in revplays limit:4 %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+<div class="row align-items-center my-5">
+        <div class="col-md-8 {% if thecycle == 'even' %} order-md-last {% endif %} text-center px-3">
+                <a href="{{ play.url }}"><h3>{{ play.title}}</h3></a>
+                <p>{{ play.date | date: '%B %Y' }}</p>
+            </div>
+    <div class="col-md-4 {% if thecycle == 'even' %} order-md-first {% endif %} px-3">
+        <div class="embed-responsive embed-responsive-4by3">
+            <a href="{{ play.url }}"><img class="embed-responsive-item rounded" src="{{ site.image_root }}{{ play.overview_img }}" title="{{ play.title }}" alt="{{ play.title }}" /></a>
+        </div>
+    </div>
+
+</div>
+<hr />
+{% endfor %}
+
+
+<h2>Plays by decade</h2>
+
+<p>We have a page for every play performed by Exeter Drama Company since the beginning of the company in 1954.</p>
+
+{% assign yeargroups = site.play | group_by_exp: "item", "item.date | date: '%Y' | truncate: 3, ''" %}
+<div class="d-flex flex-wrap my-3">
+
+    {% for group in yeargroups reversed %}
+    <span class="m-1"><a class="btn btn-primary"
+            href="{% link pages/completelist.html  %}#{{ group.name }}0s">{{ group.name }}0s</a></span>
+    {% endfor %}
+</div>
+
+<form class="form-inline mb-3" onSubmit="return searchButton()" action="">
+    <div class="form-group mx-sm-3">
+        <input type="text" name="q" class="form-control" id="playSearch" aria-describedby="playSearch"
+            placeholder="Search play titles..." />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+<div id="searchResults"></div>
