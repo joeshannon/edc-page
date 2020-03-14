@@ -1,4 +1,4 @@
---- 
+---
 layout : default_with_title
 title : Past Plays Complete List
 ---
@@ -10,9 +10,9 @@ title : Past Plays Complete List
 {% for item in group.items reversed %}
 {% assign play_year = item.date | date: "%Y" | times: 1 %}
 {% if play_year < 1984 %}
-<p><a href="{{ item.url }}">{{ item.title }}</a> - {{ play_year }}</p>
+<p><a href="{{ item.url | relative_url }}">{{ item.title }}</a> - {{ play_year }}</p>
 {% else %}
-<p><a href="{{ item.url }}">{{ item.title }}</a> - {{ item.date | date: "%B %Y" }}</p>
+<p><a href="{{ item.url | relative_url }}">{{ item.title }}</a> - {{ item.date | date: "%B %Y" }}</p>
 {% endif %}
 {% endfor %}
 <hr />

@@ -58,5 +58,5 @@ A production of an amateur play leads to problems on the farm - including some s
 {% include play/cast_list.html list=page.cast %}
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.tickets }}" role="button">Book Now</a></p>
-<p class="text-center"><a href="/assets/img/play/thecamelsback2020/thecamelsback2020poster.jpg" role="button">Download Poster</a></p>
-<p class="text-center"><a href="/assets/img/play/thecamelsback2020/thecamelsback2020bookingform.pdf" role="button">Download Booking Form</a></p>
+<p class="text-center"><a href="{{ "/assets/img/play/thecamelsback2020/thecamelsback2020poster.jpg" | relative_url}}" role="button">Download Poster</a></p>
+<p class="text-center"><a href="{{ "/assets/img/play/thecamelsback2020/thecamelsback2020bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>

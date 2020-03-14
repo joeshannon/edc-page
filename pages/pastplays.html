@@ -8,12 +8,12 @@ title : Past Plays
 {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 <div class="row align-items-center my-5">
         <div class="col-md-8 {% if thecycle == 'even' %} order-md-last {% endif %} text-center px-3">
-                <a href="{{ play.url }}"><h3>{{ play.title}}</h3></a>
+                <a href="{{ play.url | relative_url }}"><h3>{{ play.title}}</h3></a>
                 <p>{{ play.date | date: '%B %Y' }}</p>
             </div>
     <div class="col-md-4 {% if thecycle == 'even' %} order-md-first {% endif %} px-3">
         <div class="embed-responsive embed-responsive-4by3">
-            <a href="{{ play.url }}"><img class="embed-responsive-item rounded" src="{{ site.image_root }}{{ play.overview_img }}" title="{{ play.title }}" alt="{{ play.title }}" /></a>
+            <a href="{{ play.url | relative_url }}"><img class="embed-responsive-item rounded" src="{{ site.image_root }}{{ play.overview_img }}" title="{{ play.title }}" alt="{{ play.title }}" /></a>
         </div>
     </div>
 
