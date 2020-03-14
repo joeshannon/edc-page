@@ -53,6 +53,6 @@ He taunts the old ladies niece and plays a dangerous game of cat and mouse with 
 
 {% include play/image.html index=3 width=4 height=3 %}
 
-See our older version of [Night Must Fall in 1956]({% link _play/converted-plays/night1956.md %}) 
+See our older version of [Night Must Fall in 1956]({{ site.baseurl }}{% link _play/converted-plays/night1956.md %}) 
 
 {% include play/cast_list.html list=page.cast %}

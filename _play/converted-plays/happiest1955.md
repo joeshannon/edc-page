@@ -47,6 +47,6 @@ The school is very conservative and does not accept change easily. When another 
 
 {% include play/image.html index=1 width=4 height=3 %}
 
-Compare this version with [The Happiest Days of Your Life from 2005]({% link _play/converted-plays/happiest2005.md %})
+Compare this version with [The Happiest Days of Your Life from 2005]({{ site.baseurl }}{% link _play/converted-plays/happiest2005.md %})
 
 {% include play/cast_list.html list=page.cast %}

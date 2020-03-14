@@ -12,6 +12,6 @@ We do not have a cast list for this production, but thanks to reviews in the loc
 
 The production was directed by Joy Spear.
 
-Compare this version with our [The Tinder Box from 1956]({% link _play/converted-plays/tinder1956.md %}) 
+Compare this version with our [The Tinder Box from 1956]({{ site.baseurl }}{% link _play/converted-plays/tinder1956.md %}) 
 
 {% include play/cast_list.html list=page.cast %}

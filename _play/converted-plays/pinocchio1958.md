@@ -75,6 +75,6 @@ This picture below is of the crew making the set - in a barn with chickens at th
 
 {% include play/image.html index=2 width=4 height=3 %}
 
-Compare this version with our [Pinocchio 1966]({% link _play/converted-plays/pinocchio1966.md %})
+Compare this version with our [Pinocchio 1966]({{ site.baseurl }}{% link _play/converted-plays/pinocchio1966.md %})
 
 {% include play/cast_list.html list=page.cast %}

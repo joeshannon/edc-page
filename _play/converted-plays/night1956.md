@@ -35,6 +35,6 @@ In the play Night Must Fall by Emlyn Williams, a pair of young women fall prey t
 
 {% include play/image.html index=0 width=4 height=3 %}
 
-See our more recent version of [Night Must Fall in 2012]({% link _play/converted-plays/nightmustfall2012.md %})
+See our more recent version of [Night Must Fall in 2012]({{ site.baseurl }}{% link _play/converted-plays/nightmustfall2012.md %})
 
 {% include play/cast_list.html list=page.cast %}

@@ -18,6 +18,6 @@ Unfortunately we do not have a cast list for this production. However, thanks to
 
 {% include play/image.html index=1 width=16 height=9 %}
 
-Compare this version with our [Pinocchio from 1958]({% link _play/converted-plays/pinocchio1958.md %})
+Compare this version with our [Pinocchio from 1958]({{ site.baseurl }}{% link _play/converted-plays/pinocchio1958.md %})
 
 Produced by Joy Spear

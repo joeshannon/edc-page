@@ -27,6 +27,6 @@ Blithe Spirit, by Noel Coward, concerns Charles Condomine whose first wife, Elvi
 
 This production was the first that Exeter Drama Company performed at Stepcote Hill. It was described by a reviewer in the Express and Echo:To "The Steps Theatre" of Exeter last night - and what an intriguing night it was. Follow the rough and ancient Stepcote Hill which runs alongside the church of St Mary Steps, to the church hall, now so ingeniously transformed to the headquarters of Exeter Drama Company."
 
-Compare this version with our [Blithe Spirit 1994]({% link _play/converted-plays/blithe1994.md %}) 
+Compare this version with our [Blithe Spirit 1994]({{ site.baseurl }}{% link _play/converted-plays/blithe1994.md %}) 
 
 {% include play/cast_list.html list=page.cast %}

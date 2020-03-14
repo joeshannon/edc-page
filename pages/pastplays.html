@@ -31,7 +31,7 @@ title : Past Plays
 
     {% for group in yeargroups reversed %}
     <span class="m-1"><a class="btn btn-primary"
-            href="{% link pages/completelist.html  %}#{{ group.name }}0s">{{ group.name }}0s</a></span>
+            href="{{ site.baseurl }}{% link pages/completelist.html  %}#{{ group.name }}0s">{{ group.name }}0s</a></span>
     {% endfor %}
 </div>
 

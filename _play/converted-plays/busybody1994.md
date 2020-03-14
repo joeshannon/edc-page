@@ -43,6 +43,6 @@ Needless to say confusion occurs when the supposedly dead Mr Marshall appears ve
 
 {% include play/image.html index=2 width=4 height=3 %}
 
-Compare this version with our [Busybody from 1976]({% link _play/converted-plays/busybody1976.md %}) 
+Compare this version with our [Busybody from 1976]({{ site.baseurl }}{% link _play/converted-plays/busybody1976.md %}) 
 
 {% include play/cast_list.html list=page.cast %}

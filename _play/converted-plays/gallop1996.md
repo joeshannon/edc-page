@@ -47,7 +47,7 @@ With the scatty Lord and Lady Elrood opening the castle to the public all sorts 
 
 Boy Scouts are camping in the grounds and the gawping visitors are given guided tours by the castle historian Miss Partridge.
 
-Compare this version with our [Post Horn Gallop from 1975]({% link _play/converted-plays/post1975.md %})
+Compare this version with our [Post Horn Gallop from 1975]({{ site.baseurl }}{% link _play/converted-plays/post1975.md %})
 
 {% include play/image.html index=2 width=4 height=3 %}
 

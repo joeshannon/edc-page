@@ -43,6 +43,6 @@ However, the chimney sweep is a whimsical, intellectual character - and the comp
 
 {% include play/image.html index=1 width=4 height=3 %}
 
-Compare this version with [Brush with a Body in 2006.]({% link _play/converted-plays/brush2006.md %}) 
+Compare this version with [Brush with a Body in 2006.]({{ site.baseurl }}{% link _play/converted-plays/brush2006.md %}) 
 
 {% include play/cast_list.html list=page.cast %}

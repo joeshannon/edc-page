@@ -67,7 +67,7 @@ She turns detective in her effort to establish justice, feeling that her own fai
 
 {% include play/image.html index=6 width=3 height=4 %}
 
-We also performed [Bonaventure in 1989]({% link _play/converted-plays/bonaventure1989.md %}) 
+We also performed [Bonaventure in 1989]({{ site.baseurl }}{% link _play/converted-plays/bonaventure1989.md %}) 
 
 *Bonaventure won Best Play in the 2018/19 Exeter Drama Company awards for this production.*
 

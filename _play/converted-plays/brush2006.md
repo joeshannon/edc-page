@@ -57,6 +57,6 @@ She is on the run from the Police and also one of Henry's patients, the Police, 
 
 {% include play/image.html index=3 width=4 height=3 %}
 
-Compare this version with our [Brush with a Body]({% link _play/converted-plays/brush1986.md %}) from 1986. 
+Compare this version with our [Brush with a Body]({{ site.baseurl }}{% link _play/converted-plays/brush1986.md %}) from 1986. 
 
 {% include play/cast_list.html list=page.cast %}

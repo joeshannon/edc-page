@@ -35,6 +35,6 @@ Charley's Aunt by Brandon Thomas revolves around two young men who hope to court
 
 {% include play/image.html index=0 width=4 height=3 %}
 
-Compare this version with our [Charleys Aunt 1960]({% link _play/converted-plays/charleys1960.md %}) 
+Compare this version with our [Charleys Aunt 1960]({{ site.baseurl }}{% link _play/converted-plays/charleys1960.md %}) 
 
 {% include play/cast_list.html list=page.cast %}

@@ -35,6 +35,6 @@ Her companion is Ellen Creed who now lives in poverty because she is fulfilling 
 
 {% include play/image.html index=1 width=4 height=3 %}
 
-Compare this version with our [Ladies in Retirement]({% link _play/converted-plays/ladies1998.md %}) from 1988
+Compare this version with our [Ladies in Retirement]({{ site.baseurl }}{% link _play/converted-plays/ladies1998.md %}) from 1988
 
 {% include play/cast_list.html list=page.cast %}

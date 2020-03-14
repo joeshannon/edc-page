@@ -81,7 +81,7 @@ Amid the sorrow and the joy, there are many lessons to be learned.
 
 {% include play/image.html index=7 width=3 height=4 %}
 
-Four members of the original [Little Women 2011]({% link _play/converted-plays/littlewomen2011.md %}) cast recreated their roles and were joined by a cast of new characters and actors.
+Four members of the original [Little Women 2011]({{ site.baseurl }}{% link _play/converted-plays/littlewomen2011.md %}) cast recreated their roles and were joined by a cast of new characters and actors.
 
 {% include play/image.html index=8 width=4 height=3 %}
 

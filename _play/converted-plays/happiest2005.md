@@ -53,6 +53,6 @@ They are aboutto remove their offspring when a message arrives: a third school i
 
 {% include play/image.html index=2 width=3 height=4 %}
 
-Compare this version with our our [Happiest Days of Your Life]({% link _play/converted-plays/happiest1955.md %}) from 1955
+Compare this version with our our [Happiest Days of Your Life]({{ site.baseurl }}{% link _play/converted-plays/happiest1955.md %}) from 1955
 
 {% include play/cast_list.html list=page.cast %}

@@ -33,7 +33,7 @@ We are still a very active company and continue to put on a varied programme wit
 Plays over the years have included most subjects imaginable - comedy, tragedy, murder mysteries, ghost stories, pantomimes, farce and thrillers.
     
 Members are actively involved in the running of the theatre - everything from acting on the stage to making the tea/coffee for the audience on production nights.
-Take a look at the [How we put a Play Together]({% link _play/converted-plays/spaniard1991.md %}) page to see how it all works.
+Take a look at the [How we put a Play Together]({{ site.baseurl }}{% link _play/converted-plays/spaniard1991.md %}) page to see how it all works.
 
 Membership is currently running at around 50 members and over 300 people are on our mailing list and regularly come to see our plays.
 
@@ -49,4 +49,4 @@ In February 2018 we left the Shed and with no new permanent home to go to (at th
 
 We've also started taking shows out to local village halls, such as Upton Pyne, Butterleigh and Thorverton.
 
-See our [events page]({% link pages/whatson.html %}) to find out where our next performance will be held.
+See our [events page]({{ site.baseurl }}{% link pages/whatson.html %}) to find out where our next performance will be held.

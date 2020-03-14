@@ -79,6 +79,6 @@ A scary Guy of Gisbourne, complete in horse skin,  is brought in by the Sherriff
 
 {% include play/image.html index=3 width=4 height=3 %}
 
-![Arrow]({% link assets/img/o/arrow.gif %} "Arrow"){: class="img-fluid mx-auto d-block"}
+![Arrow]({{ site.baseurl }}{% link assets/img/o/arrow.gif %} "Arrow"){: class="img-fluid mx-auto d-block"}
 
 {% include play/cast_list.html list=page.cast %}

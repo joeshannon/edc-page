@@ -39,6 +39,6 @@ Harry's hobby seemingly pays off when he returns home with an owl which they dis
 
 {% include play/image.html index=2 width=4 height=3 %}
 
-Compare with [Just the Ticket from 1977]({% link _play/converted-plays/just1977.md %})
+Compare with [Just the Ticket from 1977]({{ site.baseurl }}{% link _play/converted-plays/just1977.md %})
 
 {% include play/cast_list.html list=page.cast %}

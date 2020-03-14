@@ -41,6 +41,6 @@ But the Aunt contacts to say she needs to postpone her visit so the pair convinc
 
 {% include play/image.html index=1 width=4 height=3 %}
 
-Compare this version with our [Charleys Aunt 1995]({% link _play/converted-plays/charleys1995.md %}) 
+Compare this version with our [Charleys Aunt 1995]({{ site.baseurl }}{% link _play/converted-plays/charleys1995.md %}) 
 
 {% include play/cast_list.html list=page.cast %}

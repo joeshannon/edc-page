@@ -59,6 +59,6 @@ In the Tinder Box, by Nicholas Stuart Gray, Peter, a wounded soldier disbanded f
 
 {% include play/image.html index=0 width=16 height=9 %}
 
-Compare with our [Tinder Box from 1968]({% link _play/converted-plays/tinder1968.md %})
+Compare with our [Tinder Box from 1968]({{ site.baseurl }}{% link _play/converted-plays/tinder1968.md %})
 
 {% include play/cast_list.html list=page.cast %}
