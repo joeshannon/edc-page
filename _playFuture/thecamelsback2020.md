@@ -39,7 +39,7 @@ cast:
 <div class="col-1">
 </div>
 <div class="col-10">
-<img class="img-fluid" src="/assets/img/play/thecamelsback2020/thecamelsback2020poster.jpg" alt="The Camel's Back poster" />
+<img class="img-fluid" src="{{ "/assets/img/play/thecamelsback2020/thecamelsback2020poster.jpg" | relative_url }}" alt="The Camel's Back poster" />
 </div>
 <div class="col-1">
 </div>

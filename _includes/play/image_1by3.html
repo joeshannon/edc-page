@@ -1,19 +1,19 @@
 <div class="row play-img-section">
         <div class="col-sm mb-2">
             <div class="embed-responsive embed-responsive-{{ include.width }}by{{ include.height }}" data-toggle="modal" data-target="#playImgModal">
-                <img class="embed-responsive-item ignore-max-height" src="{{ site.image_root }}{{ page.images[include.index].url }}" alt="{{ page.images[include.index].caption }}" title="{{ page.images[include.index].caption }}" data-target="#playImgCarousel" data-slide-to="{{include.index}}" />
+                <img class="embed-responsive-item ignore-max-height" src="{{ site.image_root | append: page.images[include.index].url | relative_url }}" alt="{{ page.images[include.index].caption }}" title="{{ page.images[include.index].caption }}" data-target="#playImgCarousel" data-slide-to="{{include.index}}" />
             </div>
             {% assign next_index = include.index | plus: 1 %}
         </div>
         <div class="col-sm mb-2">
             <div class="embed-responsive embed-responsive-{{ include.width }}by{{ include.height }}" data-toggle="modal" data-target="#playImgModal">
-                <img class="embed-responsive-item ignore-max-height" src="{{ site.image_root }}{{ page.images[next_index].url }}" alt="{{ page.images[next_index].caption }}" title="{{ page.images[next_index].caption }}" data-target="#playImgCarousel" data-slide-to="{{ next_index }}"/>
+                <img class="embed-responsive-item ignore-max-height" src="{{ site.image_root | append: page.images[next_index].url | relative_url }}" alt="{{ page.images[next_index].caption }}" title="{{ page.images[next_index].caption }}" data-target="#playImgCarousel" data-slide-to="{{ next_index }}"/>
             </div>
         </div>
             {% assign next_index = include.index | plus: 2 %}
         <div class="col-sm mb-2">
             <div class="embed-responsive embed-responsive-{{ include.width }}by{{ include.height }}" data-toggle="modal" data-target="#playImgModal">
-                <img class="embed-responsive-item ignore-max-height" src="{{ site.image_root }}{{ page.images[next_index].url }}" alt="{{ page.images[next_index].caption }}" title="{{ page.images[next_index].caption }}" data-target="#playImgCarousel" data-slide-to="{{ next_index }}"/>
+                <img class="embed-responsive-item ignore-max-height" src="{{ site.image_root | append: page.images[next_index].url | relative_url }}" alt="{{ page.images[next_index].caption }}" title="{{ page.images[next_index].caption }}" data-target="#playImgCarousel" data-slide-to="{{ next_index }}"/>
             </div>
         </div>
     </div>

@@ -13,7 +13,7 @@ title : Past Plays
             </div>
     <div class="col-md-4 {% if thecycle == 'even' %} order-md-first {% endif %} px-3">
         <div class="embed-responsive embed-responsive-4by3">
-            <a href="{{ play.url | relative_url }}"><img class="embed-responsive-item rounded" src="{{ site.image_root }}{{ play.overview_img }}" title="{{ play.title }}" alt="{{ play.title }}" /></a>
+            <a href="{{ play.url | relative_url }}"><img class="embed-responsive-item rounded" src="{{ site.image_root | append: play.overview_img | relative_url }}" title="{{ play.title }}" alt="{{ play.title }}" /></a>
         </div>
     </div>
 
