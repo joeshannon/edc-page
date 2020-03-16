@@ -5,11 +5,11 @@ date: 2011-12-17
 description: ''
 images:
   - url: buccaneersofboscastle20111.jpg
-    caption: Bucanneers of Boscastle - Isabel, Edith, Kate and Isabel
+    caption: Bucanneers of Boscastle - Isabel, Edith, Kate and Mabel
   - url: buccaneersofboscastle20112.jpg
     caption: Bucanneers of Boscastle - Ruth, Frederic and the Pirate King
   - url: buccaneersofboscastle20113.jpg
-    caption: Bucanneers of Boscastle - P.C. Berlusconi, the Sergeant of Police and P.C. O'Reilly 
+    caption: Bucanneers of Boscastle - P.C. Berlusconi, the Sergeant of Police and P.C. O'Reilly
   - url: buccaneersofboscastle20114.jpg
     caption: Bucanneers of Boscastle - the Pirate King, Nanny Wellbeloved and Major General Stanley
 cast:
@@ -61,7 +61,7 @@ cast:
 
 {% include play/image.html index=0 width=4 height=3 %}
 
-Cornwall’s most unsuccessful pirates fall foul of both the local aristocracy and the Boscastle Police Forcein this swashbuckling romp amongst the rocks.
+Cornwall’s most unsuccessful pirates fall foul of both the local aristocracy and the Boscastle Police Force in this swashbuckling romp amongst the rocks.
 
 {% include play/image.html index=1 width=4 height=3 %}
 
