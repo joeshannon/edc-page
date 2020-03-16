@@ -1,5 +1,5 @@
-function executeSearch(searchQuery) {
-  $.getJSON("/assets/search/play_search.json", function (data) {
+function executeSearch(searchQuery, searchDataFile) {
+  $.getJSON(searchDataFile, function (data) {
 
     var fuseOptions = {
       keys: ['name'], // what we're searching
@@ -36,11 +36,11 @@ function SearchResults(results) {
 }
 
 
-function searchButton() {
+function searchButton(searchDataFile) {
   searchQuery = document.getElementById("playSearch").value;
   if (searchQuery) {
     $("#playSearch").val(searchQuery);
-    executeSearch(searchQuery);
+    executeSearch(searchQuery, searchDataFile);
   } else {
     $('#searchResults').html("<p>Please enter a search phrase</p>");
   }

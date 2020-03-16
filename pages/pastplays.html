@@ -35,7 +35,7 @@ title : Past Plays
     {% endfor %}
 </div>
 
-<form class="form-inline mb-3" onSubmit="return searchButton()" action="">
+<form class="form-inline mb-3" onSubmit="return searchButton('{{ site.baseurl }}{% link assets/search/play_search.json %}')" action="">
     <div class="form-group mx-sm-3">
         <input type="text" name="q" class="form-control" id="playSearch" aria-describedby="playSearch"
             placeholder="Search play titles..." />
@@ -43,3 +43,5 @@ title : Past Plays
     <button type="submit" class="btn btn-primary">Search</button>
 </form>
 <div id="searchResults"></div>
+
+<script src="{{ "/assets/js/playsearch.js" | relative_url }}" type="text/javascript"></script>

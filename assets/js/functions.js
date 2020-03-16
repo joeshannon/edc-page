@@ -1,19 +1,11 @@
 $(document).ready(function () {
 
-
   // this part doesn't work for some reason. Need to figure out why and fix
   if (document.getElementById("calendar") != null) {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       $(document.getElementById('calendar')).fullCalendar('changeView', 'listWeek');
     }
   }
-
-  $.getScript('/assets/js/playsearch.js', function()
-  {
-      // script is now loaded and executed.
-      // put your dependent JS here.
-  });
-
 
 });
 
