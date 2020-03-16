@@ -9,7 +9,7 @@
                         <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
                                 <figure class="figure d-block w-100">
                                     <img class="d-block w-100 ignore-max-height figure-img rounded"
-                                        src="{{ site.image_root }}{{ image.url }}" alt="{{ image.caption }}">
+                                        src="{{ site.image_root | append: image.url | relative_url }}" alt="{{ image.caption }}">
                                     <figcaption class="figure-caption">{{ image.caption }}</figcaption>
                                 </figure>
                             </div>
