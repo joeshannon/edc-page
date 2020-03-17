@@ -31,7 +31,7 @@ cast:
 ## {{page.title}}
 <h3> <i class="far fa-calendar-alt"></i> 7th-9th April 2020 at 7:30pm</h3>
 <h3> <i class="fas fa-map-marker-alt"></i> Alphington Primary School </h3>
-<a class="btn btn-primary" href="{{ site.social_links.tickets }}" role="button">Book Now</a>
+<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </div>
 
 
@@ -57,6 +57,6 @@ A production of an amateur play leads to problems on the farm - including some s
 
 {% include play/cast_list.html list=page.cast %}
 
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.tickets }}" role="button">Book Now</a></p>
+<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
 <p class="text-center"><a href="{{ "/assets/img/play/thecamelsback2020/thecamelsback2020poster.jpg" | relative_url}}" role="button">Download Poster</a></p>
 <p class="text-center"><a href="{{ "/assets/img/play/thecamelsback2020/thecamelsback2020bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>
