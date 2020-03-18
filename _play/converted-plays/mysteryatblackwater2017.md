@@ -59,7 +59,7 @@ This tale of Victorian mystery and skullduggery centres around Sir Percival Glyd
 
 Or will the mysterious woman in white reveal the awful truth?
 
-{% include play/image.html index=5 width=4 height=3 %}
+{% include play/image.html index=5 width=3 height=4 %}
 
 This play was previously performed [Mystery at Blackwater - 1961]({{ site.baseurl }}{% link _play/converted-plays/mystery1961.md %})
 
