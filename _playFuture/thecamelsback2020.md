@@ -29,11 +29,15 @@ cast:
 
 <div class="jumbotron">
 ## {{page.title}}
-<h3> <i class="far fa-calendar-alt"></i> 7th-9th April 2020 at 7:30pm</h3>
+<h3> <i class="far fa-calendar-alt"></i> <del>7th-9th April 2020 at 7:30pm</del> - Postponed</h3>
 <h3> <i class="fas fa-map-marker-alt"></i> Alphington Primary School </h3>
 <a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </div>
 
+<div class="alert alert-danger" role="alert">
+The Camel's Back has been postponed due to current Government advice. A message from the chair
+can be read <a href="{{ site.baseurl }}{% link pages/coronavirus.md %}" class="alert-link">here</a>. Follow our <a href="#social-footer" class="alert-link">social media</a> for latest updates.
+</div>
 
 <div class="row text-center">
 <div class="col-1">
