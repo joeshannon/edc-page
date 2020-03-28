@@ -1,7 +1,6 @@
 ---
 layout: play
 title: The Camel's Back
-date: 2020-04-09
 poster_thumb: /assets/img/play/thecamelsback2020/thecamelsback2020thumb.jpg
 location: Alphington Primary School
 cast:
