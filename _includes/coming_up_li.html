@@ -1,7 +1,12 @@
+{% if include.date == nil %}
+{% assign the_date = 'Coming Soon' %}
+{% else %}
+{% assign the_date = include.date %}
+{% endif %}
   <li class="media my-4">
     <a href="{{ include.page_link | relative_url }}"><img class="mr-3" src= "{{ include.imgurl | relative_url }}" alt="Play image coming soon..."></a>
     <div class="media-body">
-      <h5 class="mt-0 mb-1">{{ include.title }} <span class="badge badge-primary">{{ include.date }}</span></h5>
+      <h5 class="mt-0 mb-1">{{ include.title }} <span class="badge badge-primary">{{ the_date }}</span></h5>
       {{ include.desc }}
       <br />
       <p>
