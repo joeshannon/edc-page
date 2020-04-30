@@ -1,4 +1,6 @@
-{% if include.date == nil %}
+{% if  include.non_date_desc != nil%}
+{% assign the_date = include.non_date_desc %}
+{% elsif include.date == nil %}
 {% assign the_date = 'Coming Soon' %}
 {% else %}
 {% assign the_date = include.date %}
@@ -10,8 +12,10 @@
       {{ include.desc }}
       <br />
       <p>
-      <a href="{{ include.page_link | relative_url }}">more details...</a> <br />
+        <a href="{{ include.page_link | relative_url }}">more details...</a> <br />
+        {% if  include.non_date_desc == nil%}
       <a href="{{ site.social_links.ticketsource }}">book now...</a>
+      {% endif %}
     </p>
     </div>
   </li>

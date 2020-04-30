@@ -5,15 +5,13 @@ menu_item: true
 menu_ordering: 1
 ---
 
-<h2>Upcoming Productions</h2>
-
 <ul id="whats-on-list" class="list-unstyled">
 
   {% for play in site.playFuture %}
 
   {% assign pretty_date = play.date | date: '%B %Y' %}
 
-  {% include coming_up_li.html imgurl=play.poster_thumb title=play.title date=pretty_date desc=play.location page_link=play.url %}
+  {% include coming_up_li.html imgurl=play.poster_thumb title=play.title date=pretty_date desc=play.location page_link=play.url non_date_desc=play.non_date_desc %}
 
   {% endfor %}
 
