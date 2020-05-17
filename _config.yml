@@ -16,6 +16,7 @@ collections:
   playFuture:
     output: true
     permalink: /play/:name/
+  audioShows:
 
 
 defaults:
