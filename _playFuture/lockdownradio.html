@@ -14,6 +14,7 @@ poster_thumb: /assets/img/play/lockdownradio/microphone.png
 <h2 id="{{show.title | slugify }}">{{show.title}}</h2>
 <h4>{{ show.author }}</h4>
 {{ show.content }}
+<footer class="blockquote-footer">Published {{ show.date | date_to_long_string }}</footer>
 {% unless forloop.last %}
 <hr />
 {% endunless%}
