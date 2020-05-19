@@ -1,0 +1,23 @@
+---
+layout: default_with_title
+title: EDC Lockdown Radio
+permalink: /lockdownradio/monologues/
+---
+
+<h2>Monologues</h2>
+
+<a class="btn btn-primary" href="{{ site.baseurl }}{% link _playFuture/lockdownradio.html %}"><i class="fas fa-arrow-up"></i> Back to menu</a>
+
+<hr />
+
+{% assign sorted = site.audioShows | sort: 'date' | reverse | where:"type", "monologue" %}
+{% for show in sorted %}
+<h4 id="{{show.title | slugify }}">{{show.title}}</h2>
+<h5>{{ show.author }}</h4>
+{{ show.content }}
+<footer class="blockquote-footer">Published {{ show.date | date_to_long_string }}</footer>
+{% unless forloop.last %}
+<hr />
+{% endunless%}
+{% endfor %}
+

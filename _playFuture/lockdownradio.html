@@ -9,10 +9,20 @@ poster_thumb: /assets/img/play/lockdownradio/microphone.png
 
 <p>Something a bit different from us to keep you entertained during these strange times.</p>
 
+<p><a href="{{ site.baseurl }}{% link pages/lockdownradio-playlets.html %}" class="btn btn-primary btn-lg btn-block">Playlets</a></p>
+<p><a href="{{ site.baseurl }}{% link pages/lockdownradio-monologues.html %}" class="btn btn-primary btn-lg btn-block">Monologues</a></p>
+<p><a href="{{ site.baseurl }}{% link pages/lockdownradio-poems.html %}" class="btn btn-primary btn-lg btn-block">Poems</a></p>
+
+
+
+<h2>Latest</h2>
+
+<hr />
+
 {% assign sorted = site.audioShows | sort: 'date' | reverse %}
-{% for show in sorted %}
-<h2 id="{{show.title | slugify }}">{{show.title}}</h2>
-<h4>{{ show.author }}</h4>
+{% for show in sorted limit:4 %}
+<h4 id="{{show.title | slugify }}">{{show.title}}</h2>
+<h5>{{ show.author }}</h4>
 {{ show.content }}
 <footer class="blockquote-footer">Published {{ show.date | date_to_long_string }}</footer>
 {% unless forloop.last %}
