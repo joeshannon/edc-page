@@ -21,8 +21,8 @@ poster_thumb: /assets/img/play/lockdownradio/microphone.png
 
 {% assign sorted = site.audioShows | sort: 'date' | reverse %}
 {% for show in sorted limit:4 %}
-<h4 id="{{show.title | slugify }}">{{show.title}}</h2>
-<h5>{{ show.author }}</h4>
+<h4 id="{{show.title | slugify }}">{{show.title}}</h4>
+<h5>{{ show.author }}</h5>
 {{ show.content }}
 <footer class="blockquote-footer">Published {{ show.date | date_to_long_string }}</footer>
 {% unless forloop.last %}
