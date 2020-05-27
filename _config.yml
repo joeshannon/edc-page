@@ -43,7 +43,7 @@ plugins:
   - jekyll-seo-tag
 
 description: Exeter Drama Company is a small amateur theatre group who put on plays four times a year. If you are interested in seeing a play or becoming a member....
-url: "www.exeterdramacompany.co.uk"
+url: "https://www.exeterdramacompany.co.uk"
 title: Exeter Drama Company
 lang: en_GB
 
