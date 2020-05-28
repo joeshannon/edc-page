@@ -33,6 +33,11 @@ defaults:
     values:
       location: "Location TBA"
       poster_thumb: "https://cdn.ticketsource.co.uk/images/search/default1.png"
+  -
+    scope:
+      path: "" # empty string for all files in the project
+    values:
+      image: /assets/img/edclogo.png
 
 exclude:
   - readme.md
@@ -53,3 +58,6 @@ social_links:
   ticketsource: https://www.ticketsource.co.uk/ExeterDrama
   email: exeterdramaco.publicity@gmail.com
   fundraising: https://www.easyfundraising.org.uk/causes/exeterdramacompany
+
+facebook:
+    app_id: https://www.facebook.com/ExeterDramaCompany
