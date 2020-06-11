@@ -3,6 +3,30 @@ layout: default_with_title
 title: Data Protection and Privacy Policy
 ---
 
+## Cookies
+
+### Use of Cookies
+
+This website (www.exeterdramacompany.co.uk) uses cookies to store information on your computer. Cookies help us to provide
+you with the best experience out of the website. If you have any questions about the following information please contact us.
+
+### Managing cookies
+
+Most web browsers allow you to control the cookies stored on your computer through your browser’s settings. To find out more about cookies,
+including how to see what cookies have been stored and how to manage and delete them, visit [www.allaboutcookies.org](https://www.allaboutcookies.org).
+
+### Removing or disabling cookies
+
+You may choose to remove or block cookies at any time by adjusting your browser settings, but in some cases, this may impact your experience of our website.
+
+### Our use of cookies
+
+We use Google Analytics cookies to collect information about how visitors use our site. We use the information to compile reports and to help us improve the site.
+The information collected is anonymous and does not identify a visitor. The data includes the number of visitors to the site, where visitors
+have come from and the pages they visited.
+
+For more information see [How Google Uses Data.](https://www.google.com/policies/privacy/partners/ "How Google uses data when you use our partners' sites or apps")
+
 ## (Adopted May 2018)
 ### Introduction
 Exeter Drama Company is committed to protecting the data it holds of its
