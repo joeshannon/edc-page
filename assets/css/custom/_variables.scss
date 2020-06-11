@@ -2,8 +2,9 @@ $edc-dark: #006a25;
 $body-bg: $edc-dark;
 $primary: $edc-dark;
 $theme-colors: (
-  "dark":    $edc-dark,
-  "light":#fffded
+  "dark": $edc-dark,
+  "light": #fffded,
+  "danger": palevioletred
 );
 
 $font-family-base: 'Roboto Slab', serif;
