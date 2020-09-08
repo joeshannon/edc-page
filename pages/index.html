@@ -5,14 +5,26 @@ permalink: /
 ---
 
 
-  <div class="alert alert-primary" role="alert">
-  Now presenting: <a href="{{ site.baseurl }}{% link _playFuture/lockdownradio.html %}" class="alert-link">Exeter Drama Company's Lockdown Radio Shows!</a>
-  </div>
+<div class="alert alert-primary" role="alert">
+  Now presenting: <a href="{{ site.baseurl }}{% link _playFuture/lockdownradio.html %}" class="alert-link">Exeter Drama
+    Company's Lockdown Radio Shows!</a>
+</div>
 
+{% assign featured_play = site.playFuture | where: 'featured_on_index', true %}
+
+{% if featured_play.size == 1 %}
+
+<p class="text-center playposter">
+  <a href="{{ featured_play[0].url | relative_url }}">
+    <img class="img-fluid" alt="{{ featured_play[0].title }}" src="{{ featured_play[0].poster | relative_url }}">
+  </a>
+</p>
+{% else %}
 <p class="text-center playposter">
   <img class="img-fluid" alt="EDC will return soon..."
     src="{{ "/assets/img/poster/apr2020poster.jpg" | relative_url }}">
 </p>
+{% endif %}
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </p>
