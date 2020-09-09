@@ -7,6 +7,7 @@ poster: /assets/img/play/shakespeareatadistance2020/shakespeareatadistance2020po
 booking_form: /assets/img/play/shakespeareatadistance2020/shakespeareatadistance2020bookingform.pdf
 location: Exeter Community Garden
 date: '2020-09-27'
+published: false
 ---
 
 {::options parse_block_html="true" /}
