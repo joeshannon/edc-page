@@ -5,7 +5,7 @@ date: 2017-12-15
 description: ''
 images:
   - url: talesofawhimsicalchristmas20171.jpg
-    caption: Tales of a Whimsical Christmas - Godfather Christmas with Joe (as the Kid) and Ian) as Don Santa
+    caption: Tales of a Whimsical Christmas - Godfather Christmas with Joe (as the Kid) and Ian (as Don Santa)
   - url: talesofawhimsicalchristmas20172.jpg
     caption: Tales of a Whimsical Christmas - I sold my soul to Santa - Brian, Suzie, and Joe
   - url: talesofawhimsicalchristmas20173.jpg
