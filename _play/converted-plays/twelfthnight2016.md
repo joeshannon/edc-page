@@ -19,7 +19,7 @@ images:
   - url: twelfthnight20167.jpg
     caption: Twelfth Night - Olivia, Sebastian, Sir Toby Belch and Sir Andrew Agucheek
 cast:
-  - - Orsino, Duke of illyria
+  - - Orsino, Duke of Illyria
     - Alex Pierre-Traves
   - - Curio, gentleman attending on Duke Orisino
     - Jamie Rae
@@ -62,7 +62,6 @@ cast:
 ## Directed by Alice Purcell & Ian Guy
 
 ## Was performed 6th - 10th December 2016
-
 
 Separated from her twin brother Sebastian in a shipwreck, Viola disguises herself as a boy, calls herself Cesario, and becomes a servant to the Duke Orsino.
 
