@@ -35,8 +35,7 @@ non_date_desc: Postponed
 </div>
 
 <div class="alert alert-danger" role="alert">
-The Camel's Back has been postponed due to current Government advice. A message from the Chair
-can be read <a href="{{ site.baseurl }}{% link pages/coronavirus.md %}" class="alert-link">here</a>. Follow our <a href="#social-footer" class="alert-link">social media</a> for latest updates.
+The Camel's Back has been postponed due to current Government advice. Follow our <a href="#social-footer" class="alert-link">social media</a> for latest updates.
 </div>
 
 <div class="row text-center">
