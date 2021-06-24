@@ -1,0 +1,27 @@
+name: Site CI
+
+on:
+  push:
+    branches: [ '**' ]
+  pull_request:
+    branches: [ '**' ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3 
+        bundler-cache: true 
+
+    - name: Build site
+      run: |
+        bundle exec jekyll build
+
+    - name: Check html
+      run: |
+        bundle exec htmlproofer --allow-hash-href --url-swap "https\\://www.exeterdramacompany.co.uk:" --http-status-ignore "403,429" --alt-ignore '/.*/' ./_site
+
