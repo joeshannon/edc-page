@@ -4,12 +4,6 @@ title : Home
 permalink: /
 ---
 
-
-<div class="alert alert-primary" role="alert">
-  Now presenting: <a href="{{ site.baseurl }}{% link _playFuture/lockdownradio.html %}" class="alert-link">Exeter Drama
-    Company's Lockdown Radio Shows!</a>
-</div>
-
 {% assign featured_play = site.playFuture | where: 'featured_on_index', true %}
 
 {% if featured_play.size == 1 %}
