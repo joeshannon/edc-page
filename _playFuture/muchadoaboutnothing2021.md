@@ -20,7 +20,7 @@ cast:
   - - Antonia, wife to Leonato
     - Melanie Hope
   - - Borachio, follower of Don John
-    - Miles Clayton Foster
+    - Miles Clayton-Foster
   - - Conrade, follower of Don John
     - Eliot Vosper
   - - Beatrice, niece to Leonato
