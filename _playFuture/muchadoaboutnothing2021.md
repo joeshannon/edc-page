@@ -71,6 +71,9 @@ cast:
 </div>
 </div>
 
+<div class="alert alert-primary" role="alert"> <p class="my-0">Tickets on sale at the end of July</p>
+</div>
+
 #### Directed by Ian Guy and Alice Purcell
 
 Returning from the crusades Count Claudio falls in love with Hero the daughter of Leonato, the Governor of Messina. 
@@ -90,7 +93,6 @@ With a combination of fresh new faces, old hands and one returning ex member we 
 {% endcomment %}
 
 <p class="text-center"><a href="{{ "/assets/img/play/muchadoaboutnothing2021/muchadoaboutnothing2021poster.jpg" | relative_url}}" role="button">Download Poster</a></p>
-<p class="text-center">Tickets on sale from 26th July</p>
 <p class="text-center">Booking Form Available soon</p>
 {% comment %}
 <p class="text-center"><a href="{{ "/assets/img/play/muchadoaboutnothing2021/muchadoaboutnothing2021bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>
