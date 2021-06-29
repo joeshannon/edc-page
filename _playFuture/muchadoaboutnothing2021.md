@@ -18,7 +18,7 @@ cast:
   - - Leonato, governor of Messina, father of Hero
     - Andy Smith
   - - Antonia, wife to Leonato
-    - Melanie Hope
+    - Melanie Hopton
   - - Borachio, follower of Don John
     - Miles Clayton-Foster
   - - Conrade, follower of Don John
