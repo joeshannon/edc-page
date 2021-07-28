@@ -38,7 +38,7 @@ cast:
   - - Dogberry, the Constable of the watch
     - Jordan Burston
   - - Verges, the Headborough
-    - Richard Hogben
+    - Richard Eagle
   - - Friar Francis, a priest
     - Robin Thwaytes
   - - Sexton, a judge
@@ -46,9 +46,9 @@ cast:
   - - First Watchman
     - Lynda Anning
   - - Second Watchman
-    - Emily Dennis
-  - - Third Watchman
     - Ellie Lynas
+  - - Third Watchman
+    - Doug Thomson
 ---
 
 {::options parse_block_html="true" /}
