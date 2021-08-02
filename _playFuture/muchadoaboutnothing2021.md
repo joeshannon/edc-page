@@ -58,7 +58,7 @@ cast:
 #### *by William Shakespeare*
 <h3> <i class="far fa-calendar-alt"></i> 28th Sept - 1st Oct 2021 at 7:30pm</h3>
 <h3> <i class="fas fa-map-marker-alt"></i> St Michael's Church, Alphington, Exeter</h3>
-<!---a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a-->
+<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </div>
 
 <div class="row text-center">
@@ -69,9 +69,6 @@ cast:
 </div>
 <div class="col-1">
 </div>
-</div>
-
-<div class="alert alert-primary" role="alert"> <p class="my-0">Tickets on sale at the end of July</p>
 </div>
 
 #### Directed by Ian Guy and Alice Purcell
@@ -88,12 +85,7 @@ With a combination of fresh new faces, old hands and one returning ex member we 
 {::options parse_block_html="false" /}
 
 {% include play/cast_list.html list=page.cast %}
-{% comment %}
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-{% endcomment %}
 
+<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
 <p class="text-center"><a href="{{ "/assets/img/play/muchadoaboutnothing2021/muchadoaboutnothing2021poster.jpg" | relative_url}}" role="button">Download Poster</a></p>
-<p class="text-center">Booking Form Available soon</p>
-{% comment %}
 <p class="text-center"><a href="{{ "/assets/img/play/muchadoaboutnothing2021/muchadoaboutnothing2021bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>
-{% endcomment %}
