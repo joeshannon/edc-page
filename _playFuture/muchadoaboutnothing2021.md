@@ -41,7 +41,7 @@ cast:
     - Richard Eagle
   - - Friar Francis, a priest
     - Robin Thwaytes
-  - - Sexton, a judge
+  - - The Sexton, a judge
     - Natasha Zoutenbier
   - - First Watchman
     - Lynda Anning
