@@ -13,7 +13,7 @@ images:
   - url: midsummernightsdream20154.jpg
     caption: Midsummer Night's Dream - Oberon and Puck
   - url: midsummernightsdream20155.jpg
-    caption: Midsummer Night's Dream - Demetrius, Helena, Hippolyta, Dame Egeus, Duke THeseus, Hermia and Lysander
+    caption: Midsummer Night's Dream - Demetrius, Helena, Hippolyta, Dame Egeus, Duke Theseus, Hermia and Lysander
 cast:
   - - Hippolyta, Queen of the Amazons
     - Natalie Sluggett

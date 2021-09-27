@@ -15,7 +15,7 @@ images:
   - url: soundandvision20175.jpg
     caption: Sound and Vision - Harriet and Malcolme (What We Watched)
   - url: soundandvision20176.jpg
-    caption: Sound and Vision - Joe and AJ (A Bit of a Chat - Peter Cook and Dudley Moore
+    caption: Sound and Vision - Joe and AJ (A Bit of a Chat - Peter Cook and Dudley Moore)
   - url: soundandvision20177.jpg
     caption: Sound and Vision - AJ, Joe, Charlotte, Liam and Di (Are you Being Served)
 ---
