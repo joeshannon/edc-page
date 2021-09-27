@@ -28,7 +28,7 @@ cast:
   - - Doris
     - Stacey Collins
   - - Gerda Cristow
-    - Tara Studholme-Lyons
+    - Tara Studholme Lyons
   - - John Cristow
     - Richard Ware
   - - Veronica Craye

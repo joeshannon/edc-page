@@ -30,7 +30,7 @@ cast:
   - - Hancock - Test Pilot
     - Graham Setter and Doug Thomson
   - - The Archers
-    - Malcolme Littler, Brian Lawless, Helen Evans, Denise Gough, Abi Norton, Tara Studholme-Lyons, Doug Thomson, Kieran Ferris and Ian Guy
+    - Malcolme Littler, Brian Lawless, Helen Evans, Denise Gough, Abi Norton, Tara Studholme Lyons, Doug Thomson, Kieran Ferris and Ian Guy
   - - The Glums at Christmas
     - Charlotte Guy, Alistair Bibby and Malcolme Littler
   - - Hand Up Your Sticks
