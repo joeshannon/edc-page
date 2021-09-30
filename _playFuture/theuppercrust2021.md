@@ -5,7 +5,7 @@ poster_thumb: /assets/img/play/theuppercrust2021/theuppercrust2021thumb.jpg
 poster: /assets/img/play/theuppercrust2021/theuppercrust2021poster.jpg
 location: Pinhoe United Reformed Church, Pinhoe, Exeter
 date: 2021-12-03
-featured_on_index: false
+featured_on_index: true
 ---
 
 {::options parse_block_html="true" /}
