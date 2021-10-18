@@ -5,7 +5,6 @@
     <div class="col-xl">
         <table class="table table-striped table-borderless table-sm text-center">
             {% for char in include.list %}
-            <tr>
                 {% if forloop.first == true %}
                 <thead>
                     <tr>
@@ -18,11 +17,12 @@
                     </tr>
                 </thead>
                 {% else %}
+                <tr>
                 {% for name in char %}
                 <td>{{ name }}</td>
                 {% endfor %}
+                </tr>
                 {% endif %}
-            </tr>
             {% endfor %}
         </table>
     </div>
