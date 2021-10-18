@@ -9,10 +9,10 @@
                 <thead>
                     <tr>
                         {% if char[1] %}
-                        <th>{{ char[0] }}</th>
-                        <th>{{ char[1] }}</th>
+                        <th>{{ char[0] | newline_to_br }}</th>
+                        <th>{{ char[1] | newline_to_br }}</th>
                         {% else %}
-                        <th colspan="2">{{ char[0] }}</th>
+                        <th colspan="2">{{ char[0] | newline_to_br }}</th>
                         {% endif %}
                     </tr>
                 </thead>
