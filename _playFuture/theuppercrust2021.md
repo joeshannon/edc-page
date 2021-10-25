@@ -20,7 +20,7 @@ cast2:
     - By Alaric Greene
   - - Bruchetta Fotheringhton-Golightly, a society lady
     - Jessica Whittick
-  - - Lavash Templeton-Freebody-St Clear, a society lady
+  - - Lavash Templeton-Freebody-St Clair, a society lady
     - Genni Trickett
   - - Voice over intercom
     - Roger Mathewson
@@ -86,7 +86,7 @@ cast8:
       Additional material by Alaric Greene
   - - Bruchetta Fotherington-Golightly, a society lady
     - Jessica Whittick
-  - - Lavash Templeton-Freebody-St Clear, a society lady
+  - - Lavash Templeton-Freebody-St Clair, a society lady
     - Genni Trickett
 ---
 
