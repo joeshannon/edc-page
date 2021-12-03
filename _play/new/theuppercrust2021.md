@@ -1,11 +1,18 @@
 ---
-layout: play
+layout: play_md
 title: The Upper Crust
-poster_thumb: /assets/img/play/theuppercrust2021/theuppercrust2021thumb.jpg
-poster: /assets/img/play/theuppercrust2021/theuppercrust2021poster.jpg
 location: Pinhoe United Reformed Church, Pinhoe, Exeter
 date: 2021-12-03
-featured_on_index: true
+overview_img: theuppercrust20211.jpg
+images:
+  - url: theuppercrust20211.jpg
+    caption: Sooo Busy
+  - url: theuppercrust20212.jpg
+    caption: Clap Trap
+  - url: theuppercrust20213.jpg
+    caption: Origins
+  - url: theuppercrust20214.jpg
+    caption: Those Who Wait
 cast1:
   - - The Origins of the Upper Crust
     - By Peter Burnett
@@ -90,33 +97,20 @@ cast8:
     - Genni Trickett
 ---
 
-{::options parse_block_html="true" /}
-
-<div class="jumbotron">
-## {{page.title}}
-<h3> <i class="far fa-calendar-alt"></i> 3rd & 4th Dec 2021 at 7:30pm</h3>
-<h3> <i class="fas fa-map-marker-alt"></i>  Pinhoe United Reformed Church, Old Pinn Ln, Pinhoe, Exeter EX1 3RF</h3>
-<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
-</div>
-
-<div class="row text-center">
-<div class="col-1">
-</div>
-<div class="col-10">
-<img class="img-fluid" src="{{ "/assets/img/play/theuppercrust2021/theuppercrust2021poster.jpg" | relative_url }}" alt="The Upper Crust poster" />
-</div>
-<div class="col-1">
-</div>
-</div>
+{% include play/image.html index=0 width=4 height=3 %}
 
 There have always been those who think to be waited on is their right. Likewise there have always been those whose role it is to serve.
 
+{% include play/image.html index=1 width=4 height=3 %}
+
 How one side treats the other is a constant source of amazement and interest and in our evening of sketches, playlets, one liners and jokes we attempt to span that divide.
+
+{% include play/image.html index=2 width=4 height=3 %}
 
 Whether we've served you correctly will be for you to decide!
 
+{% include play/image.html index=3 width=4 height=3 %}
 
-{::options parse_block_html="false" /}
 
 {% include play/cast_list_heading.html list=page.cast1 %}
 
@@ -147,8 +141,3 @@ Whether we've served you correctly will be for you to decide!
 ---
 
 {% include play/cast_list_heading.html list=page.cast8 %}
-
-
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/theuppercrust2021/theuppercrust2021poster.jpg" | relative_url}}" role="button">Download Poster</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/theuppercrust2021/theuppercrust2021bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>
