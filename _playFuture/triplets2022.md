@@ -1,6 +1,6 @@
 ---
 layout: play
-title: Triplets, three One Act Plays
+title: Three One Act Plays
 #poster_thumb: /assets/img/play/theuppercrust2021/theuppercrust2021thumb.jpg
 #poster: /assets/img/play/theuppercrust2021/theuppercrust2021poster.jpg
 location: Alphington Primary School, Exeter
