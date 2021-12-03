@@ -97,6 +97,9 @@ cast8:
     - Genni Trickett
 ---
 
+## 3rd & 4th Dec 2021 at 7:30pm
+## Pinhoe United Reformed Church, Pinhoe, Exeter
+
 {% include play/image.html index=0 width=4 height=3 %}
 
 There have always been those who think to be waited on is their right. Likewise there have always been those whose role it is to serve.
