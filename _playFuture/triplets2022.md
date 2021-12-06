@@ -2,7 +2,7 @@
 layout: play
 title: Three One Act Plays
 poster_thumb: /assets/img/edclogoSq.png
-poster: /assets/img/play/threeoneactplays2022/threeoneactplays2022poster.jpg
+poster: /assets/img/o/threeoneactplays2022poster.jpg
 location: Alphington Primary School, Exeter
 date: 2022-04-12
 featured_on_index: true
@@ -34,7 +34,7 @@ cast3:
 <div class="col-1">
 </div>
 <div class="col-10">
-<img class="img-fluid" src="{{ "/assets/img/play/threeoneactplays2022/threeoneactplays2022poster.jpg" | relative_url }}" alt="Three One Act Plays poster" />
+<img class="img-fluid" src="{{ "/assets/img/o/threeoneactplays2022poster.jpg" | relative_url }}" alt="Three One Act Plays poster" />
 </div>
 <div class="col-1">
 </div>
@@ -68,5 +68,5 @@ revealed as Prosecution and Defence battle it out through a stream of witnesses 
 
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<!--p class="text-center"><a href="{{ "/assets/img/play/theuppercrust2021/theuppercrust2021poster.jpg" | relative_url}}" role="button">Download Poster</a></p>
+<!--p class="text-center"><a href="{{ "/assets/img/o/theuppercrust2021poster.jpg" | relative_url}}" role="button">Download Poster</a></p>
 <p class="text-center"><a href="{{ "/assets/img/play/theuppercrust2021/theuppercrust2021bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p-->
