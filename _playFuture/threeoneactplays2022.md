@@ -1,7 +1,7 @@
 ---
 layout: play
 title: Three One Act Plays
-poster_thumb: /assets/img/edclogoSq.png
+poster_thumb: /assets/img/play/threeoneactplays2022/threeoneactplays2022thumb.jpg
 poster: /assets/img/play/threeoneactplays2022/threeoneactplays2022poster.jpg
 location: Alphington Primary School, Exeter
 date: 2022-04-12
