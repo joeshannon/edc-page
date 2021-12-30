@@ -7,18 +7,36 @@ location: Alphington Primary School, Exeter
 date: 2022-04-12
 featured_on_index: true
 cast1:
-  - - A
-    - a
+  - - No 9
+    - Tara Studholme Lyons
+  - - No 14
+    - Krish Madray
+  - - No 12
+    - Genni Trickett
 cast2:
   - - A
     - a
   - - B
     - b
 cast3:
-  - - A
-    - a
-  - - B
-    - b
+  - - Philip Merryfield
+    - Stephen Proud
+  - - The Judge
+    - Roger Mathewson
+  - - Counsel for the Defence
+    - Oliver Hale
+  - - Counsel for the Prosecution
+    - Miles Clayton-Foster
+  - - Witness 1
+    - Ellie Lynas
+  - - Witness 2
+    - Kyle Carter
+  - - Clerk of the Court
+    - Sarah Davies
+  - - Sgt Aloysius
+    - Andy Smith
+  - - Government Official
+    - Robin Thwaytes
 ---
 
 {::options parse_block_html="true" /}
@@ -48,6 +66,8 @@ cast3:
 Three neighbours have very different experiences during lockdown – one has physical problems, one loses her grip on reality all
 together while the youngest person discovers new skills which offer a brighter future.
 
+{% include play/cast_list.html list=page.cast1 %}
+
 ---
 
 ## Treasures by Susan Tong
@@ -65,6 +85,8 @@ for his life, after throwing a member of the crew of the Mars Ark “Bellerophon
 her place in an attempt to flee a doomed Earth. 
 But was he actually right to do so? This short comedy drama follows his trial where the events around the incident are slowly
 revealed as Prosecution and Defence battle it out through a stream of witnesses before the Jury (YOU, the audience) pronounce him Guilty or Not Guilty.
+
+{% include play/cast_list.html list=page.cast3 %}
 
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
