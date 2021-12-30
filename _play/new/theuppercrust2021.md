@@ -54,7 +54,7 @@ cast5:
     - Jack Powell
   - - Phil, a geezer on date night
     - Graham Setter
-  - - Paula, the geezers wife
+  - - Paula, the geezer's wife
     - Monica Cabello
   - - Cassandra, a posh woman being frugal
     - Natalie Zoutenbier
