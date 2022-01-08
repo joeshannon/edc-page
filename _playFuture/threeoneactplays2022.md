@@ -20,7 +20,7 @@ cast2:
     - b
 cast3:
   - - Philip Merryfield
-    - Stephen Proud
+    - Sam Lew
   - - The Judge
     - Roger Mathewson
   - - Counsel for the Defence
