@@ -14,10 +14,14 @@ cast1:
   - - No 12
     - Genni Trickett
 cast2:
-  - - A
-    - a
-  - - B
-    - b
+  - - Mike
+    - Graham Setter
+  - - Kathy
+    - Lynda Anning
+  - - Ann
+    - Debbie Collins
+  - - Alf
+    - Steve Fabian
 cast3:
   - - Philip Merryfield
     - Sam Lew
@@ -74,6 +78,8 @@ together while the youngest person discovers new skills which offer a brighter f
 ### Directed by Gill Cree
 
 After her funeral, a mum’s gifts to her 3 children give them both pleasure and a puzzle to solve.
+
+{% include play/cast_list.html list=page.cast2 %}
 
 ---
 
