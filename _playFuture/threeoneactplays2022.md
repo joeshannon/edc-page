@@ -32,7 +32,7 @@ cast3:
   - - Counsel for the Prosecution
     - Miles Clayton-Foster
   - - Witness 1
-    - Ellie Lynas
+    - Kaitlin Nixson
   - - Witness 2
     - Kyle Carter
   - - Clerk of the Court
