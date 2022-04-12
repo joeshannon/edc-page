@@ -10,45 +10,43 @@ $(document).ready(function () {
 });
 
 
-$(function () {
-
-  // page is now ready, initialize the calendar...
-
-  $('#calendar').fullCalendar({
-
+document.addEventListener('DOMContentLoaded', function() {
+  var calendarEl = document.getElementById('calendar');
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    locale: 'en-gb',
+    showNonCurrentDates: false,
+    fixedWeekCount: false,
+    eventDisplay: 'block',
+    displayEventTime: false,
+    themeSystem: 'bootstrap',
     googleCalendarApiKey: 'AIzaSyCc-XALNQ1QOPENIKZ0iG97AKL5QeNLp3o',
     events: {
       googleCalendarId: 'qtiegmovrricbemiq0s4nrkbv0@group.calendar.google.com'
     },
-
-    header: {
+    headerToolbar: {
       left: 'prev,next today',
       center: 'title',
-      right: 'month,agendaWeek,listMonth'
+      right: 'dayGridMonth,listMonth'
     },
     height: "auto",
-
-    eventClick: function (event, jsEvent, view) {
+    eventClick: function(info) {
+      info.jsEvent.preventDefault();
       try {
-        console.log(event);
-        $('#calendarEventModalTitle').html(event.start.format("HH:mm\t") + event.title);
-        if(typeof event.location != 'undefined'){
-          $('#calendarEventModalLocation').html(event.location);
+        var eventStart = info.event.start;
+        $('#calendarEventModalTitle').html(eventStart.toLocaleTimeString(calendar.locale, {hour: '2-digit', minute:'2-digit'}) + " " + info.event.title);
+        if(typeof info.event.extendedProps.location != 'undefined'){
+          $('#calendarEventModalLocation').html(info.event.extendedProps.location);
         }
         else {
           $('#calendarEventModalLocation').empty();
         }
-        $('#calendarEventModalDescription').html(event.description);
-        $('#eventUrl').attr('href', event.url);
+        $('#calendarEventModalDescription').html(info.event.extendedProps.description);
         $('#calendarEventModal').modal();
       }
       catch(err) {
         console.log(err)
-        return false
       }
-      return false
     },
-
     eventDataTransform: function (eventData) {
       if (typeof eventData.description != 'undefined') {
         if (eventData.description.includes("Production")) {
@@ -59,11 +57,19 @@ $(function () {
         }
       }
       return eventData;
-    }
-  })
-
+    },
+    eventDidMount: function (event) {
+      var eventStart = event.event.start.toLocaleTimeString(calendar.locale, {hour: '2-digit', minute:'2-digit'});
+      var titleElement  = event.el.querySelector(".fc-event-title")
+      if (!titleElement) {
+        return
+      }
+      var origTitle = titleElement.textContent
+      titleElement.textContent = eventStart + " " + origTitle
+  },
+  });
+  calendar.render();
 });
-
 
 
 $("#mailingListForm").submit(function (e) {
