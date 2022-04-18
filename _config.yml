@@ -4,6 +4,7 @@ permalink: pretty
 future: true
 
 image_root: /assets/img/o/
+coming_soon_card_text: Coming soon...
 
 sass:
   sass_dir: assets/css
