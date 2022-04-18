@@ -1,11 +1,28 @@
 ---
-layout: play
+layout: play_md
 title: Three One Act Plays
-poster_thumb: /assets/img/play/threeoneactplays2022/threeoneactplays2022thumb.jpg
-poster: /assets/img/play/threeoneactplays2022/threeoneactplays2022poster.jpg
 location: Alphington Primary School, Exeter
 date: 2022-04-12
-featured_on_index: true
+overview_img: threeoneactplays20224.jpg
+images:
+  - url: threeoneactplays20221.jpg
+    caption: Krish Madray, No 14
+  - url: threeoneactplays20222.jpg
+    caption: Tara Studholme Lyons, No 9
+  - url: threeoneactplays20223.jpg
+    caption: Genni Trickett - No 12
+  - url: threeoneactplays20224.jpg
+    caption: Mike (Graham Setter), Ann (Debbie Collins) & Kathy (Lynda Anning)
+  - url: threeoneactplays20225.jpg
+    caption: Mike (Graham Setter), Alf (Andy Smith), Kathy (Lynda Anning) & Ann (Debbie Collins)
+  - url: threeoneactplays20226.jpg
+    caption: Philip Merryfirld (Sam Lew) & Counsel for the Defence (Oliver Hale)
+  - url: threeoneactplays20227.jpg
+    caption: Witness 2 (John Prince, Kyle Carter)
+  - url: threeoneactplays20228.jpg
+    caption: The Judge (Roger Mathewson) & Clerk of the Court (Sarah Davies)
+  - url: threeoneactplays20229.jpg
+    caption: Philip Merryfield (Sam Lew), Counsel for the Defence (Oliver Hale), Counsel for the prosecution (Miles Clayton-Foster), Clerk of the Court (Sarah Davies)
 cast1:
   - - No 9
     - Tara Studholme Lyons
@@ -43,32 +60,20 @@ cast3:
     - Robin Thwaytes
 ---
 
-{::options parse_block_html="true" /}
+## 12th - 15th April 2022 at 7:30pm
+## Alphington Primary School, Wheatsheaf Way, Exeter
 
-<div class="jumbotron">
-## {{page.title}}
-<h3> <i class="far fa-calendar-alt"></i> 12th - 15th April 2022 at 7:30pm</h3>
-<h3> <i class="fas fa-map-marker-alt"></i> Alphington Primary School, Wheatsheaf Way, Exeter, EX2 8RQ</h3>
-<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
-</div>
-
-<div class="row text-center">
-<div class="col-1">
-</div>
-<div class="col-10">
-<img class="img-fluid" src="{{ "/assets/img/play/threeoneactplays2022/threeoneactplays2022poster.jpg" | relative_url }}" alt="Three One Act Plays poster" />
-</div>
-<div class="col-1">
-</div>
-</div>
-
-{::options parse_block_html="false" /}
+---
 
 ## Keeping up Appearances in Lockdown
 ### Written and Directed by Lori Hilson
 
 Three neighbours have very different experiences during lockdown – one has physical problems, one loses her grip on reality all
 together while the youngest person discovers new skills which offer a brighter future.
+
+{% include play/image_1by2.html index=0 width=4 height=3 %}
+
+{% include play/image.html index=2 width=3 height=4 %}
 
 {% include play/cast_list.html list=page.cast1 %}
 
@@ -78,6 +83,8 @@ together while the youngest person discovers new skills which offer a brighter f
 ### Directed by Gill Cree
 
 After her funeral, a mum’s gifts to her 3 children give them both pleasure and a puzzle to solve.
+
+{% include play/image_1by2.html index=3 width=4 height=3 %}
 
 {% include play/cast_list.html list=page.cast2 %}
 
@@ -92,9 +99,8 @@ her place in an attempt to flee a doomed Earth.
 But was he actually right to do so? This short comedy drama follows his trial where the events around the incident are slowly
 revealed as Prosecution and Defence battle it out through a stream of witnesses before the Jury (YOU, the audience) pronounce him Guilty or Not Guilty.
 
+{% include play/image_1by2.html index=5 width=4 height=3 %}
+
+{% include play/image_1by2.html index=7 width=4 height=3 %}
+
 {% include play/cast_list.html list=page.cast3 %}
-
-
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/threeoneactplays2022/threeoneactplays2022poster.jpg" | relative_url}}" role="button">Download Poster</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/threeoneactplays2022/threeoneactplays2022bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>
