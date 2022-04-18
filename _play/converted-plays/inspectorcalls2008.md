@@ -35,6 +35,6 @@ The Birling family are spending a happy evening celebrating the engagement of Sh
 
 The questions he asks the prosperous Birling family relating to the case reveal that they all have secrets linking them to the tragedy and his startling revelations shatter the very foundations of their lives.
 
-{% include play/image.html index=2 width=4 height=3 %}
+{% include play/image.html index=2 width=3 height=4 %}
 
 {% include play/cast_list.html list=page.cast %}
