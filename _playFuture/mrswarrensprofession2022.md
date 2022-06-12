@@ -8,7 +8,7 @@ date: 2022-07-12
 featured_on_index: true
 cast:
   - - Praed
-    - Alex Theophilus
+    - Alex Gannon
   - - Vivie Warren
     - Olivia Parker
   - - Mrs Warren
