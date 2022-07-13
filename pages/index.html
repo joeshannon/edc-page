@@ -4,6 +4,27 @@ title : Home
 permalink: /
 ---
 
+
+<div class="row text-center">
+  <div class="col-1">
+  </div>
+  <div class="col-12 col-xl-10">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yMYtRI4cVUQ?autoplay=1" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen autoplay></iframe>
+          </div>
+  </div>
+  <div class="col-1">
+  </div>
+</div>
+
+<div class="row text-center my-4">
+  <div class="col-2">
+  </div>
+  <div class="col-8 col-xl-8">
+
+
 {% assign featured_play = site.playFuture | where: 'featured_on_index', true %}
 
 {% if featured_play.size == 1 %}
@@ -19,6 +40,12 @@ permalink: /
     src="{{ "/assets/img/play/edc-next.png" | relative_url }}">
 </p>
 {% endif %}
+
+
+</div>
+<div class="col-2">
+</div>
+</div>
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </p>
