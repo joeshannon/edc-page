@@ -1,10 +1,15 @@
 ---
 layout: play
 title: The Ghost Train
+author: Arnold Ridley
+director: Frances Guy and Robin Thwaytes
 #poster_thumb: /assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022thumb.jpg
 #poster: /assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.jpg
 location: Longdown Village Hall
+location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2022-09-22
+time: 7:30pm
+date_human: 22nd - 24th September 2022
 featured_on_index: false
 ---
 
@@ -12,9 +17,9 @@ featured_on_index: false
 
 <div class="jumbotron">
 ## {{page.title}}
-<h3> <i class="fas fa-calendar-alt"></i> 22nd - 24th September 2022</h3>
-<h3> <i class="fas fa-clock"></i> 7:30pm</h3>
-<h3> <i class="fas fa-map-marker-alt"></i> Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN</h3>
+<h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
+<h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
+<h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
 <!--a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a-->
 </div>
 
@@ -30,9 +35,9 @@ featured_on_index: false
 
 {::options parse_block_html="false" /}
 
-## The Ghost Train
-### By Arnold Ridley
-### Directed by Frances Guy and Robin Thwaytes
+## {{ page.title }}
+### By {{ page.author }}
+### Directed by {{ page.director }}
 
 Further details to be announced very soon.
 
