@@ -104,7 +104,13 @@ the Hon Secretary.
 
 ---
 
+## Child Protection and Safeguarding Vulnerable Young Adults Policy
+
+This may be viewed [here]({{ site.baseurl }}{% link assets/edcchildprotectionpolicy.pdf %} "Child Protection and Safeguarding Vulnerable Young Adults Policy").
+
+---
+
 ## Members of the Company information
 
-If you are a member of the Company and missed a meeting or want to check something in the Minutes, the Exeter Drama Company Constitution or our Child Protection and Safeguarding Vulnerable Young Adults Policy, we can email you a copy.
+If you are a member of the Company and missed a meeting or want to check something in the Minutes or the Exeter Drama Company Constitution we can email you a copy. Please contact the secretary.
 
