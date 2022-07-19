@@ -11,6 +11,29 @@ date: 2022-09-22
 time: 7:30pm
 date_human: 22nd - 24th September 2022
 featured_on_index: false
+cast:
+  - - Saul Hodgkin
+    - Roger Mathewson
+  - - Richard Winthrop
+    - Ric Hutton
+  - - Elsie Winthrop
+    - Kaitlin Nixson
+  - - Charles Murdock
+    - Chris Taylor
+  - - Peggy Murdock
+    - Natasha Zoutenbier
+  - - Miss Bourne
+    - Sarah Thorn
+  - - Teddie Deakin
+    - Steve Proud
+  - - Julia Price
+    - Charlotte Guy
+  - - Herbert Price
+    - Aimery Martin
+  - - John Sterling
+    - Doug Thomson
+  - - Jackson
+    - Arthur Grizzell
 ---
 
 {::options parse_block_html="true" /}
@@ -35,15 +58,16 @@ featured_on_index: false
 
 {::options parse_block_html="false" /}
 
+{% comment %}
 ## {{ page.title }}
 ### By {{ page.author }}
+{% endcomment %}
 ### Directed by {{ page.director }}
 
 Further details to be announced very soon.
 
-{% comment %}
 {% include play/cast_list.html list=page.cast %}
-{% endcomment %}
+
 
 <!--p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
 <p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p>
