@@ -1,5 +1,5 @@
 ---
-layout: play
+layout: play_md
 title: Mrs Warren’s Profession
 poster_thumb: /assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022thumb.jpg
 poster: /assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.jpg
@@ -21,30 +21,9 @@ cast:
     - Robin Thwaytes
 ---
 
-{::options parse_block_html="true" /}
-
-<div class="jumbotron">
-## {{page.title}}
-<h3> <i class="fas fa-calendar-alt"></i> 12th - 15th July 2022</h3>
-<h3> <i class="fas fa-clock"></i> 7:30pm</h3>
-<h3> <i class="fas fa-map-marker-alt"></i> Heavitree Church Hall, Church Street, Heavitree, Exeter, EX2 5EH</h3>
-<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
-</div>
-
-<div class="row text-center">
-<div class="col-1">
-</div>
-<div class="col-10">
-<img class="img-fluid" src="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.jpg" | relative_url }}" alt="Mrs Warren’s Profession poster" />
-</div>
-<div class="col-1">
-</div>
-</div>
-
-{::options parse_block_html="false" /}
-
-## Mrs Warren’s Profession
-### By George Bernard Shaw
+### by George Bernard Shaw
+### 12th - 15th April 2022 at 7:30pm
+### Alphington Primary School, Wheatsheaf Way, Exeter
 ### Directed by Ian Guy
 
 Vivie Warren has grown up and been educated in England whilst her Mother has
@@ -55,6 +34,21 @@ the climactic news.
 
 {% include play/cast_list.html list=page.cast %}
 
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>
+<div class="row text-center">
+  <div class="col-1">
+  </div>
+  <div class="col-12 col-xl-10">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yMYtRI4cVUQ?autoplay=1" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen autoplay></iframe>
+          </div>
+  </div>
+  <div class="col-1">
+  </div>
+</div>
+
+<div class="row text-center my-4">
+  <div class="col-2">
+  </div>
+  <div class="col-8 col-xl-8">
