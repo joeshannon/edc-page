@@ -43,7 +43,7 @@ cast:
 <h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
 <h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
 <h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
-<!--a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a-->
+<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </div>
 
 <!--div class="row text-center">
@@ -69,6 +69,6 @@ Further details to be announced very soon.
 {% include play/cast_list.html list=page.cast %}
 
 
-<!--p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p>
+<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
+<!--p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p>
 <p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p-->
