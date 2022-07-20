@@ -45,10 +45,9 @@ worked abroad running hotels on the continent.
 
 {% include play/image_1by2.html index=2 width=4 height=3 %}
 
-During one of Mrs Warren’s
-infrequent visits to her daughter the truth about her profession comes out and
-both mother and daughter, together with friends and paramours, are effected by
-the climactic news.
+During one of Mrs Warren’s infrequent visits to her daughter the truth about her
+profession comes out and both mother and daughter, together with friends and
+paramours, are effected by the climactic news.
 
 {% include play/image.html index=4 width=3 height=4 %}
 
