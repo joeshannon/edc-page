@@ -33,8 +33,8 @@ images:
 ---
 
 ### by George Bernard Shaw
-### 12th - 15th April 2022 at 7:30pm
-### Alphington Primary School, Wheatsheaf Way, Exeter
+### 12th - 15th July 2022 at 7:30pm
+### Heavitree Church Hall
 ### Directed by Ian Guy
 
 {% include play/image_1by2.html index=0 width=1 height=1 %}
