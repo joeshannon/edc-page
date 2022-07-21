@@ -12,15 +12,15 @@ time: 7:30pm
 date_human: 22nd - 24th September 2022
 featured_on_index: true
 cast:
-  - - Saul Hodgkin
+  - - Saul Hodgkin, stationmaster at Fal Vale Station
     - Roger Mathewson
   - - Richard Winthrop
     - Ric Hutton
-  - - Elsie Winthrop
+  - - Elsie, his wife
     - Kaitlin Nixson
-  - - Charles Murdock
+  - - Charles Murdock, junior partner in Murdock & Son
     - Chris Taylor
-  - - Peggy Murdock
+  - - Peggy Murdock, his newly married wife
     - Natasha Zoutenbier
   - - Miss Bourne
     - Sarah Thorn
@@ -64,7 +64,14 @@ cast:
 {% endcomment %}
 ### Directed by {{ page.director }}
 
-Further details to be announced very soon.
+A group of six passengers find themselves marooned at an isolated Cornish
+railway station having missed the last connection of the night. 
+
+Local legend has it that the station is haunted by a mysterious ghost train the
+sight of which brings death to any that witness it. 
+
+Thrills, chills and laughter ensue as the passengers endeavour to survive the
+night and avoid the approach of the Ghost Train……
 
 {% include play/cast_list.html list=page.cast %}
 
