@@ -60,8 +60,8 @@ cast:
 
 {% comment %}
 ## {{ page.title }}
-### By {{ page.author }}
 {% endcomment %}
+### By {{ page.author }}
 ### Directed by {{ page.director }}
 
 A group of six passengers find themselves marooned at an isolated Cornish
