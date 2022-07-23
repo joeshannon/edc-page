@@ -5,12 +5,6 @@ permalink: /
 ---
 
 
-<div class="row text-center my-4">
-  <div class="col-2">
-  </div>
-  <div class="col-8 col-xl-8">
-
-
 {% assign featured_plays = site.playFuture | where: 'featured_on_index', true %}
 
 {% if featured_plays.size == 1 %}
@@ -35,12 +29,6 @@ permalink: /
     src="{{ "/assets/img/play/edc-next.png" | relative_url }}">
 </p>
 {% endif %}
-
-
-</div>
-<div class="col-2">
-</div>
-</div>
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </p>
