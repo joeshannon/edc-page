@@ -3,8 +3,8 @@ layout: play
 title: The Ghost Train
 author: Arnold Ridley
 director: Frances Guy and Robin Thwaytes
-#poster_thumb: /assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022thumb.jpg
-#poster: /assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.jpg
+poster_thumb: /assets/img/play/theghosttrain2022/theghosttrain2022thumb.jpg
+poster: /assets/img/play/theghosttrain2022/theghosttrain2022poster.jpg
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2022-09-22
@@ -46,15 +46,15 @@ cast:
 <a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </div>
 
-<!--div class="row text-center">
+<div class="row text-center">
 <div class="col-1">
 </div>
 <div class="col-10">
-<img class="img-fluid" src="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.jpg" | relative_url }}" alt="Mrs Warren’s Profession poster" />
+<img class="img-fluid" src="{{ "/assets/img/play/theghosttrain2022/theghosttrain2022poster.jpg" | relative_url }}" alt="The Ghost Train poster" />
 </div>
 <div class="col-1">
 </div>
-</div-->
+</div>
 
 {::options parse_block_html="false" /}
 
@@ -77,5 +77,5 @@ night and avoid the approach of the Ghost Train……
 
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<!--p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p-->
+<p class="text-center"><a href="{{ "/assets/img/play/theghosttrain2022/theghosttrain2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p>
+<!--p class="text-center"><a href="{{ "/assets/img/play/mrswarrensprofession2022/mrswarrensprofession2022bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p-->
