@@ -41,7 +41,8 @@ featured_on_index: false
 {% endcomment %}
 ### Directed by {{ page.director }}
 
-Compiled by company members 'Ello, 'ello, 'ello pokes gentle fun at the boys and
+The evidence is clear cut, the usual suspects have been assembled and we invite
+you to examine exhibit A as 'Ello, 'ello, 'ello pokes gentle fun at the boys and
 girls in blue with jokes, sketches, poems and weird and wonderful facts!
 
 {% comment %}
