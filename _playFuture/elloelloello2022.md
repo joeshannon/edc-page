@@ -11,6 +11,58 @@ date: 2022-09-29
 time: 7:30pm
 date_human: 29th & 30th September 2022
 featured_on_index: false
+cast1:
+  - - Dogberry
+    - Jordan Burston
+  - - Verges
+    - Andy Bailey
+  - - First Watchman
+    - Arthur Grizzell
+  - - Second Watchman
+    - Will Kettell
+  - - Borachio
+    - Miles Clayton-Foster
+  - - Conrade
+    - Leon Davies
+cast2:
+  - - Cressida
+    - Claire Temple
+  - - Dick
+    - Andy Bailey
+  - - Alex
+    - Jordan Burston
+  - - Stereo
+    - Jenny Nash
+cast3:
+  - - Tom
+    - Miles Clayton-Foster
+  - - DI Young
+    - Andy Bailey
+  - - Solicitor
+    - Jenny Nash
+  - - DI Anderson
+    - Leon Davies
+cast4:
+  - - Parker
+    - Jordan Burston
+  - - Hawkson
+    - Claire Temple
+  - - Person
+    - Arthur Grizzell
+cast5:
+  - - Police Inspector
+    - Claire Temple
+  - - Constable Greenslade
+    - Leon Davies
+cast6:
+  - - Crusher
+    - Andy Bailey
+  - - Princess
+    - Jenny Nash
+  - - Dandy
+    - Leon Davies
+  - - Rex
+    - Miles Clayton-Foster
 ---
 
 {::options parse_block_html="true" /}
@@ -45,9 +97,46 @@ The evidence is clear cut, the usual suspects have been assembled and we invite
 you to examine exhibit A as 'Ello, 'ello, 'ello pokes gentle fun at the boys and
 girls in blue with jokes, sketches, poems and weird and wonderful facts!
 
-{% comment %}
-{% include play/cast_list.html list=page.cast %}
-{% endcomment %}
+## Much Ado about Nothing - an extract
+### By William Shakespeare
+
+{% include play/cast_list.html list=page.cast1 %}
+
+---
+
+## Stereo Policing
+### By Neil Marchant
+
+{% include play/cast_list.html list=page.cast2 %}
+
+---
+
+## What happens in Vegas
+### By Ben Trowbridge
+
+{% include play/cast_list.html list=page.cast3 %}
+
+---
+
+## The Defectives
+### By Kyle Carter
+
+{% include play/cast_list.html list=page.cast4 %}
+
+---
+
+## Constable Greenslade
+### By Anon
+
+{% include play/cast_list.html list=page.cast5 %}
+
+---
+
+## It's a Dog's Life
+### By Alaric Greene
+
+{% include play/cast_list.html list=page.cast6 %}
+
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
 <!--p class="text-center"><a href="{{ "/assets/img/play/theghosttrain2022/theghosttrain2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p-->
