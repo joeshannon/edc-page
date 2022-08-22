@@ -3,8 +3,10 @@ layout: play
 title: "'Ello, 'ello, 'ello"
 #author: Various
 director: Ian Guy
-#poster_thumb: /assets/img/play/theghosttrain2022/theghosttrain2022thumb.jpg
-#poster: /assets/img/play/theghosttrain2022/theghosttrain2022poster.jpg
+poster_thumb: /assets/img/play/elloelloello2022/elloelloello2022thumb.jpg
+poster: /assets/img/play/elloelloello2022/elloelloello2022poster.jpg
+poster_pdf: /assets/img/play/elloelloello2022/elloelloello2022poster.pdf
+booking_form: /assets/img/play/elloelloello2022/elloelloello2022bookingform.pdf
 location: Heavitree Church Hall
 location_verbose: Heavitree Church Hall, Church Street, Heavitree, Exeter, EX2 5EH
 date: 2022-09-29
@@ -75,15 +77,15 @@ cast6:
 <a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </div>
 
-<!--div class="row text-center">
+<div class="row text-center">
 <div class="col-1">
 </div>
 <div class="col-10">
-<img class="img-fluid" src="{{ "/assets/img/play/theghosttrain2022/theghosttrain2022poster.jpg" | relative_url }}" alt="The Ghost Train poster" />
+<img class="img-fluid" src="{{ page.poster | relative_url }}" alt="{{ page.title }} poster" />
 </div>
 <div class="col-1">
 </div>
-</div-->
+</div>
 
 {::options parse_block_html="false" /}
 
@@ -139,5 +141,5 @@ girls in blue with jokes, sketches, poems and weird and wonderful facts!
 
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<!--p class="text-center"><a href="{{ "/assets/img/play/theghosttrain2022/theghosttrain2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p-->
-<p class="text-center"><a href="{{ "/assets/img/play/elloelloello2022/elloelloello2022bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>
+<p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
+<p class="text-center"><a href="{{ page.booking_form | relative_url }}" role="button">Download Booking Form</a></p>
