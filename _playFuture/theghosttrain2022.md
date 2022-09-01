@@ -56,6 +56,16 @@ cast:
 </div>
 </div>
 
+<div class="row text-center mb-4">
+<div class="col-1">
+</div>
+<div class="col-10">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d847.8163545780602!2d-3.613839737312986!3d50.71011936136499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486daf4c74e53c27%3A0x9d062150ef89c756!2sLongdown%20Village%20Hall!5e1!3m2!1sen!2suk!4v1661991550150!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="col-1">
+</div>
+</div>
+
 {::options parse_block_html="false" /}
 
 {% comment %}
