@@ -10,7 +10,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2022-09-22
 time: 7:30pm
 date_human: 22nd - 24th September 2022
-featured_on_index: true
+featured_on_index: false
 cast:
   - - Saul Hodgkin, stationmaster at Fal Vale Station
     - Roger Mathewson

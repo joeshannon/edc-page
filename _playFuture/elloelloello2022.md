@@ -12,7 +12,7 @@ location_verbose: Heavitree Church Hall, Church Street, Heavitree, Exeter, EX2 5
 date: 2022-09-29
 time: 7:30pm
 date_human: 29th & 30th September 2022
-featured_on_index: false
+featured_on_index: true
 cast1:
   - - Dogberry
     - Jordan Burston
