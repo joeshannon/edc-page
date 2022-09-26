@@ -1,16 +1,25 @@
 ---
-layout: play
+layout: play_md
 title: The Ghost Train
 author: Arnold Ridley
 director: Frances Guy and Robin Thwaytes
-poster_thumb: /assets/img/play/theghosttrain2022/theghosttrain2022thumb.jpg
-poster: /assets/img/play/theghosttrain2022/theghosttrain2022poster.jpg
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2022-09-22
 time: 7:30pm
 date_human: 22nd - 24th September 2022
-featured_on_index: false
+overview_img: theghosttrain20221.jpg
+images:
+  - url: theghosttrain20221.jpg
+    caption: Miss Bourne (Sarah Thorn), Teddie Deakin (Steve Proud), Richard Winthrop (Ric Hutton) & Saul Hodgkin (Roger Mathewson)
+  - url: theghosttrain20222.jpg
+    caption: John Sterling (Doug Thomson), Herbert Price (Aimery Martin), Julia Price (Charlotte Guy), Elsie Winthrop (Kaitlin Nixson) & Peggy Murdock (Natasha Zoutenbier)
+  - url: theghosttrain20223.jpg
+    caption: Teddie Deakin (Steve Proud), John Sterling (Doug Thomson), Julia Price (Charlotte Guy), Elsie Winthrop (Kaitlin Nixson) & Peggy Murdock (Natasha Zoutenbier)
+  - url: theghosttrain20224.jpg
+    caption: Richard Winthrop (Ric Hutton) & Teddie Deakin (Steve Proud)
+  - url: theghosttrain20225.jpg
+    caption: Teddie Deakin (Steve Proud), Herbert Price (Aimery Martin), Jackson (Arthur Grizzell), Saul Hodgkin (Roger Mathewson) & Charles Murdock (Matt Ryder)
 cast:
   - - Saul Hodgkin, stationmaster at Fal Vale Station
     - Roger Mathewson
@@ -36,56 +45,25 @@ cast:
     - Arthur Grizzell
 ---
 
-{::options parse_block_html="true" /}
-
-<div class="jumbotron">
-## {{page.title}}
-<h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
-<h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
-<h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
-<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
-</div>
-
-<div class="row text-center">
-<div class="col-1">
-</div>
-<div class="col-10">
-<img class="img-fluid" src="{{ "/assets/img/play/theghosttrain2022/theghosttrain2022poster.jpg" | relative_url }}" alt="The Ghost Train poster" />
-</div>
-<div class="col-1">
-</div>
-</div>
-
-<div class="row text-center mb-4">
-<div class="col-1">
-</div>
-<div class="col-10">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d847.8163545780602!2d-3.613839737312986!3d50.71011936136499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486daf4c74e53c27%3A0x9d062150ef89c756!2sLongdown%20Village%20Hall!5e1!3m2!1sen!2suk!4v1661991550150!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-<div class="col-1">
-</div>
-</div>
-
-{::options parse_block_html="false" /}
-
-{% comment %}
-## {{ page.title }}
-{% endcomment %}
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
+{% include play/image.html index=0 width=4 height=3 %}
+
 A group of six passengers find themselves marooned at an isolated Cornish
-railway station having missed the last connection of the night. 
+railway station having missed the last connection of the night.
+
+{% include play/image.html index=1 width=4 height=3 %}
 
 Local legend has it that the station is haunted by a mysterious ghost train the
-sight of which brings death to any that witness it. 
+sight of which brings death to any that witness it.
+
+{% include play/image_1by2.html index=2 width=4 height=3 %}
 
 Thrills, chills and laughter ensue as the passengers endeavour to survive the
 night and avoid the approach of the Ghost Train……
 
+{% include play/image.html index=4 width=4 height=3 %}
+
 {% include play/cast_list.html list=page.cast %}
 
-
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/theghosttrain2022/theghosttrain2022poster.pdf" | relative_url}}" role="button">Download Poster</a></p>
-<p class="text-center"><a href="{{ "/assets/img/play/theghosttrain2022/theghosttrain2022bookingform.pdf" | relative_url }}" role="button">Download Booking Form</a></p>
