@@ -28,7 +28,7 @@ cast:
   - - Elsie, his wife
     - Kaitlin Nixson
   - - Charles Murdock, junior partner in Murdock & Son
-    - Chris Taylor
+    - Matt Ryder
   - - Peggy Murdock, his newly married wife
     - Natasha Zoutenbier
   - - Miss Bourne
