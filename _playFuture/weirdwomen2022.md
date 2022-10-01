@@ -13,6 +13,21 @@ date: 2022-12-08
 time: 7:30pm
 date_human: 8th - 10th December 2022
 featured_on_index: true
+cast:
+  - - Diana
+    - Briony Vallis
+  - - Lilian
+    - Jacqui Draycott
+  - - Barbie
+    - Claire Temple
+  - - Eddie, Lilian's husband
+    - Andy Smith
+  - - Cassie, Diana's younger daughter
+    - Olivia Parker
+  - - Morgan, Diana's oldest daughter
+    - Cecilia Neil-Smith
+  - - Zack, Eddie & Lilians's son
+    - Pixie Frost
 ---
 
 {::options parse_block_html="true" /}
@@ -58,6 +73,8 @@ They've all chosen different paths in life - but what is the dark secret they al
 And what of the new generation; Zack, Morgan and Cassie?
 
 Are they ready to face the truth about their family - and themselves?
+
+{% include play/cast_list.html list=page.cast %}
 
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
 <p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
