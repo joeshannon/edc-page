@@ -12,7 +12,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2022-12-08
 time: 7:30pm
 date_human: 8th - 10th December 2022
-featured_on_index: false
+featured_on_index: true
 ---
 
 {::options parse_block_html="true" /}
