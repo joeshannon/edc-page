@@ -26,7 +26,7 @@ cast:
     - Olivia Parker
   - - Morgan, Diana's oldest daughter
     - Cecilia Neil-Smith
-  - - Zack, Eddie & Lilians's son
+  - - Zack, Eddie & Lilian's son
     - Pixie Frost
 ---
 
