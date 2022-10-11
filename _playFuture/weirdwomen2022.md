@@ -40,6 +40,11 @@ cast:
 <a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
 </div>
 
+<div class="alert alert-primary " role="alert">
+  <p class="my-0"><strong>Content warning:</strong> This play contains references and scenes that may be disturbing
+  to some audiences. Not suitable for children under 12 years old.</p>
+</div>
+
 <div class="row text-center">
 <div class="col-1">
 </div>
