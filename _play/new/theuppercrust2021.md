@@ -6,7 +6,7 @@ date: 2021-12-03
 overview_img: theuppercrust20211.jpg
 images:
   - url: theuppercrust20211.jpg
-    caption: Clap Trap - Natasha Zoutenbier & Joe Jenkins (with Roger in the background)
+    caption: Clap Trap - Joe Jenkins and Roger Mathewson
   - url: theuppercrust20212.jpg
     caption: Origins - Roger and Oly as the cavemen
   - url: theuppercrust20213.jpg
@@ -116,7 +116,7 @@ Whether we've served you correctly will be for you to decide!
 ## Clap Trap
 ### By A Nonny Mouse
 
-{% include play/image.html index=0 width=4 height=3 %}
+{% include play/image.html index=0 width=3 height=4 %}
 
 {% include play/cast_list.html list=page.cast4 %}
 
