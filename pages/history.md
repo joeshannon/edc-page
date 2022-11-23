@@ -35,7 +35,7 @@ Plays over the years have included most subjects imaginable - comedy, tragedy, m
 Members are actively involved in the running of the theatre - everything from acting on the stage to making the tea/coffee for the audience on production nights.
 Take a look at the [How we put a Play Together]({{ site.baseurl }}{% link _play/converted-plays/spaniard1991.md %}) page to see how it all works.
 
-Membership is currently running at around 50 members and over 300 people are on our mailing list and regularly come to see our plays.
+Membership is currently running at above 70 members and over 300 people are on our mailing list and regularly come to see our plays.
 
 Due to the building at Stepcote sadly falling apart, we had to move, and from March 2008, we began rehearsing in an annexe at Alphington Village Hall.
 
