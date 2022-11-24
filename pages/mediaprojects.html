@@ -1,0 +1,22 @@
+---
+layout : default_with_title
+title : Media Projects
+---
+
+{% assign projects = site.data.mediaprojects | reverse %}
+{% for proj in projects %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+<div class="row align-items-center my-5">
+        <div class="col-md-8 {% if thecycle == 'even' %} order-md-last {% endif %} text-center px-3">
+                <a href="{{ proj.link | relative_url }}"><h3>{{ proj.name}}</h3></a>
+            </div>
+    <div class="col-md-4 {% if thecycle == 'even' %} order-md-first {% endif %} px-3">
+        <div class="embed-responsive embed-responsive-4by3">
+            <a href="{{ proj.link | relative_url }}"><img class="embed-responsive-item rounded" src="{{ proj.img | relative_url }}" title="{{ proj.name }}" alt="{{ proj.name }}" /></a>
+        </div>
+    </div>
+
+</div>
+<hr />
+{% endfor %}
+

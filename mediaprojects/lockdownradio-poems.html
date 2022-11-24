@@ -1,16 +1,16 @@
 ---
 layout: default_with_title
 title: EDC Lockdown Radio
-permalink: /lockdownradio/monologues/
+permalink: /lockdownradio/poems/
 ---
 
-<h2>Monologues</h2>
+<h2>Poems</h2>
 
-<a class="btn btn-primary" href="{{ site.baseurl }}{% link _play/new/lockdownradio.html %}"><i class="fas fa-arrow-up"></i> Back to menu</a>
+<a class="btn btn-primary" href="{{ site.baseurl }}{% link mediaprojects/lockdownradio.html %}"><i class="fas fa-arrow-up"></i> Back to menu</a>
 
 <hr />
 
-{% assign sorted = site.audioShows | sort: 'date' | reverse | where:"type", "monologue" %}
+{% assign sorted = site.audioShows | sort: 'date' | reverse | where:"type", "poem" %}
 {% for show in sorted %}
 <h4 id="{{show.title | slugify }}">{{show.title}}</h2>
 <h5>{{ show.author }}</h4>
