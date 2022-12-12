@@ -15,10 +15,10 @@ date_human: 12th - 14th December 2022
 featured_on_index: false
 cast1:
   - - Master of Ceremonies
-    - Stephen Proud
+    - Oliver Hale
 cast2:
   - - Marion Ley
-    - Ellie Daniel
+    - Ellie Daniel & Chloe Thomas
   - - Mrs Ley
     - Lynda Anning
   - - Ruben Ley
