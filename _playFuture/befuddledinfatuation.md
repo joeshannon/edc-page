@@ -12,7 +12,7 @@ location_verbose: Heavitree Church Hall, Church Street, Heavitree, Exeter, EX2 5
 date: 2022-12-12
 time: 7:30pm
 date_human: 12th - 14th December 2022
-featured_on_index: false
+featured_on_index: true
 cast1:
   - - Master of Ceremonies
     - Oliver Hale
