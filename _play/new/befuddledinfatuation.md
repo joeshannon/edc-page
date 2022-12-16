@@ -1,7 +1,6 @@
 ---
-layout: play
+layout: play_md
 title: Befuddled Infatuation
-#author: Genni Trickett
 director: Ian Guy
 poster_thumb: /assets/img/play/befuddledinfatuation2022/befuddledinfatuation2022thumb.jpg
 poster: /assets/img/play/befuddledinfatuation2022/befuddledinfatuation2022poster.jpg
@@ -12,7 +11,6 @@ location_verbose: Heavitree Church Hall, Church Street, Heavitree, Exeter, EX2 5
 date: 2022-12-12
 time: 7:30pm
 date_human: 12th - 14th December 2022
-featured_on_index: true
 cast1:
   - - Master of Ceremonies
     - Oliver Hale
@@ -38,59 +36,50 @@ cast3:
     - Kyle Carter
   - - Simonides Swanhopper
     - Miles Clayton-Foster
+images:
+  - url: befuddledinfatuation20223.jpg
+    caption: Mrs Ley (Lynda) & Marion (Ellie)
+  - url: befuddledinfatuation20222.jpg
+    caption: Ruben Ley (Graham)
+  - url: befuddledinfatuation20221.jpg
+    caption: Sir Charles Carton (Rob) & Edward Carton (Callum)
+  - url: befuddledinfatuation20224.jpg
+    caption: Lawrence Lavender (Kyle) & Mr Bloomfield Brambleton (Tim)
+  - url: befuddledinfatuation20225.jpg
+    caption: Simonides Swanhopper (Miles) and Matilda Jane (Amelia)
+  - url: befuddledinfatuation20226.jpg
+    caption: Cecily (Julia) & Simonides Swanhopper (Miles)
+overview_img: befuddledinfatuation20224.jpg
 ---
 
-{::options parse_block_html="true" /}
-
-<div class="jumbotron">
-## {{page.title}}
-<h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
-<h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
-<h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
-<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
-</div>
-
-<div class="row text-center">
-<div class="col-1">
-</div>
-<div class="col-10">
-<img class="img-fluid" src="{{ page.poster | relative_url }}" alt="{{ page.title }} poster" />
-</div>
-<div class="col-1">
-</div>
-</div>
-
-{::options parse_block_html="false" /}
-
-## {{ page.title }}
-{% comment %}
-### By {{ page.author }}
-{% endcomment %}
 ### Directed by {{ page.director }}
-
-In the Higher Sphere we meet Rueben Ley, a Devonshire farmer, elevated in
-society struggling with his broad accent in the face of his daughter, home from
-finishing school and now stepping out with the Squire's son, and his wife who's
-trying her best!
-
-And in Who is Who the bombastic Mr Bloomfield Brambleton causes his daughter,
-their maid, the new valet and an eligible young bachelor to all be mistaken for
-other people.
 
 {% include play/cast_list.html list=page.cast1 %}
 
 ## In the Higher Sphere
 ### By Jan Stewar
 
+In the Higher Sphere we meet Rueben Ley, a Devonshire farmer, elevated in
+society struggling with his broad accent in the face of his daughter, home from
+finishing school and now stepping out with the Squire's son, and his wife who's
+trying her best!
+
+{% include play/image_1by2.html index=0 width=3 height=4 %}
+
+{% include play/image.html index=2 width=3 height=4 %}
+
 {% include play/cast_list.html list=page.cast2 %}
 
 ## Who is Who
 ### By Thomas J Williams Esq
 
+In Who is Who the bombastic Mr Bloomfield Brambleton causes his daughter, their
+maid, the new valet and an eligible young bachelor to all be mistaken for other
+people.
+
+{% include play/image_1by2.html index=3 width=4 height=3 %}
+
+{% include play/image.html index=5 width=4 height=3 %}
+
 {% include play/cast_list.html list=page.cast3 %}
 
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
-{% comment %}
-<p class="text-center"><a href="{{ page.booking_form | relative_url }}" role="button">Download Booking Form</a></p>
-{% endcomment %}
