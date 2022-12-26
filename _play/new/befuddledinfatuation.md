@@ -43,6 +43,8 @@ images:
     caption: Ruben Ley (Graham)
   - url: befuddledinfatuation20221.jpg
     caption: Sir Charles Carton (Rob) & Edward Carton (Callum)
+  - url: befuddledinfatuation20227.jpg
+    caption: Master of Ceremonies (Oliver), Stooge (Arthur)
   - url: befuddledinfatuation20224.jpg
     caption: Lawrence Lavender (Kyle) & Mr Bloomfield Brambleton (Tim)
   - url: befuddledinfatuation20225.jpg
@@ -66,7 +68,7 @@ trying her best!
 
 {% include play/image_1by2.html index=0 width=3 height=4 %}
 
-{% include play/image.html index=2 width=3 height=4 %}
+{% include play/image_1by2.html index=2 width=3 height=4 %}
 
 {% include play/cast_list.html list=page.cast2 %}
 
@@ -77,9 +79,9 @@ In Who is Who the bombastic Mr Bloomfield Brambleton causes his daughter, their
 maid, the new valet and an eligible young bachelor to all be mistaken for other
 people.
 
-{% include play/image_1by2.html index=3 width=4 height=3 %}
+{% include play/image_1by2.html index=4 width=4 height=3 %}
 
-{% include play/image.html index=5 width=4 height=3 %}
+{% include play/image.html index=6 width=4 height=3 %}
 
 {% include play/cast_list.html list=page.cast3 %}
 
