@@ -30,16 +30,16 @@ cast:
   - - Zack, Eddie & Lilian's son
     - Pixie Frost
 images:
-  - url: weirdwomen20221.jpg
-    caption: Eddie gets his comeuppance
-  - url: weirdwomen20222.jpg
-    caption: Eddie attacks Diana
+  - url: weirdwomen20225.jpg
+    caption: Zack shares a picture of his supermodel girlfriend
   - url: weirdwomen20223.jpg
     caption: Barbie explains the family history of the Pendle witches
   - url: weirdwomen20224.jpg
     caption: The family look at Nana Dot’s photo albums
-  - url: weirdwomen20225.jpg
-    caption: Zack shares a picture of his supermodel girlfriend
+  - url: weirdwomen20222.jpg
+    caption: Eddie attacks Diana
+  - url: weirdwomen20221.jpg
+    caption: Eddie gets his comeuppance
 ---
 
 ### By {{ page.author }}
