@@ -31,15 +31,15 @@ cast:
     - Pixie Frost
 images:
   - url: weirdwomen20221.jpg
-    caption:
+    caption: Eddie gets his comeuppance
   - url: weirdwomen20222.jpg
-    caption:
+    caption: Eddie attacks Diana
   - url: weirdwomen20223.jpg
-    caption:
+    caption: Barbie explains the family history of the Pendle witches
   - url: weirdwomen20224.jpg
-    caption:
+    caption: The family look at Nana Dot’s photo albums
   - url: weirdwomen20225.jpg
-    caption:
+    caption: Zack shares a picture of his supermodel girlfriend
 ---
 
 ### By {{ page.author }}
