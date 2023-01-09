@@ -97,5 +97,7 @@ With a combination of fresh new faces, old hands and one returning ex member we 
 
 {% include play/image_1by2.html index=8 width=4 height=3 %}
 
+*Helen Evans won Best Actress for her part in this production in the 2021/22 annual awards*
+
 {% include play/cast_list.html list=page.cast %}
 

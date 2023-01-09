@@ -65,5 +65,8 @@ night and avoid the approach of the Ghost Train……
 
 {% include play/image.html index=4 width=4 height=3 %}
 
+*The Ghost Train won Best Production in the 2021/22 annual awards*
+*Steve Proud also won Best Actor for his part in this production*
+
 {% include play/cast_list.html list=page.cast %}
 
