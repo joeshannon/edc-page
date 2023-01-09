@@ -63,6 +63,6 @@ The close of the play sees both liberation and tragedy and sudden realisation fo
 
 *The Dame of Sark won Best Play in the 2018/19 Exeter Drama Company awards for this production.*
 
-*Oliver Hale as also won best Actor for his part in this production.*
+*Oliver Hale also won best Actor for his part in this production.*
 
 {% include play/cast_list.html list=page.cast %}
