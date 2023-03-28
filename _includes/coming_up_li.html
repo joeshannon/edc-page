@@ -13,9 +13,9 @@
       <br />
       <p>
         <a href="{{ include.page_link | relative_url }}">more details...</a> <br />
-        {% if  include.non_date_desc == nil%}
-      <a href="{{ site.social_links.ticketsource }}">book now...</a>
-      {% endif %}
+        {% if  include.non_date_desc == nil and include.booking_active %}
+        <a href="{{ site.social_links.ticketsource }}">book now...</a>
+        {% endif %}
     </p>
     </div>
   </li>
