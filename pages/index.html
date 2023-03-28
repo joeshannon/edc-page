@@ -30,5 +30,8 @@ permalink: /
 </p>
 {% endif %}
 
+{% if featured_play and featured_play.booking_active %}
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
+{% endif %}
+
 </p>
