@@ -1,5 +1,5 @@
 ---
-layout: play
+layout: play_md
 title: Flare Path
 author: Terence Rattigan
 director: Jenny Nash
@@ -12,7 +12,6 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2023-03-23
 time: 7:30pm
 date_human: 23rd - 25th March 2023
-featured_on_index: true
 cast:
   - - Doris, Countess Skricevinsky
     - Charlotte Guy
@@ -36,49 +35,41 @@ cast:
     - Mark Goddard
   - - Corporal Wiggy Jones
     - Callum Dinnett
+images:
+  - url: flarepath20231.jpg
+    caption: Percy  (Arthur), Peter Kyle (Matt), Sgt Miller (Christian) & Doris - Countess Skricevinsky (Charlotte)
+  - url: flarepath20232.jpg
+    caption: Count Skricevinsky (Chris), Doris - Countess Skricevinsky (Charlotte), Peter Kyle (Matt), Flight Lieutenant Teddy Graham (Miles), Sgt Miller (Christian)
+  - url: flarepath20233.jpg
+    caption: Doris - Countess Skricevinsky (Charlotte), Patricia Graham (Olivia), Maudie Miller (Cecilia)
+  - url: flarepath20234.jpg
+    caption: Peter Kyle (Matt) & Patricia Graham (Olivia)
+  - url: flarepath20235.jpg
+    caption: Squadron Leader Swanson (Mark) & Mrs Oakes (Claire)
+  - url: flarepath20236.jpg
+    caption: Patricia Graham (Olivia) & Flight Lieutenant Teddy Graham (Miles)
+overview_img: flarepath20232.jpg
 ---
 
-{::options parse_block_html="true" /}
-
-<div class="jumbotron">
-## {{page.title}}
-<h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
-<h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
-<h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
-<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
-</div>
-
-<div class="row text-center">
-<div class="col-1">
-</div>
-<div class="col-10">
-<img class="img-fluid" src="{{ page.poster | relative_url }}" alt="{{ page.title }} poster" />
-</div>
-<div class="col-1">
-</div>
-</div>
-
-{::options parse_block_html="false" /}
-
-## {{ page.title }}
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
 At the Falcon Hotel on the Lincolnshire coast, men from a nearby RAF airbase are
 planning to spend the weekend with their wives.
 
+{% include play/image_1by2.html index=0 width=4 height=3 %}
+
 Patricia Graham, an actress from London, has something to tell her husband
 Teddy, who is a bomber pilot. The situation is complicated when Peter Kyle, a
 Hollywood film star, arrives at the hotel, and Teddy is sent out on a night raid
 over Germany.
 
+{% include play/image_1by2.html index=2 width=4 height=3 %}
+
 Patricia is torn between a rekindled old flame and loyalty to the husband who
 relies on her for support. Tensions rise as a plane goes missing as those at the
 hotel sit and wait.
 
+{% include play/image_1by2.html index=4 width=4 height=3 %}
+
 {% include play/cast_list.html list=page.cast %}
-
-
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-<p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
-<p class="text-center"><a href="{{ page.booking_form | relative_url }}" role="button">Download Booking Form</a></p>
