@@ -68,11 +68,8 @@ body {
 
   #calendar {
     .fc-daygrid-day .fc-daygrid-event {
-      // This is to override the default setting of restricting events to be one line tall
-      // Not sure if we actually want it but leave it here for now.
+     // This is to override the default setting of restricting events to be one line tall
      white-space: normal;
-      //text-overflow: ellipsis;
-      //overflow: hidden;
     }
   }
 }
