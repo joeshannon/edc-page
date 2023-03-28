@@ -10,7 +10,7 @@ $(document).ready(function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   var calendarEl = document.getElementById('calendar');
   var calendar = new FullCalendar.Calendar(calendarEl, {
     locale: 'en-gb',
@@ -29,12 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
       right: 'dayGridMonth,listMonth'
     },
     height: "auto",
-    eventClick: function(info) {
+    eventClick: function (info) {
       info.jsEvent.preventDefault();
       try {
         var eventStart = info.event.start;
-        $('#calendarEventModalTitle').html(eventStart.toLocaleTimeString(calendar.locale, {hour: '2-digit', minute:'2-digit'}) + " " + info.event.title);
-        if(typeof info.event.extendedProps.location != 'undefined'){
+        $('#calendarEventModalTitle').html(eventStart.toLocaleTimeString(calendar.locale, { hour: '2-digit', minute: '2-digit' }) + " " + info.event.title);
+        if (typeof info.event.extendedProps.location != 'undefined') {
           $('#calendarEventModalLocation').html(info.event.extendedProps.location);
         }
         else {
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
         $('#calendarEventModalDescription').html(info.event.extendedProps.description);
         $('#calendarEventModal').modal();
       }
-      catch(err) {
+      catch (err) {
         console.log(err)
       }
     },
@@ -59,14 +59,14 @@ document.addEventListener('DOMContentLoaded', function() {
       return eventData;
     },
     eventDidMount: function (event) {
-      var eventStart = event.event.start.toLocaleTimeString(calendar.locale, {hour: '2-digit', minute:'2-digit'});
-      var titleElement  = event.el.querySelector(".fc-event-title")
+      var eventStart = event.event.start.toLocaleTimeString(calendar.locale, { hour: '2-digit', minute: '2-digit' });
+      var titleElement = event.el.querySelector(".fc-event-title")
       if (!titleElement) {
         return
       }
       var origTitle = titleElement.textContent
       titleElement.textContent = eventStart + " " + origTitle
-  },
+    },
   });
   calendar.render();
 });
