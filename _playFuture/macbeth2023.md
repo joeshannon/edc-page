@@ -11,7 +11,7 @@ booking_active: false
 location: In and around Exeter
 location_verbose: In and around Exeter
 date: 2023-07-01
-time: 7:30pm
+time: TBC
 date_human: July 2023
 featured_on_index: true
 cast:
