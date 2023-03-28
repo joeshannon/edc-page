@@ -1,13 +1,8 @@
-$(document).ready(function () {
-
-  // this part doesn't work for some reason. Need to figure out why and fix
-  if (document.getElementById("calendar") != null) {
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      $(document.getElementById('calendar')).fullCalendar('changeView', 'listWeek');
-    }
+function updateCalendarView(calendar) {
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    calendar.changeView('listMonth');
   }
-
-});
+};
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -69,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
   });
   calendar.render();
+  updateCalendarView(calendar);
 });
 
 
