@@ -7,6 +7,7 @@ poster_thumb: /assets/img/play/macbeth2023/macbeth2023thumb.jpg
 poster: /assets/img/play/macbeth2023/macbeth2023poster.jpg
 #poster_pdf: /assets/img/play/macbeth2023/macbeth2023poster.pdf
 #booking_form: /assets/img/play/macbeth2023/macbeth2023bookingform.pdf
+booking_active: false
 location: In and around Exeter
 location_verbose: In and around Exeter
 date: 2023-07-01
@@ -79,7 +80,9 @@ cast:
 <h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
 <h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
 <h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
+{% if page.booking_active %}
 <a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
+{% endif %}
 </div>
 
 <div class="row text-center">
@@ -102,8 +105,12 @@ Further details to be announced soon.
 
 {% include play/cast_list.html list=page.cast %}
 
-{% comment %}
+{% if page.booking_active %}
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
+{% endif %}
+{% if page.page.poster_pdf %}
 <p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
+{% endif %}
+{% if page.booking_form %}
 <p class="text-center"><a href="{{ page.booking_form | relative_url }}" role="button">Download Booking Form</a></p>
-{% endcomment %}
+{% endif %}
