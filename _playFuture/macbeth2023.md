@@ -10,9 +10,9 @@ poster: /assets/img/play/macbeth2023/macbeth2023poster.jpg
 booking_active: false
 location: In and around Exeter
 location_verbose: In and around Exeter
-date: 2023-07-01
+date: 2023-06-23
 time: TBC
-date_human: July 2023
+date_human: June and July 2023
 featured_on_index: true
 cast:
   - - First Witch
@@ -101,7 +101,14 @@ cast:
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
-Further details to be announced soon.
+Brutal actions have brutal consequences.
+
+When supernatural forces give Macbeth a sign that he will become king, he and
+his wife seize an opportunity to rise through the ranks, controlling their
+destiny.
+
+But their ambitions unravel into a living nightmare, leaving a trail of
+destruction, as the couple seek to cling to power and control.
 
 {% include play/cast_list.html list=page.cast %}
 
