@@ -43,8 +43,8 @@ cast:
     - Georgia Rich
   - - Porter
     - Ian Guy
-  - - MacDuff
-    - Andrew Strang
+  - - Macduff
+    - Krish Madray
   - - Lennox
     - Callum Dinnett
   - - Donalbain
@@ -68,7 +68,7 @@ cast:
   - - Seyton
     - Richard Hogben
   - - Seyward
-    - Krish Madray
+    - TBC
   - - Servants & Soldiers
     - Will Kettell, Arthur Grizzell, Richard Hogben, Miles Clayton-Foster and  Doug Thomson
 ---
