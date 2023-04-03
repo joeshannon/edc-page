@@ -18,7 +18,7 @@ cast:
   - - First Witch
     - Olivia Parker
   - - Second Witch
-    - Milly Groves
+    - Emily Swaddle
   - - Third Witch
     - Chloe Thomas
   - - King Duncan
@@ -38,7 +38,7 @@ cast:
   - - Lady Macbeth
     - Carmel Smith
   - - Messenger
-    - Emily Swaddle
+    - Milly Groves
   - - Fleance
     - Georgia Rich
   - - Porter
@@ -66,9 +66,11 @@ cast:
   - - Gentlewoman
     - Annette Bassett
   - - Seyton
-    - Richard Hogben
+    - Miles Clayton-Foster
+  - - Mentieth
+    - Christian De La Croix
   - - Seyward
-    - TBC
+    - Mark Goddard
   - - Servants & Soldiers
     - Will Kettell, Arthur Grizzell, Richard Hogben, Miles Clayton-Foster and  Doug Thomson
 ---
