@@ -5,13 +5,13 @@ author: William Shakespeare
 director: Claire Temple and Alice Purcell
 poster_thumb: /assets/img/play/macbeth2023/macbeth2023thumb.jpg
 poster: /assets/img/play/macbeth2023/macbeth2023poster.jpg
-#poster_pdf: /assets/img/play/macbeth2023/macbeth2023poster.pdf
+poster_pdf: /assets/img/play/macbeth2023/macbeth2023poster.pdf
 #booking_form: /assets/img/play/macbeth2023/macbeth2023bookingform.pdf
-booking_active: false
+booking_active: true
 location: In and around Exeter
 location_verbose: In and around Exeter
-date: 2023-06-23
-time: TBC
+date: 2023-06-24
+time: See poster
 date_human: June and July 2023
 featured_on_index: true
 cast:
