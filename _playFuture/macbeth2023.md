@@ -48,7 +48,7 @@ cast:
   - - Lennox
     - Callum Dinnett
   - - Donalbain
-    - Jordan Burston
+    - Arthur Grizzell
   - - Old Man
     - Roger Mathewson
   - - 1st Murderer
