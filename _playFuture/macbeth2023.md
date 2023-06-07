@@ -97,10 +97,6 @@ cast:
 </div>
 </div>
 
-<div class="alert alert-danger" role="alert">
-The performance planned for 1st July has been cancelled and will be rescheduled on an alternative day. Ticket holders will be contacted soon.
-</div>
-
 {::options parse_block_html="false" /}
 
 ## {{ page.title }}
