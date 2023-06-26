@@ -61,6 +61,7 @@ cast:
 {% endif %}
 </div>
 
+{% if page.poster %}
 <div class="row text-center">
 <div class="col-1">
 </div>
@@ -70,6 +71,7 @@ cast:
 <div class="col-1">
 </div>
 </div>
+{% endif %}
 
 {::options parse_block_html="false" /}
 
