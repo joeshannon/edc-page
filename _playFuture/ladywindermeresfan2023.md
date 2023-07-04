@@ -3,7 +3,7 @@ layout: play
 title: Lady Windermere’s Fan
 author: Oscar Wilde
 director: Ian Guy
-#poster_thumb: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023thumb.jpg
+poster_thumb: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023thumb.jpg
 #poster: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.jpg
 #poster_pdf: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.pdf
 #booking_form: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023bookingform.pdf
