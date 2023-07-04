@@ -6,7 +6,7 @@ director: Ian Guy
 poster_thumb: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023thumb.jpg
 #poster: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.jpg
 #poster_pdf: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.pdf
-#booking_form: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023bookingform.pdf
+booking_form: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023bookingform.pdf
 booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
