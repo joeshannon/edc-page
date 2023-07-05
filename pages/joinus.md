@@ -23,7 +23,7 @@ backgrounds to join us and have fun.</p>
 <p>You won’t regret it and you’ll wonder why you
 didn’t join us years ago!</p>
 
-<p>Membership is currently £25 per year.</p>
+<p>Membership is currently £30 per year.</p>
 
 ## Send us a message
 
