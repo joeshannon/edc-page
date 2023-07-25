@@ -80,10 +80,10 @@ images:
     caption: Macbeth and the three witches. Olivia Parker, Emily Swaddle, Chloe Thomas & Alex Gannon
   - url: macbeth20233.jpg
     caption: Three Witches. L-R Emily Swaddle, Chloe Thomas, Olivia Parker.
-  - url: macbeth20234.jpg
-    caption: Lady Macbeth - Carmel Smith, Macbeth - Alex Gannon
   - url: macbeth20235.jpg
     caption: Macbeth - Alex Gannon
+  - url: macbeth20234.jpg
+    caption: Lady Macbeth - Carmel Smith, Macbeth - Alex Gannon
 ---
 
 ### By {{ page.author }}
@@ -102,6 +102,6 @@ destiny.
 But their ambitions unravel into a living nightmare, leaving a trail of
 destruction, as the couple seek to cling to power and control.
 
-{% include play/image.html index=4 width=4 height=3 %}
+{% include play/image.html index=4 width=3 height=4 %}
 
 {% include play/cast_list.html list=page.cast %}
