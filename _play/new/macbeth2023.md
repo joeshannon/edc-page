@@ -13,6 +13,7 @@ location_verbose: In and around Exeter
 date: 2023-06-24
 time: See poster
 date_human: June and July 2023
+overview_img: macbeth20235.jpg
 cast:
   - - First Witch
     - Olivia Parker
