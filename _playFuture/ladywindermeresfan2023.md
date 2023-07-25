@@ -4,7 +4,7 @@ title: Lady Windermere’s Fan
 author: Oscar Wilde
 director: Ian Guy
 poster_thumb: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023thumb.jpg
-#poster: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.jpg
+poster: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.jpg
 #poster_pdf: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.pdf
 booking_form: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023bookingform.pdf
 booking_active: true
@@ -13,7 +13,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2023-09-28
 time: 7:30 pm
 date_human: 28th - 30th September 2023
-featured_on_index: false
+featured_on_index: true
 cast:
   - - Parker
     - Ed Heeley
