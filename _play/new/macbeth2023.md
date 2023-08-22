@@ -105,3 +105,6 @@ destruction, as the couple seek to cling to power and control.
 {% include play/image.html index=4 width=3 height=4 %}
 
 {% include play/cast_list.html list=page.cast %}
+
+*For the final performance of this production the part of Macbeth will be played
+by Miles Clayton-Foster and the part of Banquo by Doug Thomson*
