@@ -113,4 +113,9 @@ header {
       font-weight: 900;
       font-size: 4rem;
     }
+    h3 {
+      text-shadow: 1px 0 0 $edc-dark, -1px 0 0 $edc-dark, 0 1px 0 $edc-dark, 0 -1px 0 $edc-dark, 1px 1px $edc-dark, -1px -1px 0 $edc-dark, 1px -1px 0 $edc-dark, -1px 1px 0 $edc-dark;
+      font-weight: 450;
+      font-size: 2rem;
+    }
   }
