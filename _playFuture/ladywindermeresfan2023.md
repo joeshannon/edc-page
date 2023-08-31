@@ -5,7 +5,7 @@ author: Oscar Wilde
 director: Ian Guy
 poster_thumb: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023thumb.jpg
 poster: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.jpg
-#poster_pdf: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.pdf
+poster_pdf: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023poster.pdf
 booking_form: /assets/img/play/ladywindermeresfan2023/ladywindermeresfan2023bookingform.pdf
 booking_active: true
 location: Longdown Village Hall
@@ -97,7 +97,7 @@ day.
 {% if page.booking_active %}
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
 {% endif %}
-{% if page.page.poster_pdf %}
+{% if page.poster_pdf %}
 <p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
 {% endif %}
 {% if page.booking_form %}
