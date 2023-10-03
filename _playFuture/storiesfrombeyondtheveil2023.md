@@ -13,7 +13,7 @@ location_verbose: Heavitree Church Hall, Church Street, Heavitree, Exeter, EX2 5
 date: 2023-10-30
 time: 7:30 pm
 date_human: 30th & 31st October 2023
-featured_on_index: false
+featured_on_index: true
 #overview_img: storiesfrombeyondtheveil20231.jpg
 cast1:
   - - Ida Patterson
