@@ -21,9 +21,9 @@ cast1:
   - - Major Simon Hopton
     - Christian De La Croix
   - - Tilly Templeton-Green
-    - Carmel Smith
-  - - Rev Wendy Wilkins
     - Kate Lambert
+  - - Rev Wendy Wilkins
+    - Amie Lynn
 cast2:
   - - Old Man
     - Doug Thomson
