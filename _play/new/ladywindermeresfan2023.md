@@ -1,5 +1,5 @@
 ---
-layout: play
+layout: play_md
 title: Lady Windermere’s Fan
 author: Oscar Wilde
 director: Ian Guy
@@ -13,8 +13,8 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2023-09-28
 time: 7:30 pm
 date_human: 28th - 30th September 2023
-featured_on_index: true
-#overview_img: ladywindermeresfan20231.jpg
+featured_on_index: false
+overview_img: ladywindermeresfan20233.jpg
 cast:
   - - Parker
     - Ed Heeley
@@ -48,35 +48,21 @@ cast:
     - Gill Cree
   - - Rosalie
     - Cecily Fox
+images:
+  - url: ladywindermeresfan20231.jpg
+    caption: Lord Darlington (Sam Lew) & Lady Windermere (Georgi Edmond)
+  - url: ladywindermeresfan20232.jpg
+    caption:  Mr Dumby (Peter Burnett), Sir James (Mark Goddard), Lady Windermere (Georgi Edmond), Mr Hopper (Miles Clayton-Foster), Lady Agatha Carlisle (Chloe Thomas) & the Duchess of Berwick (Genni Trickett)
+  - url: ladywindermeresfan20233.jpg
+    caption: Mrs Erlynne (Jenny Nash) & Lord Augustus (Doug Thomson)
+  - url: ladywindermeresfan20234.jpg
+    caption: Lady Plymdale (Tara Studholme Lyons), Mr Dumby (Peter Burnett), Lord Windermere (Chris Taylor) & Mrs Erlynne (Jenny Nash)
+  - url: ladywindermeresfan20235.jpg
+    caption: Mr Cecil Graham (Richard Hogben) & Lord Augustus (Doug Thomson)
+  - url: ladywindermeresfan20236.jpg
+    caption: Lord Windermere (Chris Taylor) & Mrs Erlynne (Jenny Nash)
 ---
 
-{::options parse_block_html="true" /}
-
-<div class="jumbotron">
-## {{page.title}}
-<h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
-<h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
-<h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
-{% if page.booking_active %}
-<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
-{% endif %}
-</div>
-
-{% if page.poster %}
-<div class="row text-center">
-<div class="col-1">
-</div>
-<div class="col-10">
-<img class="img-fluid" src="{{ page.poster | relative_url }}" alt="{{ page.title }} poster" />
-</div>
-<div class="col-1">
-</div>
-</div>
-{% endif %}
-
-{::options parse_block_html="false" /}
-
-## {{ page.title }}
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
@@ -85,21 +71,17 @@ theatrical successes. The play is centred on the titular character of Lady
 Windermere, who on the day of her birthday party hears a disturbing rumour... is
 her husband having an affair?
 
+{% include play/image_1by2.html index=0 width=4 height=3 %}
+
 Will the ‘other woman’ really attend the party?
+
+{% include play/image_1by2.html index=2 width=4 height=3 %}
 
 Chronicling a series of misunderstandings and deceptions in the high society
 world of Victorian London this hectic upper-class comedy sparkles with Wilde's
 trademark wit and intelligence and remains one of his most popular plays to this
 day.
 
-{% include play/cast_list.html list=page.cast %}
+{% include play/image_1by2.html index=4 width=4 height=3 %}
 
-{% if page.booking_active %}
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-{% endif %}
-{% if page.poster_pdf %}
-<p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
-{% endif %}
-{% if page.booking_form %}
-<p class="text-center"><a href="{{ page.booking_form | relative_url }}" role="button">Download Booking Form</a></p>
-{% endif %}
+{% include play/cast_list.html list=page.cast %}
