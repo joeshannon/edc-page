@@ -19,7 +19,7 @@ cast1:
   - - Ida Patterson
     - Sarah Thorn
   - - Major Simon Hopton
-    - Christian De La Croix
+    - Benedict Morrison
   - - Tilly Templeton-Green
     - Kate Lambert
   - - Rev Wendy Wilkins
@@ -30,7 +30,7 @@ cast2:
   - - Woman
     - Kate Lambert
   - - Young Man
-    - Christian De La Croix
+    - Benedict Morrison
 cast3:
   - - Will
     - Jordan Burston
@@ -41,7 +41,7 @@ cast4:
     - Jordan Burston
 cast5:
   - - Sam Cooper
-    - Carmel Smith
+    - Amie Lynn
   - - August Prendergast
     - Doug Thomson
   - - Mimi
