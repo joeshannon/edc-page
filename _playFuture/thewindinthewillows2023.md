@@ -47,7 +47,20 @@ featured_on_index: false
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
-Further details coming soon.
+Adapted from Kenneth Grahame’s 1908 children’s classic The Wind in the Willows
+takes us through the life of the arrogant and boastful Toad of Toad Hall.
+
+Toad is a fickle creature constantly searching for his latest muse and fad using
+his family wealth to fund his new hobbies.
+
+Toad’s closest friends Badger, Rat and his newest friend Mole are constantly
+trying to keep a reign on Toad in the hope of protecting his dignity and
+himself!
+
+Toad is forever headstrong and his latest craze, despite constant pleading from
+his friends, may be his downfall.
+
+Cast list to be announced.
 
 {% if page.booking_active %}
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
