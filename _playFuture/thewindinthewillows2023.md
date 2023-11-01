@@ -13,7 +13,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter EX6 7SN, 
 date: 2023-12-07
 time: 7:30 pm
 date_human: 7th - 9th December 2023
-featured_on_index: false
+featured_on_index: true
 #overview_img: thewindinthewillows20231.jpg
 ---
 
