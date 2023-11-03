@@ -48,6 +48,17 @@ cast5:
     - Sarah Thorn
   - - Anchor
     - Kate Lambert
+images:
+  - url: storiesfrombeyondtheveil20231.jpg
+    caption: Stories from Beyond the Veil
+  - url: storiesfrombeyondtheveil20235.jpg
+    caption: Stories from Beyond the Veil
+  - url: storiesfrombeyondtheveil20232.jpg
+    caption: Afternoon Tea - Sarah Thorn (Ida), Benedict Morrison (Major Simon Hopton), Amie Lynn (Rev Wendy Wilkins) & Kate Lambert (Tilly Templeton-Green)
+  - url: storiesfrombeyondtheveil20233.jpg
+    caption: Reading between the Lines - Jordan Burston (Mark) and Sarah Thorn (Theo)
+  - url: storiesfrombeyondtheveil20234.jpg
+    caption: The Moonlight Contingency - Dr August Prendergast (Doug Thomson) & Sam Cooper (Ami Lynn)
 ---
 
 ### Directed by {{ page.director }}
@@ -63,10 +74,14 @@ lot in between.
 On nights for all things scary and spooky, join us for a night of creepiness and
 perhaps a couple cautionary tales.
 
+{% include play/image_1by2.html index=0 width=4 height=3 %}
+
 ## Afternoon Tea
 ### By Alaric Greene
 
 {% include play/cast_list.html list=page.cast1 %}
+
+{% include play/image.html index=2 width=4 height=3 %}
 
 ## It wasn’t my Fault
 ### By Ian Guy
@@ -83,8 +98,12 @@ perhaps a couple cautionary tales.
 
 {% include play/cast_list.html list=page.cast4 %}
 
+{% include play/image.html index=3 width=4 height=3 %}
+
 ## The Moonlight Contingency
 ### By Peter Burnett
 
 {% include play/cast_list.html list=page.cast5 %}
+
+{% include play/image.html index=4 width=4 height=3 %}
 
