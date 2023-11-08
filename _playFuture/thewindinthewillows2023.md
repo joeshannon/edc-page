@@ -15,6 +15,17 @@ time: 7:30 pm
 date_human: 7th - 9th December 2023
 featured_on_index: true
 #overview_img: thewindinthewillows20231.jpg
+cast:
+  - - Mole
+    - Georgi Edmond
+  - - Rat
+    - Olivia Parker
+  - - Badger
+    - Mark Goddard
+  - - Toad
+    - Jack Feltham
+  - - "All other parts played by:"
+    - Kyle Carter, Oliver Hale, Amelia Davies, Ana Anajuba, Elisa Bertin, Robin Thwaytes, Graham Setter, Tim Harlow, Kate Lambert, Sarah Davies, Will Kettell & Claire Temple
 ---
 
 {::options parse_block_html="true" /}
@@ -60,7 +71,7 @@ himself!
 Toad is forever headstrong and his latest craze, despite constant pleading from
 his friends, may be his downfall.
 
-Cast list to be announced.
+{% include play/cast_list.html list=page.cast %}
 
 {% if page.booking_active %}
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
