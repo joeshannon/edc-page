@@ -1,5 +1,5 @@
 ---
-layout: play
+layout: play_md
 title: The Wind in the Willows
 author: John Morley, based on the book by Kenneth Grahame
 director: Miles Clayton-Foster
@@ -14,7 +14,7 @@ date: 2023-12-07
 time: 7:30 pm
 date_human: 7th - 9th December 2023
 featured_on_index: true
-#overview_img: thewindinthewillows20231.jpg
+overview_img: thewindinthewillows20232.jpg
 cast:
   - - Mole
     - Georgi Edmond
@@ -26,59 +26,45 @@ cast:
     - Jack Feltham
   - - "All other parts played by:"
     - Kyle Carter, Oliver Hale, Amelia Davies, Ana Anajuba, Elisa Bertin, Robin Thwaytes, Graham Setter, Tim Harlow, Kate Lambert, Sarah Davies, Will Kettell & Claire Temple
+images:
+  - url: thewindinthewillows20231.jpg
+    caption: Rat (Olivia Parker) & Mole (Georgi Edmond)
+  - url: thewindinthewillows20232.jpg
+    caption: Badger (Mark Goddard), Rat (Olivia Parker), Toad (Jack Feltham) & Mole (Georgi Edmond)
+  - url: thewindinthewillows20233.jpg
+    caption: Badger (Mark Goddard), Usher (Robin Thwaytes), Judge (Tim Harlow), Policeman (Graham Setter) & Toad (Jack Feltham)
+  - url: thewindinthewillows20234.jpg
+    caption: Chaos in the Courtroom, Principles and ensemble
+  - url: thewindinthewillows20235.jpg
+    caption: Toad (Jack Feltham) & Phoebe (Kate Lambert)
+  - url: thewindinthewillows20236.jpg
+    caption: Triumph at Toad Hall, principles and wildwooders
 ---
 
-{::options parse_block_html="true" /}
-
-<div class="jumbotron">
-## {{page.title}}
-<h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
-<h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
-<h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
-{% if page.booking_active %}
-<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
-{% endif %}
-</div>
-
-{% if page.poster %}
-<div class="row text-center">
-<div class="col-1">
-</div>
-<div class="col-10">
-<img class="img-fluid" src="{{ page.poster | relative_url }}" alt="{{ page.title }} poster" />
-</div>
-<div class="col-1">
-</div>
-</div>
-{% endif %}
-
-{::options parse_block_html="false" /}
-
-## {{ page.title }}
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
 Adapted from Kenneth Grahame’s 1908 children’s classic The Wind in the Willows
 takes us through the life of the arrogant and boastful Toad of Toad Hall.
 
+{% include play/image_1by2.html index=0 width=4 height=3 %}
+
 Toad is a fickle creature constantly searching for his latest muse and fad using
 his family wealth to fund his new hobbies.
+
+{% include play/image.html index=2 width=4 height=3 %}
+
+{% include play/image.html index=3 width=16 height=9 %}
 
 Toad’s closest friends Badger, Rat and his newest friend Mole are constantly
 trying to keep a reign on Toad in the hope of protecting his dignity and
 himself!
 
+{% include play/image.html index=4 width=3 height=4 %}
+
 Toad is forever headstrong and his latest craze, despite constant pleading from
 his friends, may be his downfall.
 
-{% include play/cast_list.html list=page.cast %}
+{% include play/image.html index=5 width=16 height=9 %}
 
-{% if page.booking_active %}
-<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
-{% endif %}
-{% if page.poster_pdf %}
-<p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
-{% endif %}
-{% if page.booking_form %}
-<p class="text-center"><a href="{{ page.booking_form | relative_url }}" role="button">Download Booking Form</a></p>
-{% endif %}
+{% include play/cast_list.html list=page.cast %}
