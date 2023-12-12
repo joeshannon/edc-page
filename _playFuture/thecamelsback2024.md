@@ -7,7 +7,7 @@ poster_thumb: /assets/img/play/thecamelsback2024/thecamelsback2024thumb.jpg
 #poster: /assets/img/play/thecamelsback2024/thecamelsback2024poster.jpg
 #poster_pdf: /assets/img/play/thecamelsback2024/thecamelsback2024poster.pdf
 booking_form: /assets/img/play/thecamelsback2024/thecamelsback2024bookingform.pdf
-booking_active: false
+booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter EX6 7SN, UK
 date: 2024-03-14
