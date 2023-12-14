@@ -4,8 +4,8 @@ title: The Camel's Back
 author: Arnold Helsby
 director: Robin Thwaytes
 poster_thumb: /assets/img/play/thecamelsback2024/thecamelsback2024thumb.jpg
-#poster: /assets/img/play/thecamelsback2024/thecamelsback2024poster.jpg
-#poster_pdf: /assets/img/play/thecamelsback2024/thecamelsback2024poster.pdf
+poster: /assets/img/play/thecamelsback2024/thecamelsback2024poster.jpg
+poster_pdf: /assets/img/play/thecamelsback2024/thecamelsback2024poster.pdf
 booking_form: /assets/img/play/thecamelsback2024/thecamelsback2024bookingform.pdf
 booking_active: true
 location: Longdown Village Hall
