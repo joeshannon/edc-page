@@ -4,7 +4,7 @@ Exeter Drama Company is a registered charity (no 1181995).
 
 Our mission is to foster a vibrant and inclusive community that celebrates
 diversity, empowers individuals, and nurtures creative expression through the
-dramatic arts and community outreach. Since 1955 we have been dedicated to
+dramatic arts and community outreach. Since 1954 we have been dedicated to
 providing opportunities for all individuals, regardless of their age and
 background, to explore and develop their creative skills in a safe and
 supportive environment.
