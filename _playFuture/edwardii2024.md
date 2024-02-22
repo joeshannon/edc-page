@@ -7,7 +7,7 @@ poster_thumb: /assets/img/play/edwardii2024/edwardii2024thumb.jpg
 #poster: /assets/img/play/edwardii2024/edwardii2024poster.jpg
 #poster_pdf: /assets/img/play/edwardii2024/edwardii2024poster.pdf
 #booking_form: /assets/img/play/edwardii2024/edwardii2024bookingform.pdf
-booking_active: false
+booking_active: true
 location: St Michael’s Church, Alphington
 location_verbose: St. Michael’s Church, Rectory Drive, Alphington, Exeter, EX2 8XJ
 date: 2024-05-15
