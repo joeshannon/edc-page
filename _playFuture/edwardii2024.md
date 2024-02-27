@@ -4,8 +4,8 @@ title: Edward II
 author: Christopher Marlowe
 director: Ian Guy
 poster_thumb: /assets/img/play/edwardii2024/edwardii2024thumb.jpg
-#poster: /assets/img/play/edwardii2024/edwardii2024poster.jpg
-#poster_pdf: /assets/img/play/edwardii2024/edwardii2024poster.pdf
+poster: /assets/img/play/edwardii2024/edwardii2024poster.jpg
+poster_pdf: /assets/img/play/edwardii2024/edwardii2024poster.pdf
 #booking_form: /assets/img/play/edwardii2024/edwardii2024bookingform.pdf
 booking_active: true
 location: St Michael’s Church, Alphington
