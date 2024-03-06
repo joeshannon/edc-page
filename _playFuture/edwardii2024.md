@@ -49,7 +49,7 @@ cast:
   - - Alice, Countess of Arundel
     - Sarah Davies
   - - John Matrevis, Jailer/Guard
-    - Jay Smith
+    - Callum Dinnett
   - - Gourney, Jailer/Guard
     - Jordan Burston
   - - Lightborn, Assassin
