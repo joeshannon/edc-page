@@ -64,9 +64,7 @@ However, running a farm is very different to running a successful draper's shop,
 
 A production of an amateur play in the village leads to problems on the farm as well as the farm’s residents grapple with how to get rid of Prudence!
 
-{% include play/image.html index=3 width=16 height=9 %}
-
-{% include play/image.html index=4 width=16 height=9 %}
+{% include play/image_1by2.html index=3 width=16 height=9 %}
 
 {% include play/image.html index=5 width=4 height=3 %}
 
