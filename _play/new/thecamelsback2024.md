@@ -13,7 +13,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter EX6 7SN, 
 date: 2024-03-14
 time: 7:30 pm
 date_human: 14th - 16th March 2024
-overview_img: thecamelsback20245.jpg
+overview_img: thecamelsback20246.jpg
 cast:
   - - Ned Ruddle
     - Benedict Morrison
@@ -33,6 +33,19 @@ cast:
     - Emmy Lloyd
   - - Samuel Meacock
     - Graham Setter
+images:
+  - url: thecamelsback20241.jpg
+    caption: Bob Sladen (Miles), Ned Ruddle (Benedict), Faith Hannacott (Liz)
+  - url: thecamelsback20242.jpg
+    caption: Prudence (Fran), Tilda (Alice), Miss Loveday (Claire), Faith (Liz), Mrs Middleton-Jones (Emmy), Ned Ruddle (Benedict)
+  - url: thecamelsback20243.jpg
+    caption: Mrs Middleton-Jones (Emmy), Ned Ruddle (Benedict)
+  - url: thecamelsback20244.jpg
+    caption: Bob Sladen (Miles), Prudence (Fran), Ned Ruddle (Benedict), Tilda (Alice), Faith (Liz) & Cecily (Ellie)
+  - url: thecamelsback20245.jpg
+    caption: Faith (Liz), Prudence (Fran), Bob Sladen (Miles), Ned Ruddle (Benedict)
+  - url: thecamelsback20246.jpg
+    caption: Samuel Meacock (Graham), Prudence (Fran)
 ---
 
 
@@ -54,5 +67,7 @@ A production of an amateur play in the village leads to problems on the farm as 
 {% include play/image.html index=3 width=16 height=9 %}
 
 {% include play/image.html index=4 width=16 height=9 %}
+
+{% include play/image.html index=5 width=4 height=3 %}
 
 {% include play/cast_list.html list=page.cast %}
