@@ -3,8 +3,8 @@ layout: play
 title: Humble Boy
 author: Charlotte Jones
 director: Briony Vallis
-#poster_thumb: /assets/img/play/humbleboy2024/humbleboy2024thumb.jpg
-#poster: /assets/img/play/humbleboy2024/humbleboy2024poster.jpg
+poster_thumb: /assets/img/play/humbleboy2024/humbleboy2024thumb.jpg
+poster: /assets/img/play/humbleboy2024/humbleboy2024poster.jpg
 #poster_pdf: /assets/img/play/humbleboy2024/humbleboy2024poster.pdf
 #booking_form: /assets/img/play/humbleboy2024/humbleboy2024bookingform.pdf
 booking_active: false
