@@ -13,7 +13,7 @@ location_verbose: St. Michael’s Church, Rectory Drive, Alphington, Exeter, EX2
 date: 2024-05-15
 time: 7:30 pm
 date_human: 15th - 17th May 2024
-featured_on_index: true
+featured_on_index: false
 #overview_img: edwardii20241.jpg
 cast:
   - - Piers Gaveston

@@ -13,7 +13,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter EX6 7SN, 
 date: 2024-06-27
 time: 7:30 pm
 date_human: 27th - 29th June 2024
-featured_on_index: false
+featured_on_index: true
 #overview_img: humbleboy20241.jpg
 cast:
   - - Felix Humble
