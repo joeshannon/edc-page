@@ -42,7 +42,6 @@ defaults:
 
 exclude:
   - readme.md
-  - cibuild.sh
   - vendor
 
 plugins:
