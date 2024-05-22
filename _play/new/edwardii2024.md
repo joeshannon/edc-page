@@ -62,7 +62,7 @@ images:
   - url: edwardii20243.jpg
     caption: Edward II (Jack Harding), Queen Isabella(Clem Bernard)
   - url: edwardii20244.jpg
-    caption: Queen Isabella (Clem Bernard) & Lady Margaret Dec Clare (Carmel Smith)
+    caption: Queen Isabella (Clem Bernard) & Lady Margaret de Clare (Carmel Smith)
   - url: edwardii20245.jpg
     caption: Lady Arundel (Sarah Davies), King Edward II (Jack Harding) & Spencer (David Purser)
   - url: edwardii20246.jpg
