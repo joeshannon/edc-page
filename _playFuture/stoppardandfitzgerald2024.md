@@ -10,11 +10,11 @@ poster: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024post
 booking_active: false
 location: Tedburn St Mary & Longdown
 location_verbose: |
-  Tedburn St Mary Village Hall, Crediton Road, Tedburn St Mary, EX6 6DZ
+  Tedburn St Mary Village Hall, Crediton Road, Tedburn St Mary, EX6 6DZ &
   Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2024-09-25
 time: 7:30 pm
-date_human: 25th September at Tedburn St Mary, 26th - 28th September at Longdown
+date_human: 25th Sept. at Tedburn St Mary & 26th - 28th Sept. at Longdown
 featured_on_index: false
 #overview_img: stoppardandfitzgerald20241.jpg
 ---
@@ -49,20 +49,24 @@ featured_on_index: false
 ## {{ page.title }}
 {% comment %}
 ### By {{ page.author }}
-{% endcomment %}
 ### Directed by {{ page.director }}
+{% endcomment %}
 
-## Porcelain and Pink
-### By F. Scott Fitzgerald
+### Porcelain and Pink
+#### By F. Scott Fitzgerald
+#### Directed by Elizabeth Harding
 
 Porcelain and Pink is a witty case of mistaken identity where the main character
 spends the entire time in a bathtub.
 
-## The Real Inspector Hound
-### By Tom Stoppard
+
+### The Real Inspector Hound
+#### By Tom Stoppard
+#### Directed by Jack Harding
 
 The Real Inspector Hound is a mad-cap, whodunnit play-within-a-play which
 promises laughter, three murders, and twists and turns galore.
+
 
 {% if page.booking_active %}
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
