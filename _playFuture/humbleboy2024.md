@@ -9,7 +9,7 @@ poster: /assets/img/play/humbleboy2024/humbleboy2024poster.jpg
 #booking_form: /assets/img/play/humbleboy2024/humbleboy2024bookingform.pdf
 booking_active: true
 location: Longdown Village Hall
-location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter EX6 7SN, UK
+location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN
 date: 2024-06-27
 time: 7:30 pm
 date_human: 27th - 29th June 2024
