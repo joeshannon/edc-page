@@ -18,4 +18,4 @@ Tickets can be purchased from the link on the relevant page or via the green buy
 To contact us email [{{ site.social_links.email }}](mailto:{{ site.social_links.email }}) alternatively send a message to our facebook page or use the
 [form on this website]({{ site.baseurl }}{% link pages/joinus.md %}#send-us-a-message).
 
-We also invite you to like our [Facebook]({{ site.social_links.facebook }}) page and follow us on [Twitter]({{ site.social_links.twitter }}) to see updates.
+We also invite you to like our [Facebook]({{ site.social_links.facebook }}) page and follow us on [Instagram]({{ site.social_links.instagram }}) to see updates.
