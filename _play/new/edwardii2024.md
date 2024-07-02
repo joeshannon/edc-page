@@ -21,7 +21,7 @@ cast:
   - - Poor person 1/James, a guard/Bishop of Coventry
     - Christian de la Croix
   - - Poor person 2/Attendant/Herald/Beaumont
-    - Julia Gadek
+    - Gina Turvill
   - - Poor person 3/Abbott
     - Richard Hogben
   - - King Edward II
