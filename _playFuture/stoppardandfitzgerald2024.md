@@ -15,7 +15,7 @@ location_verbose: |
 date: 2024-09-25
 time: 7:30 pm
 date_human: 25th Sept. at Tedburn St Mary & 26th - 28th Sept. at Longdown
-featured_on_index: false
+featured_on_index: true
 #overview_img: stoppardandfitzgerald20241.jpg
 ---
 
