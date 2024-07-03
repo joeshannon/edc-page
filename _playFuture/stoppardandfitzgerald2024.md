@@ -17,6 +17,32 @@ time: 7:30 pm
 date_human: 25th Sept. at Tedburn St Mary & 26th - 28th Sept. at Longdown
 featured_on_index: true
 #overview_img: stoppardandfitzgerald20241.jpg
+cast1:
+  - - Julie Marvis
+    - Carmel Smith
+  - - Lois Marvis
+    - Gina Turvill
+  - - Young Man
+    - Dan Loney
+cast2:
+  - - Moon
+    - Chris Taylor
+  - - Birdboot
+    - Christian De La Croix
+  - - Radio Announcer
+    - Ed Heeley
+  - - Mrs Drudge
+    - Susan Sutherland
+  - - Simon Gascoyne
+    - James Hyde
+  - - Felicity Cunningham
+    - Chloe Kemp-Thompson
+  - - Lady Cynthia Muldoon
+    - Clém Bernard
+  - - Major Magnus Muldoon
+    - Emmy Lloyd
+  - - Inspector Hound
+    - Ellie Lynas
 ---
 
 
@@ -59,6 +85,7 @@ featured_on_index: true
 Porcelain and Pink is a witty case of mistaken identity where the main character
 spends the entire time in a bathtub.
 
+{% include play/cast_list.html list=page.cast1 %}
 
 ### The Real Inspector Hound
 #### By Tom Stoppard
@@ -67,6 +94,7 @@ spends the entire time in a bathtub.
 The Real Inspector Hound is a mad-cap, whodunnit play-within-a-play which
 promises laughter, three murders, and twists and turns galore.
 
+{% include play/cast_list.html list=page.cast2 %}
 
 {% if page.booking_active %}
 <p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
