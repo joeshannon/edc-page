@@ -7,7 +7,7 @@ poster_thumb: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald20
 poster: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024poster.jpg
 #poster_pdf: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024poster.pdf
 #booking_form: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024bookingform.pdf
-booking_active: false
+booking_active: true
 location: Tedburn St Mary & Longdown
 location_verbose: |
   Tedburn St Mary Village Hall, Crediton Road, Tedburn St Mary, EX6 6DZ &
