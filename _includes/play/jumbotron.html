@@ -1,0 +1,21 @@
+<div class="jumbotron">
+<h2>{{ page.title }}</h2>
+<h3> <i class="fas fa-calendar-alt"></i> {{ page.date_human }}</h3>
+<h3> <i class="fas fa-clock"></i> {{ page.time }}</h3>
+<h3> <i class="fas fa-map-marker-alt"></i> {{ page.location_verbose }}</h3>
+{% if page.booking_active %}
+<a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a>
+{% endif %}
+</div>
+
+{% if page.poster %}
+<div class="row text-center">
+<div class="col-1">
+</div>
+<div class="col-10">
+<img class="img-fluid" src="{{ page.poster | relative_url }}" alt="{{ page.title }} poster" />
+</div>
+<div class="col-1">
+</div>
+</div>
+{% endif %}

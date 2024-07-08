@@ -1,0 +1,9 @@
+{% if page.booking_active %}
+<p class="text-center"><a class="btn btn-primary" href="{{ site.social_links.ticketsource }}" role="button">Book Now</a></p>
+{% endif %}
+{% if page.poster_pdf %}
+<p class="text-center"><a href="{{ page.poster_pdf | relative_url}}" role="button">Download Poster</a></p>
+{% endif %}
+{% if page.booking_form %}
+<p class="text-center"><a href="{{ page.booking_form | relative_url }}" role="button">Download Booking Form</a></p>
+{% endif %}
