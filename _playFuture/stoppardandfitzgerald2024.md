@@ -1,5 +1,5 @@
 ---
-layout: play
+layout: play_future
 title: An Evening with Stoppard & Fitzgerald
 #author:
 director: Jack and Elizabeth Harding
@@ -45,8 +45,6 @@ cast2:
     - Ellie Lynas
 ---
 
-{% include play/jumbotron.html %}
-
 ## {{ page.title }}
 {% comment %}
 ### By {{ page.author }}
@@ -70,5 +68,3 @@ The Real Inspector Hound is a mad-cap, whodunnit play-within-a-play which
 promises laughter, three murders, and twists and turns galore.
 
 {% include play/cast_list.html list=page.cast2 %}
-
-{% include play/media.html %}
