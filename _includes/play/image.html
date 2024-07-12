@@ -1,10 +1,16 @@
+{% if page.resource_root %}
+{% capture resource_dir %}{{ page.resource_root }}/{% endcapture %}
+{% else %}
+{% assign resource_dir = site.image_root %}
+{% endif %}
+
 <div class="row mb-2 play-img-section">
     <div class="col-sm-3">
     </div>
     <div class="col-sm">
         <div class="embed-responsive embed-responsive-{{ include.width }}by{{ include.height }}" data-toggle="modal"
             data-target="#playImgModal">
-            <img class="embed-responsive-item ignore-max-height" src="{{ site.image_root | append: page.images[include.index].url | relative_url }}"
+            <img class="embed-responsive-item ignore-max-height" src="{{ resource_dir | append: page.images[include.index].url | relative_url }}"
                 alt="{{ page.images[include.index].caption }}" title="{{ page.images[include.index].caption }}"
                 data-target="#playImgCarousel" data-slide-to="{{include.index}}" />
         </div>
