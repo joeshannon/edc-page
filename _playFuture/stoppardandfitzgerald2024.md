@@ -5,7 +5,7 @@ title: An Evening with Stoppard & Fitzgerald
 director: Jack and Elizabeth Harding
 poster_thumb: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024thumb.jpg
 poster: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024poster.jpg
-#poster_pdf: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024poster.pdf
+poster_pdf: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024poster.pdf
 booking_form: /assets/img/play/stoppardandfitzgerald2024/stoppardandfitzgerald2024bookingform.pdf
 booking_active: true
 location: Tedburn St Mary & Longdown
