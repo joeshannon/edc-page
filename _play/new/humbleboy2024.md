@@ -3,10 +3,11 @@ layout: play_md
 title: Humble Boy
 author: Charlotte Jones
 director: Briony Vallis
-poster_thumb: /assets/img/play/humbleboy2024/humbleboy2024thumb.jpg
-poster: /assets/img/play/humbleboy2024/humbleboy2024poster.jpg
-#poster_pdf: /assets/img/play/humbleboy2024/humbleboy2024poster.pdf
-#booking_form: /assets/img/play/humbleboy2024/humbleboy2024bookingform.pdf
+resource_root: /assets/img/play/humbleboy2024/
+poster_thumb: humbleboy2024thumb.jpg
+poster: humbleboy2024poster.jpg
+#poster_pdf: humbleboy2024poster.pdf
+#booking_form: humbleboy2024bookingform.pdf
 booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter, EX6 7SN

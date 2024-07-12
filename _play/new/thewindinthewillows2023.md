@@ -3,10 +3,11 @@ layout: play_md
 title: The Wind in the Willows
 author: John Morley, based on the book by Kenneth Grahame
 director: Miles Clayton-Foster
-poster_thumb: /assets/img/play/thewindinthewillows2023/thewindinthewillows2023thumb.jpg
-poster: /assets/img/play/thewindinthewillows2023/thewindinthewillows2023poster.jpg
-poster_pdf: /assets/img/play/thewindinthewillows2023/thewindinthewillows2023poster.pdf
-#booking_form: /assets/img/play/thewindinthewillows2023/thewindinthewillows2023bookingform.pdf
+resource_root: /assets/img/play/thewindinthewillows2023
+poster_thumb: thewindinthewillows2023thumb.jpg
+poster: thewindinthewillows2023poster.jpg
+poster_pdf: thewindinthewillows2023poster.pdf
+#booking_form: thewindinthewillows2023bookingform.pdf
 booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, Exeter EX6 7SN, UK
