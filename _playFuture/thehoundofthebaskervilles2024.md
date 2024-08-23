@@ -7,7 +7,7 @@ poster_thumb: /assets/img/play/thehoundofthebaskervilles2024/thehoundofthebasker
 poster: /assets/img/play/thehoundofthebaskervilles2024/thehoundofthebaskervilles2024poster.jpg
 poster_pdf: /assets/img/play/thehoundofthebaskervilles2024/thehoundofthebaskervilles2024poster.pdf
 #booking_form: /assets/img/play/thehoundofthebaskervilles2024/thehoundofthebaskervilles2024bookingform.pdf
-booking_active: false
+booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2024-12-05
