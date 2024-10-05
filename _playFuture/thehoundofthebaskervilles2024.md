@@ -3,10 +3,11 @@ layout: play_future
 title: The Hound of the Baskervilles
 author: Tim Kelly
 director: Frances Guy
-poster_thumb: /assets/img/play/thehoundofthebaskervilles2024/thehoundofthebaskervilles2024thumb.jpg
-poster: /assets/img/play/thehoundofthebaskervilles2024/thehoundofthebaskervilles2024poster.jpg
-poster_pdf: /assets/img/play/thehoundofthebaskervilles2024/thehoundofthebaskervilles2024poster.pdf
-#booking_form: /assets/img/play/thehoundofthebaskervilles2024/thehoundofthebaskervilles2024bookingform.pdf
+resource_root: /assets/img/play/thehoundofthebaskervilles2024
+poster_thumb: thehoundofthebaskervilles2024thumb.jpg
+poster: thehoundofthebaskervilles2024poster.jpg
+poster_pdf: thehoundofthebaskervilles2024poster.pdf
+#booking_form: thehoundofthebaskervilles2024bookingform.pdf
 booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN

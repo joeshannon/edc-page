@@ -13,7 +13,7 @@
 <div class="col-1">
 </div>
 <div class="col-10">
-<p><img class="img-fluid" src="{{ page.poster | relative_url }}" alt="{{ page.title }} poster" /></p>
+<p><img class="img-fluid" src="{{ page.resource_root | append: '/' | append: page.poster | relative_url }}" alt="{{ page.title }} poster" /></p>
 </div>
 <div class="col-1">
 </div>

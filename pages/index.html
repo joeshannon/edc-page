@@ -15,7 +15,7 @@ permalink: /
 
 <p class="text-center playposter">
   <a href="{{ featured_play.url | relative_url }}">
-    <img class="img-fluid" alt="{{ featured_play.title }}" src="{{ featured_play.poster | relative_url }}">
+    <img class="img-fluid" alt="{{ featured_play.title }}" src="{{ featured_play.resource_root | append: '/' | append: featured_play.poster | relative_url }}">
   </a>
 </p>
 
