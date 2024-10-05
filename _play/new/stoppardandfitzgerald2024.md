@@ -1,5 +1,5 @@
 ---
-layout: play_future
+layout: play_md
 title: An Evening with Stoppard & Fitzgerald
 #author:
 director: Jack and Elizabeth Harding
@@ -44,12 +44,6 @@ cast2:
   - - Inspector Hound
     - Ellie Lynas
 ---
-
-## {{ page.title }}
-{% comment %}
-### By {{ page.author }}
-### Directed by {{ page.director }}
-{% endcomment %}
 
 ### Porcelain and Pink
 #### By F. Scott Fitzgerald
