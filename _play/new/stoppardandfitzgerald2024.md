@@ -17,7 +17,7 @@ date: 2024-09-25
 time: 7:30 pm
 date_human: 25th Sept. at Tedburn St Mary & 26th - 28th Sept. at Longdown
 featured_on_index: false
-#overview_img: stoppardandfitzgerald20241.jpg
+overview_img: stoppardandfitzgerald20241.jpg
 cast1:
   - - Julie Marvis
     - Carmel Smith
@@ -44,6 +44,11 @@ cast2:
     - Emmy Lloyd
   - - Inspector Hound
     - Ellie Lynas
+images:
+  - url: stoppardandfitzgerald20241.jpg
+    caption: Lois Marvis (Gina Turvill)
+  - url: stoppardandfitzgerald20242.jpg
+    caption: Julie Marvis (Carmel Smith) & the young man (Dan Loney)
 ---
 
 ### Porcelain and Pink
@@ -52,6 +57,8 @@ cast2:
 
 Porcelain and Pink is a witty case of mistaken identity where the main character
 spends the entire time in a bathtub.
+
+{% include play/image_1by2.html index=0 width=4 height=3 %}
 
 {% include play/cast_list.html list=page.cast1 %}
 
