@@ -39,7 +39,6 @@ cast:
     - Amie Lynn
 ---
 
-## {{ page.title }}
 ### By {{ page.author }}, adapted from the novel by Sir Arthur Conan Doyle
 ### Directed by {{ page.director }}
 
