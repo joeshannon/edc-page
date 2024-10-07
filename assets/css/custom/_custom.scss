@@ -79,6 +79,9 @@ body {
      // This is to override the default setting of restricting events to be one line tall
      white-space: normal;
     }
+    .fc-event-past, .fc-day-past {
+      opacity: 0.5;
+    }
   }
 }
 
