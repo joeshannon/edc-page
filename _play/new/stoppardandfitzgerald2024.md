@@ -39,7 +39,7 @@ cast2:
   - - Felicity Cunningham
     - Chloe Kemp-Thompson
   - - Lady Cynthia Muldoon
-    - Clém Bernard
+    - Clémence Bernard
   - - Major Magnus Muldoon
     - Emmy Lloyd
   - - Inspector Hound
@@ -49,6 +49,20 @@ images:
     caption: Lois Marvis (Gina Turvill)
   - url: stoppardandfitzgerald20242.jpg
     caption: Julie Marvis (Carmel Smith) & the young man (Dan Loney)
+  - url: stoppardandfitzgerald20243.jpg
+    caption: Birdboot & Moon (Christian De La Croix & Chris Taylor)
+  - url: stoppardandfitzgerald20244.jpg
+    caption: Mrs Drudge (Susan Sutherland)
+  - url: stoppardandfitzgerald20248.jpg
+    caption: Major Magnus Muldoon (Emmy Lloyd)
+  - url: stoppardandfitzgerald20249.jpg
+    caption: Felicity Cunningham & Lady Cynthia Muldoon (Chloe-Kemp Thompson & Clémence Bernard)
+  - url: stoppardandfitzgerald20247.jpg
+    caption: Inspector Hound (Ellie Lynas)
+  - url: stoppardandfitzgerald20245.jpg
+    caption: Simon Gascoyne (James Hyde)
+  - url: stoppardandfitzgerald20246.jpg
+    caption: Radio Announcer (Ed Heeley)
 ---
 
 ### Porcelain and Pink
@@ -66,7 +80,13 @@ spends the entire time in a bathtub.
 #### By Tom Stoppard
 #### Directed by Jack Harding
 
+{% include play/image_1by2.html index=2 width=4 height=3 %}
+
+{% include play/image_1by2.html index=4 width=4 height=3 %}
+
 The Real Inspector Hound is a mad-cap, whodunnit play-within-a-play which
 promises laughter, three murders, and twists and turns galore.
+
+{% include play/image_1by3.html index=6 width=3 height=4 %}
 
 {% include play/cast_list.html list=page.cast2 %}
