@@ -3,9 +3,9 @@ layout: play_future
 title: Edifice and Artifice
 author: Claire Temple
 director: Claire Temple
-#resource_root: /assets/img/play/edificeandartifice2025
-#poster_thumb: edificeandartifice2025thumb.jpg
-#poster: edificeandartifice2025poster.jpg
+resource_root: /assets/img/play/edificeandartifice2025
+poster_thumb: edificeandartifice2025thumb.png
+poster: edificeandartifice2025poster.png
 #poster_pdf: edificeandartifice2025poster.pdf
 #booking_form: edificeandartifice2025bookingform.pdf
 booking_active: false
