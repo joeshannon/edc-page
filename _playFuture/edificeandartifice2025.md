@@ -44,7 +44,7 @@ cast:
   - - Cilla Rhys
     - Olivia Parker
   - - Stefan Crosswall
-    - Nigel Mason
+    - Mark Goddard
   - - Magnus Starholt
     - Douglas Thomson
   - - Pre-recorded voices
