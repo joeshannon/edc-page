@@ -5,8 +5,8 @@ author: Richard Brinsley Sheridan
 director: Ian Guy & Ivanhoe Norona
 resource_root: /assets/img/play/therivals2025
 poster_thumb: therivals2025thumb.jpg
-#poster: therivals2025poster.jpg
-#poster_pdf: therivals2025poster.pdf
+poster: therivals2025poster.jpg
+poster_pdf: therivals2025poster.pdf
 #booking_form: therivals2025bookingform.pdf
 booking_active: false
 location: Longdown Village Hall
