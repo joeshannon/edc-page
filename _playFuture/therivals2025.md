@@ -16,12 +16,51 @@ time: 7:30 pm
 date_human: 13th - 15th March 2025
 featured_on_index: false
 #overview_img: therivals20251.jpg
-#cast:
+cast:
+  - - Fag, servant to Capt. Absolute
+    - Kieran Neale
+  - - Thomas, coachman to Sir Anthony
+    - Graeme Mooney
+  - - Lucy, Maid in Mrs Malaprop’s House
+    - Clémence Bernard
+  - - Lydia Languish, a wealthy heiress
+    - Luka Reeves
+  - - Julia Melville, cousin to Lydia
+    - Gina Turvill
+  - - Mrs Malaprop, Lydia’s Aunt
+    - Susan Sutherland
+  - - Sir Anthony Absolute, father to Jack
+    - Doug Thomson
+  - - Capt. Jack Absolute
+    - Joe Coghlan
+  - - Faulkland
+    - Jordan Burston
+  - - Squire Bob Acres
+    - Ric Hutton
+  - - Sir Lucius O’Trigger
+    - Graham Setter
+  - - David , servant to Bob Acres
+    - Will Hannah
+  - - Servant(s)
+    - Graeme Mooney
+  - - Maid(s)
+    - Clémence Bernard
 ---
 
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
-{% comment %}
+Wealthy heiress Lydia Languish is determined to marry for love even if this
+means she is forced into poverty.
+
+Realising this, the aristocratic Captain Jack Absolute woos her while claiming
+to be Ensign Beverley.
+
+Lydia’s aunt, Mrs. Malaprop, will not permit her to wed a mere ensign and
+proposes another gentleman, Squire Acres.
+
+Jack’s Father, Sir Anthony Absolute, arrives unexpectedly and tells his son that
+he’s chosen a wife for him whilst Sir Lucius O’Trigger continues his efforts to
+win over the mysterious Delia.
+
 {% include play/cast_list.html list=page.cast %}
-{% endcomment %}
