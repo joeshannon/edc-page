@@ -8,7 +8,7 @@ poster_thumb: therivals2025thumb.jpg
 poster: therivals2025poster.jpg
 poster_pdf: therivals2025poster.pdf
 #booking_form: therivals2025bookingform.pdf
-booking_active: false
+booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2025-03-13
