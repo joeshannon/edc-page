@@ -46,7 +46,7 @@ cast:
   - - Stefan Crosswall
     - Mark Goddard
   - - Magnus Starholt
-    - Douglas Thomson
+    - Tim Harlow
   - - Pre-recorded voices
     - Peter Burnett, Kate Phimister, Douglas Thomson, Tara Studholme Lyons, Lori Hilson and Robin Thwaytes
 ---
