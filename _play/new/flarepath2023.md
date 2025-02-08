@@ -72,4 +72,8 @@ hotel sit and wait.
 
 {% include play/image_1by2.html index=4 width=4 height=3 %}
 
+*Flare Path won Best Production in our in-house awards for the 2023/24 season.
+Miles Clayton-Foster also won Best Actor for his part as Flight Lieutenant Teddy
+Graham, and Charlotte Guy Best Actress for her part as Countess Skricevinsky.*
+
 {% include play/cast_list.html list=page.cast %}
