@@ -76,4 +76,7 @@ hotel sit and wait.
 Miles Clayton-Foster also won Best Actor for his part as Flight Lieutenant Teddy
 Graham, and Charlotte Guy Best Actress for her part as Countess Skricevinsky.*
 
+Compare this version with our previous production: [Flare Path - 1995]({{
+site.baseurl }}{% link _play/converted-plays/flare1995.md %})
+
 {% include play/cast_list.html list=page.cast %}
