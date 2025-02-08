@@ -93,8 +93,7 @@ freely.
 
 {% include play/image.html index=6 width=3 height=4 %}
 
-
-
-
+*Edward II won Best Production in our in-house awards for the 2023/24 season.
+Clémence Bernard also won Best Actress for her part as Queen Isabella.*
 
 {% include play/cast_list.html list=page.cast %}

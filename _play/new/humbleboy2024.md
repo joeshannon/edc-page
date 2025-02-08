@@ -64,4 +64,7 @@ search for unity must include his own chaotic home life.
 
 {% include play/image_1by2.html index=4 width=4 height=3 %}
 
+*Ric Hutton won Best Actor in our in-house awards for the 2023/24 season for his
+part as Felix Humble.*
+
 {% include play/cast_list.html list=page.cast %}
