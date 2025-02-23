@@ -14,7 +14,7 @@ location_verbose: Cygnet Theatre, Friars Gate, Exeter, EX2 4AZ
 date: 2025-02-20
 time: 7:30 pm
 date_human: 20th - 22nd February 2025
-featured_on_index: true
+featured_on_index: false
 #overview_img: edificeandartifice20251.jpg
 cast:
   - - Lon

@@ -14,7 +14,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2025-03-13
 time: 7:30 pm
 date_human: 13th - 15th March 2025
-featured_on_index: false
+featured_on_index: true
 #overview_img: therivals20251.jpg
 cast:
   - - Fag, servant to Capt. Absolute
