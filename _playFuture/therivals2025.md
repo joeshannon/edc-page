@@ -38,7 +38,7 @@ cast:
   - - Squire Bob Acres
     - Ric Hutton
   - - Sir Lucius O’Trigger
-    - Graham Setter
+    - James Hyde
   - - David , servant to Bob Acres
     - Will Hannah
   - - Servant(s)
