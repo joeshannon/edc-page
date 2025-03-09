@@ -33,8 +33,8 @@ defaults:
       type: "playFuture"
     values:
       location: "Location TBA"
-      resource_root: "https:/"
-      poster_thumb: "cdn.ticketsource.co.uk/images/search/default1.png"
+      resource_root: "/assets/img/play"
+      poster_thumb: "coming-soon.jpg"
   -
     scope:
       path: "" # empty string for all files in the project
