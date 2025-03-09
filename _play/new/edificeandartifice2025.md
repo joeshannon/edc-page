@@ -1,5 +1,5 @@
 ---
-layout: play_future
+layout: play_md
 title: Edifice and Artifice
 author: Claire Temple
 director: Claire Temple
@@ -69,9 +69,5 @@ and have-nots collide.
 In the absence of security staff and police, Hector Starholt, heir to the Starco
 empire, thinks a TV debate with the protesters will defuse the situation. This
 miscalculation rebounds on him with dire consequences.
-
-**Warning:** This production includes flashing images
-
-{% include edificeandartifice2025tickets.html list=page.cast %}
 
 {% include play/cast_list.html list=page.cast %}
