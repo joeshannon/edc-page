@@ -23,5 +23,5 @@ jobs:
 
     - name: Check html
       run: |
-        bundle exec htmlproofer --allow-hash-href --url-swap "https\\://www.exeterdramacompany.co.uk:" --http-status-ignore "403,429" --alt-ignore '/.*/' ./_site
+        bundle exec htmlproofer --allow-hash-href --url-swap "https\\://www.exeterdramacompany.co.uk:" --http-status-ignore "403,429" ./_site
 
