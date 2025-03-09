@@ -7,6 +7,9 @@ function updateCalendarView(calendar) {
 
 document.addEventListener('DOMContentLoaded', function () {
   var calendarEl = document.getElementById('calendar');
+  if (calendarEl == null) {
+    return;
+  }
   var calendar = new FullCalendar.Calendar(calendarEl, {
     locale: 'en-gb',
     showNonCurrentDates: false,
