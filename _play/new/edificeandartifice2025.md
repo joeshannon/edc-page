@@ -15,7 +15,7 @@ date: 2025-02-20
 time: 7:30 pm
 date_human: 20th - 22nd February 2025
 featured_on_index: false
-#overview_img: edificeandartifice20251.jpg
+overview_img: edificeandartifice2025-1.jpg
 cast:
   - - Lon
     - Arthur Grizzell
@@ -49,6 +49,12 @@ cast:
     - Tim Harlow
   - - Pre-recorded voices
     - Peter Burnett, Kate Phimister, Douglas Thomson, Tara Studholme Lyons, Lori Hilson and Robin Thwaytes
+images:
+  - url: edificeandartifice2025-1.jpg
+  - url: edificeandartifice2025-2.jpg
+  - url: edificeandartifice2025-3.jpg
+  - url: edificeandartifice2025-4.jpg
+  - url: edificeandartifice2025-5.jpg
 ---
 
 ### Written and directed by {{ page.author }}
@@ -56,18 +62,28 @@ cast:
 Edifice And Artifice is an urgent satire on the state of the wealth gap today
 and its consequences for the planet.
 
+{% include play/image.html index=0 width=4 height=3 %}
+
 It takes place in the near future at the London headquarters of fictional oil
 company Starco, and in the protest camp laying siege to the skyscraper outside.
+
+{% include play/image.html index=1 width=4 height=3 %}
 
 As London floods and the government retreats and factionalises, victims of the
 flooding join those protesting. Meanwhile, the staff left in the building,
 including the executives, assume the authorities will step in at any moment.
 
+{% include play/image.html index=2 width=4 height=3 %}
+
 With this powder keg of expectation, it’s only a matter of time before the haves
 and have-nots collide.
+
+{% include play/image.html index=3 width=4 height=3 %}
 
 In the absence of security staff and police, Hector Starholt, heir to the Starco
 empire, thinks a TV debate with the protesters will defuse the situation. This
 miscalculation rebounds on him with dire consequences.
+
+{% include play/image.html index=4 width=4 height=3 %}
 
 {% include play/cast_list.html list=page.cast %}
