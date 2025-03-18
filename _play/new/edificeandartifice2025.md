@@ -51,10 +51,15 @@ cast:
     - Peter Burnett, Kate Phimister, Douglas Thomson, Tara Studholme Lyons, Lori Hilson and Robin Thwaytes
 images:
   - url: edificeandartifice2025-1.jpg
+    caption: Tim Harlow, Jack Harding, Benedict Morrison
   - url: edificeandartifice2025-2.jpg
+    caption: Jack Harding, Liz Harding
   - url: edificeandartifice2025-3.jpg
+    caption: Stuart Cloete, Arthur Grizzell, Benedict Morrison, Chloe Kemp-Thompson, James Hyde
   - url: edificeandartifice2025-4.jpg
+    caption: Stuart Cloete, Olivia Parker, Benedict Morrison
   - url: edificeandartifice2025-5.jpg
+    caption: Full cast take a bow
 ---
 
 ### Written and directed by {{ page.author }}
