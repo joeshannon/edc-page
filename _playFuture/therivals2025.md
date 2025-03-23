@@ -15,7 +15,7 @@ date: 2025-03-13
 time: 7:30 pm
 date_human: 13th - 15th March 2025
 featured_on_index: true
-#overview_img: therivals20251.jpg
+overview_img: therivals2025-8.jpg
 cast:
   - - Fag, servant to Capt. Absolute
     - Kieran Neale
@@ -45,22 +45,49 @@ cast:
     - Graeme Mooney
   - - Maid(s)
     - Clémence Bernard
+images:
+  - url: therivals2025-1.jpg
+    caption: Thomas & Fag (Graeme & Kieran)
+  - url: therivals2025-2.jpg
+    caption: Captain Jack Absolute, Bob Acres, Mr Faulkland (Joe, Ric & Jordan)
+  - url: therivals2025-3.jpg
+    caption: Sir Lucius O'Trigger & Lucy (James & Clem)
+  - url: therivals2025-4.jpg
+    caption: Captain Jack Absolute, Lydia Languish & Mrs Malaprop (Joe, Luka & Susan)
+  - url: therivals2025-5.jpg
+    caption: Bob Acres & David (Ric & Will)
+  - url: therivals2025-6.jpg
+    caption: Julia Melville & Lydia Languish (Gina & Luka)
+  - url: therivals2025-7.jpg
+    caption:  David & Sir Anthony Absolute (Will & Doug)
+  - url: therivals2025-8.jpg
+    caption: Ensemble!
 ---
 
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
+{% include play/image_1by2.html index=0 width=4 height=3 %}
+
 Wealthy heiress Lydia Languish is determined to marry for love even if this
 means she is forced into poverty.
+
+{% include play/image_1by2.html index=2 width=4 height=3 %}
 
 Realising this, the aristocratic Captain Jack Absolute woos her while claiming
 to be Ensign Beverley.
 
+{% include play/image.html index=4 width=3 height=4 %}
+
 Lydia’s aunt, Mrs. Malaprop, will not permit her to wed a mere ensign and
 proposes another gentleman, Squire Acres.
+
+{% include play/image_1by2.html index=5 width=4 height=3 %}
 
 Jack’s Father, Sir Anthony Absolute, arrives unexpectedly and tells his son that
 he’s chosen a wife for him whilst Sir Lucius O’Trigger continues his efforts to
 win over the mysterious Delia.
+
+{% include play/image.html index=7 width=16 height=9 %}
 
 {% include play/cast_list.html list=page.cast %}
