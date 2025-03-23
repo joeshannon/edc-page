@@ -14,7 +14,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2025-06-26
 time: 7:30 pm
 date_human: 26th - 28th June 2025
-featured_on_index: false
+featured_on_index: true
 #overview_img: aletterfromthegeneral20251.jpg
 ---
 

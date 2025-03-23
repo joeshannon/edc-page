@@ -1,5 +1,5 @@
 ---
-layout: play_future
+layout: play_md
 title: The Rivals
 author: Richard Brinsley Sheridan
 director: Ian Guy & Ivanhoe Norona
@@ -14,8 +14,8 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2025-03-13
 time: 7:30 pm
 date_human: 13th - 15th March 2025
-featured_on_index: true
-overview_img: therivals2025-8.jpg
+#featured_on_index: true
+overview_img: therivals2025-2.jpg
 cast:
   - - Fag, servant to Capt. Absolute
     - Kieran Neale
