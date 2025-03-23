@@ -21,17 +21,17 @@ featured_on_index: true
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
-It is 1950 and revolution has swept an eastern country and now reached a mission
-station which cares for children.
+It is 1950 and revolution has swept a far eastern country and now reached a
+mission station which cares for children.
 
-A new Communist government has taken over and is persecuting religious orders
+A new, Communist, government is now in place and is persecuting religious orders
 throughout the province.
 
-The Mission is cut off from the local village and the orphaned children have
+The mission is cut off from the local village and the orphaned children have
 been removed.
 
-The British Consul, together with his wife Ruth, visit the Mission and work with
-the Nuns to secure their safe passage out before the General and his army
+The British Consul, together with his wife Ruth, visit the mission and work with
+the nuns to secure their safe passage out before the General and his army
 arrive.
 
 {% comment %}
