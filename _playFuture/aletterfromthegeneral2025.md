@@ -16,6 +16,25 @@ time: 7:30 pm
 date_human: 26th - 28th June 2025
 featured_on_index: true
 #overview_img: aletterfromthegeneral20251.jpg
+cast:
+  - - Sister Henry
+    - Genni Trickett
+  - - Sister Lucy
+    - Beth Whalen
+  - - Sister Bridget
+    - Chloe Kemp-Thompson
+  - - Reverend Mother
+    - Jacqui Draycott
+  - - Sister Magdalen
+    - Emmy Lloyd
+  - - Arthur Stilton
+    - Jack Feltham
+  - - Ruth Stilton
+    - Cat Russon
+  - - Captain Lee
+    - Kieran Neale
+  - - Father Schiller
+    - Joe Coghlan
 ---
 
 ### By {{ page.author }}
@@ -34,6 +53,4 @@ The British Consul, together with his wife Ruth, visit the mission and work with
 the nuns to secure their safe passage out before the General and his army
 arrive.
 
-{% comment %}
 {% include play/cast_list.html list=page.cast %}
-{% endcomment %}
