@@ -3,10 +3,10 @@ layout: play_future
 title: A Letter from the General
 author: Maurice McLoughlin
 director: James Hyde
-#resource_root: /assets/img/play/aletterfromthegeneral2025
-#poster_thumb: aletterfromthegeneral2025thumb.jpg
-#poster: aletterfromthegeneral2025poster.jpg
-#poster_pdf: aletterfromthegeneral2025poster.pdf
+resource_root: /assets/img/play/aletterfromthegeneral2025
+poster_thumb: aletterfromthegeneral2025thumb.jpg
+poster: aletterfromthegeneral2025poster.jpg
+poster_pdf: aletterfromthegeneral2025poster.pdf
 #booking_form: aletterfromthegeneral2025bookingform.pdf
 booking_active: true
 location: Longdown Village Hall
