@@ -8,7 +8,7 @@ poster_thumb: thelieutenantofinishmore2025thumb.jpg
 #poster: thelieutenantofinishmore2025poster.jpg
 #poster_pdf: thelieutenantofinishmore2025poster.pdf
 booking_form: thelieutenantofinishmore2025bookingform.pdf
-booking_active: false
+booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2025-09-25
