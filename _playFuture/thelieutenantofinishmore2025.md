@@ -5,7 +5,7 @@ author: Martin McDonagh
 director: Ranulf Oliver
 resource_root: /assets/img/play/thelieutenantofinishmore2025
 poster_thumb: thelieutenantofinishmore2025thumb.jpg
-#poster: thelieutenantofinishmore2025poster.jpg
+poster: thelieutenantofinishmore2025poster.jpg
 poster_pdf: thelieutenantofinishmore2025poster.pdf
 booking_form: thelieutenantofinishmore2025bookingform.pdf
 booking_active: true
