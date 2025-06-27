@@ -26,7 +26,7 @@ beloved cat of Padraic, a violent psychopath deemed too mad to remain a member
 of the IRA!
 
 He’s away in Northern Ireland for some recreational torturing and bombing of
-fish and chip shops when he gets the ‘phone call and moves heaven and earth to
+fish and chip shops when he gets the ‘phone call' and moves heaven and earth to
 get back determined to find his cat’s murderer and, naturally, chaos ensues!!
 
 The play, although a black comedy, does not shy away from such topics as
