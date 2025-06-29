@@ -14,7 +14,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2025-09-25
 time: 7:30 pm
 date_human: 25th - 27th September 2025
-featured_on_index: false
+featured_on_index: true
 #overview_img: thelieutenantofinishmore20251.jpg
 cast:
   - - Davey
