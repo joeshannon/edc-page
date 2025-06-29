@@ -16,6 +16,23 @@ time: 7:30 pm
 date_human: 25th - 27th September 2025
 featured_on_index: false
 #overview_img: thelieutenantofinishmore20251.jpg
+cast:
+  - - Davey
+    - James Hyde
+  - - Donny
+    - Doug Thomson
+  - - Padraic
+    - Joe Coghlan
+  - - James
+    - Will Hannah
+  - - Maireid
+    - Elizabeth Harding
+  - - Christy
+    - Ric Hutton
+  - - Joey
+    - Callum Dinnett
+  - - Brendan
+    - Jack Harding
 ---
 
 ### By {{ page.author }}
@@ -32,6 +49,4 @@ get back determined to find his cat’s murderer and, naturally, chaos ensues!!
 The play, although a black comedy, does not shy away from such topics as
 nationalism, violence and terrorism and does contain some ‘spicy’ language.
 
-{% comment %}
 {% include play/cast_list.html list=page.cast %}
-{% endcomment %}
