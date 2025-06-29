@@ -3,9 +3,6 @@ layout: play_md
 title: Three One Act Plays
 date: 1996-05-01
 description: ''
-images:
-  - url: three19961.jpg
-    caption:
 cast1:
   - - Murder Play
   - - Robyn Darrell
@@ -13,12 +10,12 @@ cast1:
   - - Peter Darrell
     - Shaun Nethercott
   - - Jane Valentine
-    - anet Horner
+    - Janet Horner
   - - David Valentine
     - John Marshall
 cast2:
   - - Ritual for Dolls
-  - - Golly, a Golliwog
+  - - African Doll
     - Malcolme Littler
   - - Bravo, a Red Coated Soldier
     - Shaun Nethercott
@@ -41,8 +38,6 @@ cast3:
 ---
 
 This production consisted of three one act plays.
-
-{% include play/image.html index=0 width=4 height=3 %}
 
 Murder Play, by Brian J Burton was directed by Beverley Little. Ritual for Dolls, by George MacEwan Green was directed by Denise Hill.
 
