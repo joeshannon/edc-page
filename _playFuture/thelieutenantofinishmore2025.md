@@ -25,8 +25,8 @@ cast:
     - Joe Coghlan
   - - James
     - Will Hannah
-  - - Maireid
-    - Elizabeth Harding
+  - - Mairead
+    - Georgi Edmond
   - - Christy
     - Ric Hutton
   - - Joey
