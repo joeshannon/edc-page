@@ -24,7 +24,7 @@ cast:
   - - A narrator also playing Mrs Raggles & Miss Pinkerton
     - Sarah Thorn
   - - A narrator also playing Mr Sedley & Isidor
-    - Mike Pepperrell
+    - Doug Thomson
   - - A narrator also playing Pitt Crawley Jr, Lord Southdown, Mr Jefferson-Jones & Mr Moss
     - Oliver Hale
   - - Jemima & Background artiste
