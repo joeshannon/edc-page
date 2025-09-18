@@ -8,7 +8,7 @@ poster_thumb: vanityfair2025thumb.jpg
 poster: vanityfair2025poster.jpg
 poster_pdf: vanityfair2025poster.pdf
 booking_form: vanityfair2025bookingform.pdf
-booking_active: false
+booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2025-12-04
