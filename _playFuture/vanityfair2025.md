@@ -17,18 +17,16 @@ date_human: 4th - 6th December 2025
 featured_on_index: true
 #overview_img: vanityfair2025-1.jpg
 cast:
-  - - A narrator also playing Mr Osborne, Raggles & Neighbour
-    - Glyn Edwards
-  - - A narrator also playing Sir Pitt Crawley & Lord Steyne
+  - - A narrator also playing Jemima & Neighbour
+    - Roxy Drew
+  - - A narrator also playing Sir Pitt Crawley, Mr Osborne & Lord Steyne
     - Mark Goddard
   - - A narrator also playing Mrs Raggles & Miss Pinkerton
     - Sarah Thorn
-  - - A narrator also playing Mr Sedley & Isidor
+  - - A narrator also playing Mr Sedley, Raggles & Isidor
     - Doug Thomson
-  - - A narrator also playing Pitt Crawley Jr, Lord Southdown, Mr Jefferson-Jones & Mr Moss
+  - - A narrator also playing Pitt Crawley Jr, Lord Southdown, Jefferson-Jones & Moss
     - Oliver Hale
-  - - Jemima & Background artiste
-    - Roxy Drewe
   - - Amelia Sedley
     - Luka Reeves
   - - Becky Sharp
