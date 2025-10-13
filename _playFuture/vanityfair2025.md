@@ -36,15 +36,17 @@ cast:
   - - Mrs Sedley, Miss Matilda Crawley, Mrs O’Dowd & Lady Steyne
     - Susan Sutherland
   - - Joseph Sedley
-    - Callum Dinnett
+    - Ed Heeley
   - - George Osborne & Georgy Osborne, his son
     - Will Hannah
   - - William Dobbin
-    - Jack Feltham
-  - - A narrator also playing Glorvina O’Dowd & Pauline
+    - Will Davies
+  - - A narrator also playing Croupier, Glorvina O’Dowd & Pauline
     - Clém Bernard
   - - Rawdon Crawley
     - Ric Hutton
+  - - Tour Guide
+    - Lucy Treacher
 ---
 
 ### By {{ page.author }}
