@@ -25,7 +25,9 @@ cast:
     - Sarah Thorn
   - - A narrator also playing Mr Sedley, Raggles & Isidor
     - Doug Thomson
-  - - A narrator also playing Pitt Crawley Jr, Lord Southdown, Jefferson-Jones & Moss
+  - - A narrator also playing Moss
+    - Charlotte Guy
+  - - William Dobbin, Pitt Crawley Jnr and Mr Jefferson-Jones
     - Oliver Hale
   - - Amelia Sedley
     - Luka Reeves
@@ -39,14 +41,14 @@ cast:
     - Ed Heeley
   - - George Osborne & Georgy Osborne, his son
     - Will Hannah
-  - - William Dobbin
-    - Will Davies
   - - A narrator also playing Croupier, Glorvina O’Dowd & Pauline
     - Clém Bernard
   - - Rawdon Crawley
     - Ric Hutton
   - - Tour Guide
     - Lucy Treacher
+  - - Young Rawdy
+    - George Lloyd
 ---
 
 ### By {{ page.author }}
