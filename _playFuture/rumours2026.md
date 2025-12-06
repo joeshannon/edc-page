@@ -8,7 +8,7 @@ poster_thumb: rumours2026thumb.jpg
 poster: rumours2026poster.jpg
 poster_pdf: rumours2026poster.pdf
 #booking_form: rumours2026bookingform.pdf
-booking_active: false
+booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2026-03-26
