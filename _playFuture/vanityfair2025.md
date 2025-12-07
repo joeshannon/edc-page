@@ -14,7 +14,7 @@ location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2025-12-04
 time: 7:30 pm
 date_human: 4th - 6th December 2025
-featured_on_index: true
+featured_on_index: false
 #overview_img: vanityfair2025-1.jpg
 cast:
   - - A narrator also playing Jemima & Neighbour
