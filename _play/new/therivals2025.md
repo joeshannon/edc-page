@@ -90,4 +90,7 @@ win over the mysterious Delia.
 
 {% include play/image.html index=7 width=16 height=9 %}
 
+*The Rivals won Best Production in our in-house awards for the 2024/25 season.
+Jordan Burston also won Best Actor for his part as Faulkland.*
+
 {% include play/cast_list.html list=page.cast %}

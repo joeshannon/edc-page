@@ -76,4 +76,7 @@ arrive.
 
 {% include play/image_1by2.html index=5 width=3 height=4 %}
 
+*Genni Trickett won Best Actress in our in-house awards for the 2024/25 season
+for her part as Sister Henry.*
+
 {% include play/cast_list.html list=page.cast %}
