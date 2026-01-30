@@ -32,11 +32,11 @@ cast:
   - - Cassie
     - Chloe Kemp-Thompson
   - - Glenn
-    - Chris Taylor
+    - Christian De La Croix
   - - PC Conklin
     - Lucy Treacher
   - - PC Casey
-    - Ellie Lynas
+    - Roxy Drew
 ---
 
 ### A farce by {{ page.author }}
