@@ -21,6 +21,20 @@ featured_on_index: false
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
+The Many Ghosts of Bishop Phillpotts is based on real events from the life of
+Bishop Henry Phillpotts.
+
+Old foes and long buried controversies resurface as Phillpotts confronts past
+battles - with the people, the press...and truth.
+
+Whose interests was he really serving? God’s, the people’s...or his own?
+
+Most of his accusers are familiar adversaries, but why is he being visited by
+Eric Williams, a man who would go on to be the first Prime Minister of Trinidad
+and Tobago?
+
+The play asks questions about the British Establishment’s relationship to power
+and control, its secrets and lies.
 
 {% comment %}
 {% include themanyghostsofbishopphillpotts2026tickets.html %}
