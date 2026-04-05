@@ -5,7 +5,7 @@ author: Ashmeed Sohoye
 director: Krish Madray and Brandon Benoit-Joyce
 resource_root: /assets/img/play/themanyghostsofbishopphillpotts2026
 poster_thumb: themanyghostsofbishopphillpotts2026thumb.jpg
-#poster: themanyghostsofbishopphillpotts2026poster.jpg
+poster: themanyghostsofbishopphillpotts2026poster.jpg
 #poster_pdf: themanyghostsofbishopphillpotts2026poster.pdf
 #booking_form: themanyghostsofbishopphillpotts2026bookingform.pdf
 booking_active: false
@@ -14,7 +14,7 @@ location_verbose: Cygnet Theatre, Friars Gate, Exeter, EX2 4AZ
 date: 2026-06-26
 time: See poster
 date_human: 26th - 28th June 2026
-featured_on_index: false
+featured_on_index: true
 #overview_img: themanyghostsofbishopphillpotts2026-1.jpg
 ---
 
