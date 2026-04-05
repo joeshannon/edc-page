@@ -36,6 +36,4 @@ and Tobago?
 The play asks questions about the British Establishment’s relationship to power
 and control, its secrets and lies.
 
-{% comment %}
 {% include themanyghostsofbishopphillpotts2026tickets.html %}
-{% endcomment %}
