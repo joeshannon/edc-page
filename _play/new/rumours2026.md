@@ -1,5 +1,5 @@
 ---
-layout: play_future
+layout: play_md
 title: Rumours
 author: Neil Simon
 director: James Hyde
@@ -15,7 +15,7 @@ date: 2026-03-26
 time: 7:30 pm
 date_human: 26th - 28th March 2026
 featured_on_index: false
-#overview_img: rumours2026-1.jpg
+overview_img: rumours2026-1.jpg
 cast:
   - - Chris
     - Elizabeth Harding
