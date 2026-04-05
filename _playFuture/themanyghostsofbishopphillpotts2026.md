@@ -2,7 +2,7 @@
 layout: play_future
 title: The Many Ghosts of Bishop Phillpotts
 author: Ashmeed Sohoye
-director: Krish Madray
+director: Krish Madray and Brandon Benoit-Joyce
 resource_root: /assets/img/play/themanyghostsofbishopphillpotts2026
 poster_thumb: themanyghostsofbishopphillpotts2026thumb.jpg
 #poster: themanyghostsofbishopphillpotts2026poster.jpg
@@ -12,7 +12,7 @@ booking_active: false
 location: Cygnet Theatre
 location_verbose: Cygnet Theatre, Friars Gate, Exeter, EX2 4AZ
 date: 2026-06-26
-time: 7:30 pm
+time: See poster
 date_human: 26th - 28th June 2026
 featured_on_index: false
 #overview_img: themanyghostsofbishopphillpotts2026-1.jpg
