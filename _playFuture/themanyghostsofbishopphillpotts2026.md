@@ -16,6 +16,25 @@ time: See poster
 date_human: 26th - 28th June 2026
 featured_on_index: true
 #overview_img: themanyghostsofbishopphillpotts2026-1.jpg
+cast:
+  - - Bishop Phillpotts
+    - Mark Goddard
+  - - Deborah Phillpotts
+    - Sarah Thorn
+  - - Eric Williams
+    - Brandon Benoit-Joyce
+  - - Lord Dudley/Judge
+    - Richard Pulman
+  - - Thomas Latimer/MP
+    - Joe Coghlan
+  - - Archdeacon Barnes/Hatherton
+    - Callum Dinnett
+  - - Sarah Jones/MP
+    - Sarah Davies
+  - - Shapter
+    - Christian De la Croix
+  - - Mob
+    - played by cast members
 ---
 
 ### By {{ page.author }}
@@ -35,5 +54,7 @@ and Tobago?
 
 The play asks questions about the British Establishment’s relationship to power
 and control, its secrets and lies.
+
+{% include play/cast_list.html list=page.cast %}
 
 {% include themanyghostsofbishopphillpotts2026tickets.html %}
