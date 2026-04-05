@@ -6,7 +6,7 @@ director: Krish Madray and Brandon Benoit-Joyce
 resource_root: /assets/img/play/themanyghostsofbishopphillpotts2026
 poster_thumb: themanyghostsofbishopphillpotts2026thumb.jpg
 poster: themanyghostsofbishopphillpotts2026poster.jpg
-#poster_pdf: themanyghostsofbishopphillpotts2026poster.pdf
+poster_pdf: themanyghostsofbishopphillpotts2026poster.pdf
 #booking_form: themanyghostsofbishopphillpotts2026bookingform.pdf
 booking_active: false
 location: Cygnet Theatre
