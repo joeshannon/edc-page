@@ -37,6 +37,19 @@ cast:
     - Lucy Treacher
   - - PC Casey
     - Roxy Drew
+images:
+  - url: rumours2026-2.jpg
+    caption:
+  - url: rumours2026-3.jpg
+    caption:
+  - url: rumours2026-4.jpg
+    caption:
+  - url: rumours2026-5.jpg
+    caption:
+  - url: rumours2026-6.jpg
+    caption:
+  - url: rumours2026-7.jpg
+    caption:
 ---
 
 ### A farce by {{ page.author }}
@@ -46,9 +59,15 @@ Ken and Chris have found their host, Charley, a prominent Government official,
 in his bedroom, too dazed to speak, with a bullet wound in his ear lobe after an
 apparent suicide attempt!
 
+{% include play/image_1by2.html index=0 width=1 height=1 %}
+
 Len and Claire arrive, themselves injured in a car crash, and are soon joined by
 Ernest and Cookie, Glenn and Cassie, each with their own problems.
 
+{% include play/image_1by2.html index=2 width=1 height=1 %}
+
 Can they keep a lid on what has happened or are the police going to find out?
+
+{% include play/image_1by2.html index=4 width=4 height=3 %}
 
 {% include play/cast_list.html list=page.cast %}
