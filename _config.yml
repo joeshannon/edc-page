@@ -5,6 +5,7 @@ future: true
 
 image_root: /assets/img/o/
 coming_soon_card_text: Coming soon...
+fallback_thumb: /assets/img/play/coming-soon.jpg
 
 sass:
   sass_dir: assets/css
@@ -33,8 +34,6 @@ defaults:
       type: "playFuture"
     values:
       location: "Location TBA"
-      resource_root: "/assets/img/play"
-      poster_thumb: "coming-soon.jpg"
   -
     scope:
       path: "" # empty string for all files in the project

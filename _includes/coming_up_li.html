@@ -6,7 +6,11 @@
 {% assign the_date = include.date %}
 {% endif %}
   <li class="media my-4">
+    {% if include.imgurl %}
     <a href="{{ include.page_link | relative_url }}"><img class="mr-3" src= "{{ include.img_dir | append: '/' | append: include.imgurl | relative_url }}" alt="Play image coming soon..."></a>
+    {% else %}
+    <a href="{{ include.page_link | relative_url }}"><img class="mr-3" src= "{{ site.fallback_thumb | relative_url }}" alt="Play image coming soon..."></a>
+    {% endif %}
     <div class="media-body">
       <h5 class="mt-0 mb-1">{{ include.title }} <span class="badge badge-primary">{{ the_date }}</span></h5>
       {{ include.desc }}

@@ -25,8 +25,13 @@
         <div class="carousel-inner">
             {% for play in site.playFuture %}
             <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
+                {% if play.poster_thumb %}
                 <a href="{{ play.url | relative_url }}"><img class="d-block w-100" src="{{ play.resource_root | append: '/' | append: play.poster_thumb | relative_url }}" alt="{{ play.title }}"
                         title="{{ play.title }}" /> </a>
+                {% else %}
+                <a href="{{ play.url | relative_url }}"><img class="d-block w-100" src="{{ site.fallback_thumb | relative_url }}" alt="{{ play.title }}"
+                        title="{{ play.title }}" /> </a>
+                {% endif %}
             </div>
             {% endfor %}
 
