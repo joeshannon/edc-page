@@ -21,7 +21,7 @@ featured_on_index: true
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
 
-The game is afoot in this adaptation of Arthur Conan Doyle’s novel which
+The game is afoot in this adaptation of Arthur Conan Doyle’s novel which first
 introduced the world to Sherlock Holmes and Dr Watson.
 
 In 1881, Dr John H Watson, newly returned from war, is introduced to the
