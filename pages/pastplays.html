@@ -7,16 +7,17 @@ title : Past Plays
 {% for play in revplays limit:4 %}
 {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 <div class="row align-items-center my-5">
-        <div class="col-md-8 {% if thecycle == 'even' %} order-md-last {% endif %} text-center px-3">
+        <div class="{% if play.overview_img %}col-md-8{% else %}col-md-12{% endif %} {% if thecycle == 'even' %} order-md-last {% endif %} text-center px-3">
                 <a href="{{ play.url | relative_url }}"><h3>{{ play.title}}</h3></a>
                 <p>{{ play.date | date: '%B %Y' }}</p>
             </div>
+    {% if play.overview_img %}
     <div class="col-md-4 {% if thecycle == 'even' %} order-md-first {% endif %} px-3">
         <div class="embed-responsive embed-responsive-4by3">
             <a href="{{ play.url | relative_url }}"><img class="embed-responsive-item rounded" src="{{ play.resource_root | append: '/' | append: play.overview_img | relative_url }}" title="{{ play.title }}" alt="{{ play.title }}" /></a>
         </div>
     </div>
-
+    {% endif %}
 </div>
 <hr />
 {% endfor %}
