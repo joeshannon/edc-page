@@ -1,5 +1,5 @@
 ---
-layout: play_future
+layout: play_md
 title: The Many Ghosts of Bishop Phillpotts
 author: Ashmeed Sohoye
 director: Krish Madray and Brandon Benoit-Joyce
@@ -56,5 +56,3 @@ The play asks questions about the British Establishment’s relationship to powe
 and control, its secrets and lies.
 
 {% include play/cast_list.html list=page.cast %}
-
-{% include themanyghostsofbishopphillpotts2026tickets.html %}
