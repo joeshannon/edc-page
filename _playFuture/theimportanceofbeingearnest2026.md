@@ -8,7 +8,7 @@ poster_thumb: theimportanceofbeingearnest2026thumb.jpg
 poster: theimportanceofbeingearnest2026poster.jpg
 #poster_pdf: theimportanceofbeingearnest2026poster.pdf
 #booking_form: theimportanceofbeingearnest2026bookingform.pdf
-booking_active: false
+booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2026-09-24
