@@ -16,6 +16,25 @@ time: 7:30 pm
 date_human: 24th - 26th September 2026
 featured_on_index: true
 #overview_img: theimportanceofbeingearnest2026-1.jpg
+cast:
+  - - Lane
+    - Doug Thomson
+  - - Algernon Moncrieff
+    - Will Hannah
+  - - John (Jack) / “Ernest” Worthing, J.P
+    - Jonny Voss
+  - - Lady Augusta Bracknell
+    - Meliora Dockery
+  - - Gwendolen Fairfax
+    - Tamsin Potter
+  - - Miss Prism
+    - Ellie Lynas
+  - - Cecily Cardew
+    - Amélie Dillsworth
+  - - Reverend Canon Chasuble, D.D.
+    - David Kennedy
+  - - Merriman
+    - Claire Wilson
 ---
 
 ### By {{ page.author }}
@@ -32,6 +51,4 @@ house at the same time, chaos and comedy erupt as crises threaten to spoil their
 ruse and romance, as the young men navigate the presence of a cavalcade of
 characters who bring even further chaos.
 
-{% comment %}
 {% include play/cast_list.html list=page.cast %}
-{% endcomment %}
