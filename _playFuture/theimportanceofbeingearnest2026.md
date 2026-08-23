@@ -22,7 +22,7 @@ cast:
   - - Algernon Moncrieff
     - Will Hannah
   - - John (Jack) / “Ernest” Worthing, J.P
-    - Jonny Voss
+    - Johnny Voss
   - - Lady Augusta Bracknell
     - Meliora Dockery
   - - Gwendolen Fairfax
