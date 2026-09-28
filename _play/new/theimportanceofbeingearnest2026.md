@@ -1,5 +1,5 @@
 ---
-layout: play_future
+layout: play_md
 title: The Importance of Being Earnest
 author: Oscar Wilde
 director: Callum Dinnett
