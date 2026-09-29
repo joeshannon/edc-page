@@ -8,7 +8,7 @@ poster_thumb: witnessfortheprosecution2026thumb.jpg
 poster: witnessfortheprosecution2026poster.jpg
 #poster_pdf: witnessfortheprosecution2026poster.pdf
 #booking_form: witnessfortheprosecution2026bookingform.pdf
-booking_active: false
+booking_active: true
 location: Longdown Village Hall
 location_verbose: Longdown Village Hall, Chapel Hill, Longdown, EX6 7SN
 date: 2026-12-10
