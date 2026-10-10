@@ -15,7 +15,7 @@ date: 2026-09-24
 time: 7:30 pm
 date_human: 24th - 26th September 2026
 featured_on_index: false
-#overview_img: theimportanceofbeingearnest2026-1.jpg
+overview_img: theimportanceofbeingearnest2026-5.jpg
 cast:
   - - Lane
     - Doug Thomson
@@ -35,10 +35,25 @@ cast:
     - David Kennedy
   - - Merriman
     - Claire Wilson
+images:
+  - url: theimportanceofbeingearnest2026-1.jpg
+    caption:
+  - url: theimportanceofbeingearnest2026-2.jpg
+    caption:
+  - url: theimportanceofbeingearnest2026-3.jpg
+    caption:
+  - url: theimportanceofbeingearnest2026-4.jpg
+    caption:
+  - url: theimportanceofbeingearnest2026-5.jpg
+    caption:
+  - url: theimportanceofbeingearnest2026-6.jpg
+    caption:
 ---
 
 ### By {{ page.author }}
 ### Directed by {{ page.director }}
+
+{% include play/image_1by2.html index=0 width=4 height=3 %}
 
 The last of Oscar Wilde’s drawing room plays, The Importance of Being Earnest, a
 Trivial Comedy for Serious People follows the affairs of Jack Worthing and
@@ -46,9 +61,13 @@ Algernon Moncreiff as they attempt to lead double lives to woo Gwendolen and
 Cecily, the women of their affections. In doing so, both take on the identity of
 the fictitious Ernest in their attempts to woo their desired partner.
 
+{% include play/image_1by2.html index=2 width=4 height=3 %}
+
 When the two young men, and their prospective loves, arrive at Jack’s country
 house at the same time, chaos and comedy erupt as crises threaten to spoil their
 ruse and romance, as the young men navigate the presence of a cavalcade of
 characters who bring even further chaos.
+
+{% include play/image_1by2.html index=4 width=4 height=3 %}
 
 {% include play/cast_list.html list=page.cast %}
