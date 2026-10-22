@@ -4,8 +4,7 @@ Access:
 $(hostname -I):<port>
 
 ```
-podman run --rm -it --network=host --security-opt label=disable -v $PWD:$PWD ruby:$(cat .ruby-version) /bin/bash
-cd <wd>
+podman run --rm -it --network=host --security-opt label=disable -v $PWD:$PWD -w $PWD ruby:$(cat .ruby-version) /bin/bash
 bundle install
 bundle exec jekyll s
 ```
