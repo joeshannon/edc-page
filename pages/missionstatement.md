@@ -1,4 +1,7 @@
-# EDC Mission Statement
+---
+layout : default_with_title
+title : EDC Mission Statement
+---
 
 Exeter Drama Company is a registered charity (no 1181995).
 
