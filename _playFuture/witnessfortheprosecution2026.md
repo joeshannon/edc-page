@@ -2,7 +2,7 @@
 layout: play_future
 title: Witness for the Prosecution
 author: Agatha Christie
-#director:
+director: Clémence Bernard and Luka Reeves
 resource_root: /assets/img/play/witnessfortheprosecution2026
 poster_thumb: witnessfortheprosecution2026thumb.jpg
 poster: witnessfortheprosecution2026poster.jpg
@@ -31,6 +31,8 @@ cast:
     - Ed Heeley
   - - Romaine
     - Jacqui Draycott
+  - - Foreman
+    - Will Hannah
   - - Court Usher
     - Robin Thwaytes
   - - Mr Justice Wainwright
@@ -41,8 +43,8 @@ cast:
     - Damon Russell
   - - Janet Mackenzie
     - Tara Studholme Lyons
-  - - The other woman
-    - Liz Taylor
+  - - Girl
+    - Skye Walter
   - -
     - Other roles played by members of the company
 ---
